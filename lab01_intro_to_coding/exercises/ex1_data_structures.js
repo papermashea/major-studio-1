@@ -32,9 +32,9 @@ var years = [
 
 // Task 1
 // Console log the length of each Array
-console.log("There are " + names.length + " museum names in the names array.")
-console.log("There are " + URLs.length + " URLs in the URLs array.")
-console.log("There are " + years.length + " years listed in the years array.")
+console.log("There are " + names.length + " museum names in the names array. They include " + names[0] + ", "  + names[1] + ", "  + names[2] + ", "  + names[3] + ", "  + names[4] + ", and "  + names[5] + ".")
+console.log("There are " + URLs.length + " URLs in the URLs array: " + URLs[0] + ", "  + URLs[1] + ", "  + URLs[2] + ", "  + URLs[3] + ", "  + URLs[4] + ", and "  + URLs[5] + ".")
+console.log("There are " + years.length + " years listed in the years arra, including" + years[0] + ", "  + years[1] + ", "  + years[2] + ", "  + years[3] + ", "  + years[4] + ", and "  + years[5] + ".")
 
 
 
