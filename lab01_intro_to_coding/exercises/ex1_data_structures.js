@@ -34,10 +34,10 @@ var years = [
 
 // Task 1
 // Console log the length of each Array
-console.log("---- Exercise 1 Task 1 ----")
-console.log("There are " + names.length + " museum names in the original names array. They include " + names[0] + ", "  + names[1] + ", "  + names[2] + ", "  + names[3] + ", "  + names[4] + ", and "  + names[5] + ".")
-console.log("There are " + URLs.length + " URLs in the original URLs array: " + URLs[0] + ", "  + URLs[1] + ", "  + URLs[2] + ", "  + URLs[3] + ", "  + URLs[4] + ", and "  + URLs[5] + ".")
-console.log("There are " + years.length + " years listed in the original years array, including " + years[0] + ", "  + years[1] + ", "  + years[2] + ", "  + years[3] + ", "  + years[4] + ", and "  + years[5] + ".")
+console.log("---- Exercise 1 Task 1 ----");
+console.log("There are " + names.length + " museum names in the original names array. They include " + names[0] + ", "  + names[1] + ", "  + names[2] + ", "  + names[3] + ", "  + names[4] + ", and "  + names[5] + ".");
+console.log("There are " + URLs.length + " URLs in the original URLs array: " + URLs[0] + ", "  + URLs[1] + ", "  + URLs[2] + ", "  + URLs[3] + ", "  + URLs[4] + ", and "  + URLs[5] + ".");
+console.log("There are " + years.length + " years listed in the original years array, including " + years[0] + ", "  + years[1] + ", "  + years[2] + ", "  + years[3] + ", "  + years[4] + ", and "  + years[5] + ".");
 
 
 
@@ -53,11 +53,10 @@ URLs[6] = newURL;
 years = years.concat([newYear]);
 
 
-console.log("---- Exercise 1 Task 2 ----")
-console.log("Now there are " + names.length + " names: " + names)
-console.log(URLs.length + " new URLs: " + URLs)
-console.log(years.length + " new years: " + years)
-
+console.log("---- Exercise 1 Task 2 ----");
+console.log("Now there are " + names.length + " names: " + names);
+console.log(URLs.length + " new URLs: " + URLs);
+console.log(years.length + " new years: " + years);
 
 
 
@@ -82,8 +81,8 @@ for (var i = 0; i < names.length; i++) {
   museums[currentName].year = currentYear;
 }
 
-console.log("---- Exercise 1 Task 3 ----")
-console.log('museums', museums)
+console.log("---- Exercise 1 Task 3 ----");
+console.log('museums', museums);
 
 
 //////// made new arrays for names/urls/years to preserve original list and show the difference 
@@ -105,7 +104,7 @@ namesAll.forEach(function(n, i) {
   museums2[n]["year"] = currentYear;
 });
 
-console.log('museums2', museums2)
+console.log('museums2', museums2);
 
 
 
@@ -122,5 +121,5 @@ function addAMuseum(museums, newName, newURL, newYear){
 
 addAMuseum(museums2, newName, newURL, newYear);
 
-console.log("---- Exercise 1 Task 4 ----")
+console.log("---- Exercise 1 Task 4 ----");
 console.log('museums2', museums2);
