@@ -94,18 +94,18 @@ var URLsAll = URLs.concat([newURL]);
 var yearsAll = years.concat([newYear]);
 
 
-var museumsAll = {};
+var museums2 = {};
 namesAll.forEach(function(n, i) {
-  museumsAll[n] = {};
+  museums2[n] = {};
 
   var currentURL = URLsAll[i];
   var currentYear = yearsAll[i];
 
-  museumsAll[n].URL = currentURL;
-  museumsAll[n]["year"] = currentYear;
+  museums2[n].URL = currentURL;
+  museums2[n]["year"] = currentYear;
 });
 
-console.log('museumsAll', museumsAll)
+console.log('museums2', museums2)
 
 
 
@@ -113,12 +113,14 @@ console.log('museumsAll', museumsAll)
 // Task 4
 // Write a function to add a new museum object, with properties URL and year, to an existing museums object. Call it on museums2
 function addAMuseum(museums, newName, newURL, newYear){
-  /* COMPLETE ME */
+  museums[newName] = {};
+  museums[newName].URL = newURL;
+  museums[newName].year = newYear;
 
   return museums;
 }
 
-addAMuseum(/* COMPLETE ME */);
+addAMuseum(museums2, newName, newURL, newYear);
 
 console.log("---- Exercise 1 Task 4 ----")
 console.log('museums2', museums2);
