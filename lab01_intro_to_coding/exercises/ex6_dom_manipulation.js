@@ -29,59 +29,65 @@ console.log("Removing the div with the class rectangle displays the document wit
 
 // Task 4
 // What does the following code do?
-const viz = document.body.querySelector(".viz");
 
-console.log(viz, viz.children);
+// const viz = document.body.querySelector(".viz");
+// // console.log(viz, viz.children);
 
-const addChildToViz = () => {
-  const newChild = document.createElement("div");
-  newChild.className = "rectangle";
-  newChild.style.height = Math.random() * 100 + "px";
-  viz.appendChild(newChild);
-};
+// const addChildToViz = () => {
+//   const newChild = document.createElement("div");
+//   newChild.className = "petal";
+//   newChild.style.height = Math.random() * 100 + "px";
+//   viz.appendChild(newChild);
+// };
 
-viz.addEventListener("click", addChildToViz);
+// viz.addEventListener("click", addChildToViz);
 
 console.log("---- Exercise 6 Task 4 ----");
 console.log("This code initially runs all the console.log messages from ex1_data_structures.js. When I updated that reference in the html document to ex6_dom_manipulation.js, it adds a new pink/green rectangle to the document when clicked - see img_ex6_task4.png.");
 
 
 
+
 // Task 5
 // Where can you see the results of the console.log below? How is it different from in previous exercises?
+// function drawIrisData() {
+//   window
+//     .fetch("./iris_json.json")
+//     .then(data => data.json())
+//     .then(data => {
+//       // console.log(data);
+//       // console.log(data.length)
+//       // console.log(data[1])
+//   });
 
-function drawIrisData() {
-  window
-    .fetch("./iris_json.json")
-    .then(data => data.json())
-    .then(data => {
-      // console.log(data);
-    });
-}
 
-drawIrisData();
+// drawIrisData();
 
 console.log("---- Exercise 6 Task 5 ----");
 console.log("You can see the console log data by popping a new window into the browser and right clicking to inspect (or right clicking in the initial preview window but it's messier to read) - see img_ex6_task5.png. This is different from previous exercises because we're pulling in data in from an external source.");
 
 
-
-// Task
-// Modify the code above to visualize the Iris dataset in the preview of index.html.
-// Feel free to add additional CSS properties in index.html, or using JavaScript, as you see fit.
-
-
 const viz = document.body.querySelector(".viz");
-
-console.log(viz, viz.children);
+const button = document.body.querySelector("#button");
 
 const addChildToViz = () => {
   const newChild = document.createElement("div");
   newChild.className = "petal";
-  newChild.idName = data.clas;
   newChild.style.height = Math.random() * 100 + "px";
   viz.appendChild(newChild);
 };
 
-viz.addEventListener("click", addChildToViz);
+// fetches iris data
+// runs through data and creates one rectangle per petal item
+function drawIrisData() {
+  window
+    .fetch("./iris_json.json")
+    .then(data => data.json())
+    .then(data => {
+      data.forEach(e => {
+        addChildToViz(e.petallength);
+      });
+    });
+}
 
+drawIrisData();
