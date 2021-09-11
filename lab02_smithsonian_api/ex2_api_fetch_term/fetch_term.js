@@ -2,7 +2,7 @@
 // check API documentation for terms here: http://edan.si.edu/openaccess/apidocs/#api-search-terms
 
 // put your API key here;
-const apiKey = "";  
+const apiKey = "LEdau5VJedwvFL35mi4I7i8ciuyxPX8HalDmuFYC";  
 
 // Access to terms by term category (I.e. online_media_type > Images)
 const termBaseURL = "https://api.si.edu/openaccess/api/v1.0/terms/";
@@ -22,14 +22,23 @@ function fetchTermsData(termCategory) {
     })
   }
 
-fetchTermsData("online_media_type")
+// fetchTermsData("online_media_type")
+// fetchTermsData("culture")
+// fetchTermsData("data_source")
+// fetchTermsData("topic")
 
 /*
 Task: Play around with the different categories listed here:
 http://edan.si.edu/openaccess/apidocs/#api-search-terms
+terms: culture, data_source, date, object_type, online_media_type, place, topic, unit_code
+
 Questions: 
 - What other media types are available? 
-- How many cultures are represented?
-- What acronyms for museums are there?
+'3D Images', '3D Models', 'Catalog cards', 'Electronic resource', 'Full text documents', 'Images', 'Scanned books'
 
+- How many cultures are represented?
+6078
+
+- What acronyms for museums are there?
+NMNH - just one?
 */
