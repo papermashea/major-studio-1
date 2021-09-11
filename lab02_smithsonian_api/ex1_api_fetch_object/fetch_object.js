@@ -3,7 +3,7 @@
 
 
 // put your API key here;
-const apiKey = "";  
+const apiKey = "LEdau5VJedwvFL35mi4I7i8ciuyxPX8HalDmuFYC";  
 
 // Access to individual objects by ID
 const objectBaseURL = "https://api.si.edu/openaccess/api/v1.0/content/";
@@ -22,9 +22,8 @@ function fetchContentDataById(id) {
   })
 }
 
-fetchContentDataById("edanmdm:NMAI_270941");
+fetchContentDataById("edanmdm:nmnhentomology_15149518");
 
 // Task 1: Find a different object on https://collections.si.edu/search/ and retrieve the data with the code above
 // Make sure to check the box "Only return results with CC0 media" when searching
 // Task 2: Write the result into a variable and explore different variables through the Console
-
