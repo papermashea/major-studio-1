@@ -1,9 +1,7 @@
 # Data Visualization Major Studio 1 Fall 2021
 ## Shea Molloy | Assignment 1 brainstorming
 
-In looking through the datasets available in SI and various institutional collections, I've found that art and culture databases tended to inspire more questions in regards to the relationships between the images and data points while providing enough datapoints to tell an interesting story. I'm most interested in examining art, design, or engineering over time and I'd like to explore trend analysis through data visualization. See here for more exploratory notes:
-
-- [Dataset research planning](https://docs.google.com/document/d/1SNF1BgPnOr2m5we1ozlK3mp-jXZS1CVq8DhAbI9GUps/edit?usp=sharing)
+In looking through the datasets available in SI and various institutional collections, I've found that art and culture databases tended to inspire more questions in regards to the relationships between the images and data points while providing enough datapoints to tell an interesting story. I'm most interested in examining art, design, or engineering over time and I'd like to explore trend analysis through data visualization. See [here](https://docs.google.com/document/d/1SNF1BgPnOr2m5we1ozlK3mp-jXZS1CVq8DhAbI9GUps/edit?usp=sharing) for more exploration notes.
 
 ---
 
