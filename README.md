@@ -9,7 +9,8 @@
 ### Workflow
 - origin: https://github.com/visualizedata/major-studio-1
 - upstream: https://github.com/papermashea/major-studio-1
-- branches:
-	- aws - cloud9 classwork and live workshops
-	- local - editing done locally using node in terminal and code editors
-	- main - merging of all code updates from class repo and progress in aws/local
+
+#### Branches 
+- aws: cloud 9 work, live lab work
+- local: editing done locally using node in terminal and code editors
+- main: merging of all code updates from class repo and progress in aws/local
