@@ -18,7 +18,8 @@ function drawMap(world, data) {
   const land = topojson.feature(world, world.objects.land);
   const graticule = d3.geoGraticule10();
   const outline = { type: "Sphere" };
-  const projection = d3.geoNaturalEarth1();
+  // const projection = d3.geoNaturalEarth1();
+  const projection = d3.geoConicEqualArea();
   const path = d3.geoPath(projection);
 
   const svg = d3.select('body')
