@@ -56,7 +56,7 @@ function drawWithData(data) {
       .data(data) // bind data to the selection
       .join("circle") //and join data with graphics
       .attr('cy', 50)
-      .attr('fill', "grey")
+      .attr('fill', "blue")
       .attr('cx', function(d, i) {return 20+ i * 120;})
       .attr('r', function(d) { return d.population * 0.000002});
       
