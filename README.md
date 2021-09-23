@@ -5,6 +5,7 @@
 ### Additional resources
 - [Fall 2021 Class notes](https://docs.google.com/document/d/1JcsOy3ciMAGG6kFX-lYU0Dhz5JIF7P1kYWoRhnFgUl4/edit?usp=sharing)
 - [Fall 2021 Reading notes](https://docs.google.com/document/d/1lUSaqDBBx78vwWTyciHy_UwXrvqom9D_CIHpw5ABkBY/edit?usp=sharing)
+- [Interactive, High fidelity mockup for Cooper Hewitt Design Data](https://xd.adobe.com/view/d299399c-8486-45f2-b753-02d7de67df73-87ca/)
 
 ### Workflow
 - origin: https://github.com/visualizedata/major-studio-1
