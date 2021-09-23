@@ -16,6 +16,15 @@ svg{
     margin-bottom: 80px;
 }
 
+#dark-circle{
+    fill:#000000!important;
+}
+
+#light:hover{
+    transform: scale(.5);
+}
+
+
 </style>
 </head>
 <body>
@@ -58,7 +67,28 @@ svg{
         <rect x="80" y="20" width="60" height="60" fill="red"/>
       </svg>
       <h2>Imported SVG</h2>
-      <object width="300px" data="noun_Dog_1724072.svg" type="image/svg+xml">
+      <!--<object width="300px" data="noun_Dog_1724072.svg" type="image/svg+xml">-->
+
+      <!--See also-->
+      <image width="300px" src="noun_Dog_1724072.svg" type="image/svg+xml">
+      
+      <!--Task-->
+      <!--Using Adobe Illustrator, export an svg with two named primitives-->
+      <!--Place svg into this document-->
+      <!--Change fill color of one element, and scale for the other using CSS :hover-->
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="532.49669" height="648.87585" viewBox="0 0 532.49669 648.87585">
+          <g id="dark">
+            <circle id="dark-circle" data-name="dark" cx="167.56693" cy="481.30892" r="164.56693" style="fill: #394b96;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 6px"/>
+          </g>
+          <g id="light">
+            <polygon points="382.528 0 428.871 93.901 532.497 108.959 457.512 182.051 475.214 285.258 382.528 236.53 289.842 285.258 307.543 182.051 232.558 108.959 336.185 93.901 382.528 0" style="fill: #5ccae9"/>
+          </g>
+        </svg>
+
+
+      <image width="300px" data="dark.svg" id="light" type="image/svg+xml">
+          
       </object>
     </body>
 </html>
