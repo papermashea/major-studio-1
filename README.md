@@ -6,7 +6,7 @@
 - [Fall 2021 Class notes](https://docs.google.com/document/d/1JcsOy3ciMAGG6kFX-lYU0Dhz5JIF7P1kYWoRhnFgUl4/edit?usp=sharing)
 - [Fall 2021 Reading notes](https://docs.google.com/document/d/1lUSaqDBBx78vwWTyciHy_UwXrvqom9D_CIHpw5ABkBY/edit?usp=sharing)
 - [Interactive, high fidelity mockup for Cooper Hewitt Design Data](https://xd.adobe.com/view/d299399c-8486-45f2-b753-02d7de67df73-87ca/)
-- [High fidelity prototype images](https://github.com/papermashea/major-studio-1/tree/main/brainstorming/project1_v2)
+- [High fidelity prototype images](brainstorming/mockups/project1_v2)
 
 ![Cooper Hewitt: Movements in color](brainstorming/mockups/project1_v2/03.home_asset-selected.png)
 
