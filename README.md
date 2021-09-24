@@ -8,11 +8,7 @@
 - [Interactive, high fidelity mockup for Cooper Hewitt Design Data](https://xd.adobe.com/view/d299399c-8486-45f2-b753-02d7de67df73-87ca/)
 - [High fidelity prototype images](https://github.com/papermashea/major-studio-1/tree/main/brainstorming/project1_v2)
 
-<p float="left">
-  <img src="https://github.com/papermashea/major-studio-1/tree/main/brainstorming/project1_v2/03.home_asset-selected.png" width="100" />
-  <img src="https://github.com/papermashea/major-studio-1/tree/main/brainstorming/project1_v2/07.search_form-dropdown_selected.png.png" width="100" /> 
-  <img src="https://github.com/papermashea/major-studio-1/tree/main/brainstorming/project1_v2/11.interact_movement-selected.png.png" width="100" />
-</p>
+![Cooper Hewitt: Movements in color](brainstorming/images/03.home_asset-selected.png)
 
 ### Workflow
 - origin: https://github.com/visualizedata/major-studio-1
