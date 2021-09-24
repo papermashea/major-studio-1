@@ -56,7 +56,7 @@ function displayData(){
 
   const sequentialScale = d3.scaleSequential()
                             .domain([0, d3.max(allPlaces, d => d.count)])
-                            .interpolator(d3.interpolateWarm);
+                            .interpolator(d3.interpolateSpectral);
 
   // create an svg container from scratch
   const svg = d3.select('body')
