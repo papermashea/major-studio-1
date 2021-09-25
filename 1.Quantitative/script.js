@@ -1,9 +1,23 @@
 const express = require('express')
 const app = express();
+
 const port = 8000;
 
 app.get('/', (req, res) => {
   res.send('Why is my API not working!')
+
+    var cooperhewitt = require('node-cooperhewitt')
+
+    const api_token = "ba00fde38c1a8098aa1d684f0a387e31";    
+
+    var method = 'cooperhewitt.colors.palettes.getInfo';
+    var args = {'access_token': api_token};
+          
+    cooperhewitt.call(method, args, function(rsp){   
+        console.log(rsp);  
+    });
+
+
 });
 
 app.listen(port, () => {
@@ -12,15 +26,19 @@ app.listen(port, () => {
 
 
 // cooper api
-  
-var cooperhewitt = require('node-cooperhewitt')
 
-var method = 'cooperhewitt.objects.getRandom';
-var args = {'access_token': api_token};
+// var cooperhewitt = require('node-cooperhewitt')
+
+// const api_token = "ba00fde38c1a8098aa1d684f0a387e31";    
+
+// var method = 'cooperhewitt.objects.getRandom';
+// var args = {'access_token': api_token};
       
-cooperhewitt.call(method, args, function(rsp){   
-    console.log(rsp);  
-});
+// cooperhewitt.call(method, args, function(rsp){   
+//     console.log(rsp);  
+// });
+
+
 
 
 //// example command line request
@@ -29,7 +47,6 @@ cooperhewitt.call(method, args, function(rsp){
 
 
 // // put your API key here;
-// const apiKey = "191e509801ac902f9238d52fb8403c8f";  
 
 // // search base URL
 // const searchBaseURL = "https://api.collection.cooperhewitt.org/rest/";
