@@ -1,8 +1,9 @@
 // Smithsonian API example code
 // check full API documentation here: https://edan.si.edu/openaccess/apidocs/
 
-
 // put your API key here;
+const {Client} = require('dotenv')
+const apiKey = process.env.API_KEY
 
 // Access to individual objects by ID
 const objectBaseURL = "https://api.si.edu/openaccess/api/v1.0/content/";
