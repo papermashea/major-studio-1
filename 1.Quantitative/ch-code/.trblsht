@@ -1,0 +1,27 @@
+curl -X GET 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.colors.palettes.getList&access_token=ba00fde38c1a8098aa1d684f0a387e31'
+
+curl -X GET 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.periods.getList&access_token=ba00fde38c1a8098aa1d684f0a387e31&page=1&per_page=100'
+
+
+curl -X GET 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.periods.getList&access_token=ba00fde38c1a8098aa1d684f0a387e31&format=json'
+
+curl -X GET 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.objects.tags.getAll&access_token=ba00fde38c1a8098aa1d684f0a387e31&format=json'
+
+
+curl --write-out '%{json}' 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.objects.tags.getAll&access_token=ba00fde38c1a8098aa1d684f0a387e31&format=json' -o saved
+
+curl -o tags.txt 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.objects.tags.getAll&access_token=ba00fde38c1a8098aa1d684f0a387e31&format=json'
+
+curl -X GET 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.collection&access_token=ba00fde38c1a8098aa1d684f0a387e31&color=red&has_images=1&has_no_known_copyright=1&page=1&per_page=10000'
+
+//history of red
+curl -o objects_red.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.collection&access_token=ba00fde38c1a8098aa1d684f0a387e31&color=red&has_images=1&has_no_known_copyright=1&page=1&per_page=10000'
+
+//pantone colors 2021
+grey: #939597
+yellow: #F5DF4D
+
+curl -o data/objects_pantone-yellow.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&color=F5DF4D&has_images=1&page=1&per_page=1000'
+
+curl -o objects_pantone-grey.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&color=939597&has_images=1&page=1&per_page=3000'
+
