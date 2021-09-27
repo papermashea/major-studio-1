@@ -25,3 +25,22 @@ curl -o data/objects_pantone-yellow.json 'https://api.collection.cooperhewitt.or
 
 curl -o objects_pantone-grey.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&color=939597&has_images=1&page=1&per_page=3000'
 
+curl -o objects_pantone-grey2.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&color=939597&has_images=1&page=2&per_page=3000'
+
+curl -o objects_pantone-grey3.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&color=939597&has_images=1&page=3&per_page=3000'
+
+curl -o objects_pantone-grey4.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&color=939597&has_images=1&page=4&per_page=3000'
+
+curl -o objects_pantone-grey5.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&color=939597&has_images=1&page=5&per_page=3000'
+
+curl -o objects_pantone-grey6.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&color=939597&has_images=1&page=6&per_page=3000'
+
+
+//combined requests
+curl -o data/objects_pantone.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&color=939597,F5DF4D&decade=1900,1910,1920,1930,1940,1950,1960,1970,1980,1990,2000,2010,2020&has_images=1&page=6&per_page=3000'
+
+curl -o public/data/objects_pantone.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&color=939597,F5DF4D&decade=1900,1910,1920,1930,1940,1950,1960,1970,1980,1990,2000,2010,2020&has_images=1&page=1&per_page=3300'
+
+curl -o objects_pantone-yellow_1dpt.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&color=F5DF4D&department_id=35347501&has_images=1&page=1&per_page=1000'
+
+curl -o objects_pantone-yellow_5dpt.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&color=F5DF4D&department_id=35347501,35347497,35347501,35347503,35518655&has_images=1&page=1&per_page=1000'
