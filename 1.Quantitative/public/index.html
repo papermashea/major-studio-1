@@ -4,15 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://d3js.org/d3.v5.min.js"></script>  
-    <link rel="stylesheet" type="text/css" src="style.css">
-    <title>Movements in (Pantone) Color</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Movements in Color</title>
 </head>
 
+<nav>
+  <h1>Movements in Color | Pantone 2021</h1><span class="sample" id="yellow"></span><span class="sample" id="grey"></span>
+</nav>
+
 <body>
-  <nav>
-    <h1>Movements in Color | Pantone 2021 <div class="sample" id="939597"></div><div class="sample" id="F5DF4D"></div></h1>
-  </nav>
+    <div class="measure-group" data-toggle="buttons-radio">
+        <button type="button" class="measure mdl-button mdl-js-button mdl-button--raised mdl-button--colored" value="year">Year created</button>
+        <button type="button" class="measure mdl-button mdl-js-button mdl-button--raised mdl-button--colored" value="yearAcq">Year acquired</button>
+    </div>
+
     <div id="pantone_viz"></div>
+
+    <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
+        <input type="checkbox" value="yellow" class="mdl-checkbox__input continent" checked="">
+        <span class="label" id="F5DF4D" style="font-size: 20px; color: #F5DF4D;">&#9679;&nbsp;&nbsp;</span>
+    </label>
+    <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
+        <input type="checkbox" value="grey" class="mdl-checkbox__input continent" checked="">
+        <span class="label" id="939597" style="font-size: 20px; color: #939597;">&#9679;&nbsp;&nbsp;</span>
+    </label>
+
+    <div class="tab"><a href="tableau.html">Data &#8594;</a></div>
+
     <script type="module" src="main.js"></script>
 </body>
 </html>
