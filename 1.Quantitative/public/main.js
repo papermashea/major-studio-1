@@ -1,4 +1,10 @@
-  var margin = {top: 10, right: 30, bottom: 30, left: 20},
+//// global variables
+var pantone; // pantone objects
+var years = [];
+
+
+//// chart
+  var margin = {top: 10, right: 20, bottom: 30, left: 20},
       width = 940 - margin.left - margin.right,
       height = 470 - margin.top - margin.bottom;
 
@@ -10,34 +16,49 @@
       .attr("transform",
             "translate(" + margin.left + "," + margin.top + ")");
 
-  d3.json("data/objects_pantone-yellow_cln.json").then(function (data) {
-        // x axis
-        var x = d3.scaleTime()
-          .domain([new Date("1910"), new Date("2020")])
-          .range([ 0, width ]);
-        svg.append("g")
-          .attr("transform", "translate(0," + height + ")")
-          .call(d3.axisBottom(x));
+// d3.json("data/cln/objects_pantone-yellow_cln.json").then(function (data) {
 
-        // y axis
-        // var y = d3.scaleLinear()
-        //   .domain([0, 5000000])
-        //   .range([ height, 0]);
-        // svg.append("g")
-        //   .call(d3.axisLeft(y));
+d3.csv("data/csv/objects_pantone-combine.csv").then(function (data) {
+
+  console.log(data)
+
+  //// define data
+    // let pantone = data;
+      // console.log(pantone)
+
+  //// colors
+    // 2021 pantone colors of the year
+    // var color = d3.scaleOrdinal()
+    //   .domain(["F5DF4D", "939597"])
+    //   .range(["#F5DF4D", "#939597"]);
 
 
-        // add dots
-        svg.append('g')
-          .selectAll("dot")
-          .data(data)
-          .enter()
-          .append("circle")
-            .attr("cx", function (d) { return x(d.year_acquired); } )
-            .attr("cy", (height / 2) - margin.bottom / 2)
-            // .attr("cy", function (d) { return y(d.id); } )
-            .attr("r", 1.5)
-            .style("fill", "#F5DF4D")
+  //// x axis
+    var x = d3.scaleTime()
+      .domain([new Date("1910"), new Date("2020")])
+      .range([ 0, width ]);
+
+    svg.append("g")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x));
+
+  //// dots
+    svg.selectAll(".dot")
+        .data(data)
+      .enter().append("circle")
+      .attr("class", "dot")
+      .attr("r", 12)
+      .attr("cx", function(d) { return d.year; })
+      .attr("cy", height / 2)
+      .style("fill", "black")
+      .style("fill-opacity", 1);
+        // .style("stroke-width", 0)
+          // .on("mouseover", mouseover)
+          // .style("fill-opacity", 1)
+          // .attr("r", 15);
+
+
+  // };
 
 });
 
@@ -53,29 +74,22 @@
 
 
 
-    // console.log(data);
-        // data.year_acquired = new Date(+data.year_acquired, 0, 1);
-  
-         // var minYear = d3.min(data, d => data.year_acquired); 
-         //   console.log(minYear)
-        
-         // var maxYear = d3.max(data, d => data.year_acquired); 
-        // var parseTime = d3.timeParse("%b %d, %Y");
 
-        // var domain = d3.extent(data.year_acquired);
 
-        // var minYear = d3.min(data, function(d) {
-        //   return d3.min(d.year_acquired, function(e) { return d3.min(e); });
-        // });
 
-        // var xScale = d3.scaleTime()
-        //   .domain(1900,2010)
-        //   .range([25, 555]);
 
-        // var xAxis = d3.axisBottom(xScale);
 
-        // svg.append("g")
-        //   .attr("transform", "translate(0,60)")
-        //   .call(xAxis.ticks(d3.timeYear));
 
-        // .ticks(d3.timeYear)
+
+        // // Create simulation with specified dataset
+        // let simulation = d3.forceSimulation(dataSet)
+        //     // Apply positioning force to push nodes towards desired position along X axis
+        //     .force("x", d3.forceX(function(d) {
+        //         // Mapping of values from total/perCapita column of dataset to range of SVG chart (<margin.left, margin.right>)
+        //         return xScale(+d[chartState.measure]);  // This is the desired position
+        //     }).strength(2))  // Increase velocity
+        //     .force("y", d3.forceY((height / 2) - margin.bottom / 2))  // // Apply positioning force to push nodes towards center along Y axis
+        //     .force("collide", d3.forceCollide(9)) // Apply collision force with radius of 9 - keeps nodes centers 9 pixels apart
+        //     .stop();  // Stop simulation from starting automatically
+
+
