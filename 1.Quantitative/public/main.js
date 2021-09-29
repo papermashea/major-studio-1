@@ -1,6 +1,6 @@
-let height = 600;
-let width = 1000;
-let margin = ({top: 0, right: 40, bottom: 34, left: 40});
+let height = 800;
+let width = 5000;
+let margin = ({top: 0, right: 40, bottom: 34, left: -400});
 
 
 // Data structure describing volume of displayed data
@@ -106,7 +106,7 @@ d3.csv("data/2021_pantone_sm.csv").then(function (data) {
         //     .call(xAxis);
 
         var x = d3.scaleTime()
-          .domain([new Date("1800"), new Date("2020")])
+          .domain([new Date("1900"), new Date("2020")])
           .range([ 0, width ]);
 
         svg.append("g")
@@ -133,14 +133,14 @@ d3.csv("data/2021_pantone_sm.csv").then(function (data) {
         let dots = svg.selectAll(".dots")
             .data(dataSet, function(d) { return d.color });
 
-            
 
-        // dots.exit()
-        //     .transition()
-        //     .duration(1000)
-        //     .attr("cx", 0)
-        //     .attr("cy", (height / 2) - margin.bottom / 2)
-        //     .remove();
+
+        dots.exit()
+            .transition()
+            .duration(1000)
+            .attr("cx", 0)
+            .attr("cy", (height / 2) - margin.bottom / 2)
+            .remove();
 
         dots.enter()
             .append("circle")
@@ -151,14 +151,14 @@ d3.csv("data/2021_pantone_sm.csv").then(function (data) {
             .attr("fill", function(d){ return colors(d.color)})
             .merge(dots)
             .transition()
-            .duration(2000)
+            .duration(1000)
             .attr("cx", function(d) { return d.year; })
             .attr("cy", function(d) { return d.y; });
 
         // Show tooltip when hovering over dot
         d3.selectAll(".dots").on("mousemove", function(d) {
-            tooltip.html(`Title: <strong>${d.title}</strong><br>
-                          Title: <emphasis>${d.type}</emphasis> + ' | ' + ${d.medium}<br>`)
+            tooltip.html(`Title: <strong>${d.title}</strong><br><br>
+                          See more: <emphasis>${d.url}</emphasis>`)
                 .style('top', d3.event.pageY - 12 + 'px')
                 .style('left', d3.event.pageX + 25 + 'px')
                 .style("opacity", 0.9);
