@@ -1,4 +1,4 @@
-## Project 1 V1
+## Project 1 V1: Quantitative
 ### Pantone movements in color
 
 
@@ -20,6 +20,13 @@
 **Filter ideas**
 - Date of object
 - Date of acquisition
+- Past Pantone COY
+- Map display
+
+**Interesting quantitative points**
+- Total COY by decade
+- Medium count
+- Type count
 
 **Data notes**
 - Need to clean up missing dates in live code
