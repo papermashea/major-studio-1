@@ -1,4 +1,4 @@
-### Major Studio 1 - Lab 6: Working with images
+### Major Studio 1 - Lab 5: Working with images
 
 #### Topics
 - Displaying images and data from json in D3
