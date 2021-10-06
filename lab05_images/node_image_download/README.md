@@ -15,4 +15,4 @@ This example now uses the `data.json` file to download images into a download di
 
 
 #### Further Reading
-[https://canvas.newschool.edu/courses/1528255/modules#module_2326390](Summer workshop: Command line tools).
+[Summer workshop: Command line tools](https://canvas.newschool.edu/courses/1528255/modules#module_2326390).
