@@ -16,7 +16,7 @@ function displayImages(json){
     // select a <div> with an id of "app"
     // this is where we want all of our
     // images to be added
-    let app  = d3.select('#app').text('');
+    let app = d3.select('#app').text('');
 
     // take our JSON and sort it
     // date descending
