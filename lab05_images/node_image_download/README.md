@@ -5,8 +5,8 @@ This example uses Node.js, not client-side javascript. It contains two example s
 
 ### Setup
 * Navigate to your folder in your terminal.
-* Run `npm install` to install all the relevant dependencies. This will create a folder called node_modules containing all the relevant node.js libraries. 
-* Create a file called `.env` file to store your API Key. You just write into it: API_KEY=yourAPIKeyHere and save it. 
+* Run `npm install` to install all the relevant dependencies. This will create a folder called `node_modules` containing all the relevant node.js libraries. 
+* Create a file called `.env` file to store your API Key. You just write into it: `API_KEY=yourAPIKeyHere` and save it. 
 * Create an empty directory called `downloads`.
 
 ### node_prepare_json.js
