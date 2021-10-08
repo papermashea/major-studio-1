@@ -18,7 +18,7 @@
         <button type="button" class="measure mdl-button mdl-js-button mdl-button--raised mdl-button--colored" value="yearAcq">Year acquired</button>
     </div> -->
 
-    <!-- <div id="pantone_viz"></div> -->
+    <div id="pantone_viz"></div>
 
 <!--     <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
         <input type="checkbox" value="yellow" class="mdl-checkbox__input color" checked="">
@@ -29,21 +29,9 @@
         <span class="label" id="939597" style="font-size: 20px; color: #939597;">&#9679;&nbsp;&nbsp;</span>
     </label> -->
 
-    <!-- <div class="tab"><a href="tableau.html">Data &#8594;</a></div> -->
+    <div class="tab"><a href="tableau.html">Data &#8594;</a></div>
 
-    <!-- <script type="module" src="main.js"></script> -->
-    <script>
-      var cooperhewitt = require('node-cooperhewitt')
+    <script type="module" src="main.js"></script>
 
-      var api_token = process.env.CH_KEY;
-
-      var method = 'cooperhewitt.objects.getRandom';
-      var args = {'access_token': api_token};
-            
-      cooperhewitt.call(method, args, function(rsp){   
-          console.log(rsp);  
-      });
-
-    </script>
 </body>
 </html>

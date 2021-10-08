@@ -5,6 +5,7 @@ const dotenv = require('dotenv');
 //// getting our api key from .env
 dotenv.config();
 const CH_KEY = process.env.CH_KEY;
+// console.log(CH_KEY)
 
 //// SI URL
 // const searchBaseURL = "https://api.si.edu/openaccess/api/v1.0/search";
@@ -12,110 +13,218 @@ const CH_KEY = process.env.CH_KEY;
 //// CH URL
 const searchBaseURL = "https://api.collection.cooperhewitt.org/rest"
 
-// our search term
-const search =  `portraits AND unit_code:"FSG" AND online_media_type:"Images"`
-
+// queries
+const search =  `red+orange+yellow+green+blue+purple+black+brown+white+pink`;
+const objects = `method=cooperhewitt.objects.getInfo`;
+const method = `method=cooperhewitt.search.objects`;
+const img = `has_images=1`;
+const ip = `has_no_known_copyright=true`;
 
 // url we'll use to make our call
-const url = `${searchBaseURL}?api_key=${API_KEY}&q=${search}`
+const url = `${searchBaseURL}?${method}&access_token=${CH_KEY}&query=${search}&${img}&${ip}`
+
+console.log(url)
+
+// array that we will write into
+// let myArray = [];
+
+// // string that will hold the stringified JSON data
+// let jsonString = '';
 
 
-// get objects by search term
-function fetchSearchData(url) {
-
-
-  request(url, function(error, response, body) {
-    console.error('error:', error); // print the error if one occurred
-    console.log('statusCode:', response && response.statusCode); // print the response status code if a response was received
-    let obj = JSON.parse(body);
-    console.log(obj);
-
-    // if there are more than 1000 objects, paginate
-    // you can change the pageSize
-    let pageSize = 1000;
-    let numberOfQueries = Math.ceil(obj.response.rowCount / pageSize);
-    console.log(numberOfQueries)
-    for(let i = 0; i < numberOfQueries; i++) {
-      // making sure that our last query calls for the exact number of rows
-      if (i == (numberOfQueries - 1)) {
-        searchAllURL = url + `&start=${i * pageSize}&rows=${obj.response.rowCount - (i * pageSize)}`;
-      } else {
-        searchAllURL = url + `&start=${i * pageSize}&rows=${pageSize}`;
-      }
+// function fetchSearchData(searchTerm) {
+//     console.log(url);
+//     window
+//     .fetch(url)
+//     .then(res => res.json())
+//     .then(data => {
+//       console.log(data)
       
-      fetchUrl(searchAllURL);
-    }
-  })
-}
+//       // constructing search queries to get all the rows of data
+//       // you can change the page size
+//       let pageSize = 10000;
+//       let numberOfQueries = Math.ceil(data.response.rowCount / pageSize);
+//       console.log(numberOfQueries)
+//       for(let i = 0; i < numberOfQueries; i++) {
+//         // making sure that our last query calls for the exact number of rows
+//         if (i == (numberOfQueries - 1)) {
+//           searchAllURL = url + `&start=${i * pageSize}&rows=${data.response.rowCount - (i * pageSize)}`;
+//         } else {
+//           searchAllURL = url + `&start=${i * pageSize}&rows=${pageSize}`;
+//         }
+//         console.log(searchAllURL)
+//         fetchAllData(searchAllURL);
+      
+//       }
+//     })
+//     .catch(error => {
+//       console.log(error);
+//     })
+// }
 
-// set up empty Array for us to save results to
-var myArray = [];
+// // fetching all the data listed under our search and pushing them all into our custom array
+// function fetchAllData(url) {
+//   window
+//   .fetch(url)
+//   .then(res => res.json())
+//   .then(data => {
+//     console.log(data)
 
-function fetchUrl(searchAllURL){
-  request(searchAllURL, function (error, response, body) {
-    console.error('error:', error); // print the error if one occurred
-    console.log('statusCode:', response && response.statusCode); // print the response status code if a response was received
+//     data.response.rows.forEach(function(n) {
+//       addObject(n);
+//     });
+//     jsonString += JSON.stringify(myArray);
+//     console.log(myArray);
+//   })
+//   .catch(error => {
+//     console.log(error)
+//   })
 
-    let obj = JSON.parse(body);
+// }
 
-    // here we are constructing our own object with just the information we need
-    // first we filter out the objects that do not have the information we need (change accordingly)
-    // after the objects are filtered, we map our objects and construct a new object
+// // create your own array with just the data you need
+// function addObject(objectData) {  
   
-    let objects = obj.response.rows.filter(data => {
+//   // we've encountered that some places have data others don't
+//   let currentPlace = "";
+//   if(objectData.content.indexedStructured.place) {
+//     currentPlace = objectData.content.indexedStructured.place[0];
+//   }
+
+//   myArray.push({
+//     id: objectData.id,
+//     title: objectData.title,
+//     link: objectData.content.descriptiveNonRepeating.record_link,
+//     place: currentPlace
+//   })
+// }
+
+
+// fetchSearchData(search);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//// flattening json
+// // get objects by search term
+// function fetchSearchData(url) {
+
+
+//   request(url, function(error, response, body) {
+//     console.error('error:', error); // print the error if one occurred
+//     console.log('statusCode:', response && response.statusCode); // print the response status code if a response was received
+//     let obj = JSON.parse(body);
+//     console.log(obj);
+
+//     // if there are more than 1000 objects, paginate
+//     // you can change the pageSize
+//     let pageSize = 1000;
+//     let numberOfQueries = Math.ceil(obj.response.rowCount / pageSize);
+//     console.log(numberOfQueries)
+//     for(let i = 0; i < numberOfQueries; i++) {
+//       // making sure that our last query calls for the exact number of rows
+//       if (i == (numberOfQueries - 1)) {
+//         searchAllURL = url + `&start=${i * pageSize}&rows=${obj.response.rowCount - (i * pageSize)}`;
+//       } else {
+//         searchAllURL = url + `&start=${i * pageSize}&rows=${pageSize}`;
+//       }
       
-      // by default we assume we have complete data
-      dataComplete = true;
+//       fetchUrl(searchAllURL);
+//     }
+//   })
+// }
+
+// // set up empty Array for us to save results to
+// var myArray = [];
+
+// function fetchUrl(searchAllURL){
+//   request(searchAllURL, function (error, response, body) {
+//     console.error('error:', error); // print the error if one occurred
+//     console.log('statusCode:', response && response.statusCode); // print the response status code if a response was received
+
+//     let obj = JSON.parse(body);
+
+//     // here we are constructing our own object with just the information we need
+//     // first we filter out the objects that do not have the information we need (change accordingly)
+//     // after the objects are filtered, we map our objects and construct a new object
+  
+//     let objects = obj.response.rows.filter(data => {
       
-      // Test if images exist
-      if(data.content.descriptiveNonRepeating.online_media ==undefined
-        || data.content.descriptiveNonRepeating.online_media.media ==undefined
-        ||  data.content.descriptiveNonRepeating.online_media.media[0] ==undefined
-        || data.content.descriptiveNonRepeating.online_media.media[0].content ==undefined
-        // || data.content.descriptiveNonRepeating.online_media.media[0].resources[1] ==undefined
-      )dataComplete = false;
+//       // by default we assume we have complete data
+//       dataComplete = true;
+      
+//       // // Test if images exist
+//       // if(data.content.descriptiveNonRepeating.online_media ==undefined
+//       //   || data.content.descriptiveNonRepeating.online_media.media ==undefined
+//       //   ||  data.content.descriptiveNonRepeating.online_media.media[0] ==undefined
+//       //   || data.content.descriptiveNonRepeating.online_media.media[0].content ==undefined
+//       //   // || data.content.descriptiveNonRepeating.online_media.media[0].resources[1] ==undefined
+//       // )dataComplete = false;
 
-      // Test if we have a date value
-      if(data.content.indexedStructured.date ==undefined)dataComplete=false;
+//       // Test if we have a date value
+//       if(data.content.indexedStructured.date ==undefined)dataComplete=false;
 
 
-      return dataComplete;
+//       return dataComplete;
     
-    }).map((data) => {
+//     }).map((data) => {
       
-      let filename = data.content.descriptiveNonRepeating.online_media.media[0].content.split('=').pop();
+//       let filename = data.content.descriptiveNonRepeating.online_media.media[0].content.split('=').pop();
       
-      // change the size of the images you are downloading
-      // imgSizeParam can be max or max_w to force width or max_h to force height
-      // primary image url should be the image delivery service url ex) https://ids.si.edu/ids/deliveryService?id=FS-5461_07
-      let imgSizeParam = "max";
-      let imgSizeValue = 300;
+//       // change the size of the images you are downloading
+//       // imgSizeParam can be max or max_w to force width or max_h to force height
+//       // primary image url should be the image delivery service url ex) https://ids.si.edu/ids/deliveryService?id=FS-5461_07
+//       let imgSizeParam = "max";
+//       let imgSizeValue = 300;
 
-      return { 
-        objectID: data.id,
-        title: data.title,
-        // date: data.content.indexedStructured.date[0],
-        primaryImage: data.content.descriptiveNonRepeating.online_media.media[0].content + `&${imgSizeParam}=${imgSizeValue}`,
-        filename: filename.includes(".jpg") ? filename : filename + ".jpg" // if the filename we defined above doesn't include .jpg add it at the end
-      }
+//       return { 
+//         objectID: data.id,
+//         title: data.title,
+//         // date: data.content.indexedStructured.date[0],
+//         primaryImage: data.content.descriptiveNonRepeating.online_media.media[0].content + `&${imgSizeParam}=${imgSizeValue}`,
+//         filename: filename.includes(".jpg") ? filename : filename + ".jpg" // if the filename we defined above doesn't include .jpg add it at the end
+//       }
 
-    })
+//     })
   
-    myArray.push(objects);
-    // if there are more objects than the pageSize myArray will look like this: [[...objects], [...objects]]
-    // we use [].concat to flatten out myArray to be a one-dimensional array
-    myArray = [].concat(...myArray);
-  });
-}
+//     myArray.push(objects);
+//     // if there are more objects than the pageSize myArray will look like this: [[...objects], [...objects]]
+//     // we use [].concat to flatten out myArray to be a one-dimensional array
+//     myArray = [].concat(...myArray);
+//   });
+// }
 
-// calling our function
-fetchSearchData(url);
+// // calling our function
+// fetchSearchData(url);
 
-// // the function inside the setTimeout saves myResults to a JSON
-// // it will automatically run after 5000 ms
-setTimeout(() => {
-    fs.writeFileSync('./data.json', JSON.stringify(myArray), 'utf8')
-}, 5000)
+// // // the function inside the setTimeout saves myResults to a JSON
+// // // it will automatically run after 5000 ms
+// setTimeout(() => {
+//     fs.writeFileSync('./data.json', JSON.stringify(myArray), 'utf8')
+// }, 5000)
 
 
 
