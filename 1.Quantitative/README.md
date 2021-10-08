@@ -2,6 +2,7 @@
 ### Pantone movements in color
 
 
+
 **Data needed**
 - id
 - accession_number (this maps to SI)
@@ -15,7 +16,6 @@
 - type
 - description
 - woe:country
-
 
 **Filter ideas**
 - Date of object
@@ -34,3 +34,14 @@
 - 486/500 grey assets sampled had no period id
 - color data not associated with the object
 - node module appears to have trouble authenticating, curl requests work ok
+
+
+### Workflow
+
+
+**Local**
+- node app.js
+
+**Legend**
+- CH = Cooper Hewitt
+- SI = Smithsonian Institute
