@@ -2,26 +2,27 @@ const fs = require('fs')
 const request = require('request')
 const dotenv = require('dotenv');
 
-//// getting our api key from .env
+//// API key from .env
 dotenv.config();
 const CH_KEY = process.env.CH_KEY;
+const SI_KEY = process.env.SI_KEY;
+
+console.log(SI_KEY)
 // console.log(CH_KEY)
 
-//// SI URL
-// const searchBaseURL = "https://api.si.edu/openaccess/api/v1.0/search";
+//// SI query
+const searchBaseURL = "https://api.si.edu/openaccess/api/v1.0/search";
+const search = `unit_code:"CHNDM" AND online_media_type:"Images"`
+const url = `${searchBaseURL}?api_key=${SI_KEY}&q=${search}`
 
-//// CH URL
-const searchBaseURL = "https://api.collection.cooperhewitt.org/rest"
-
-// queries
-const search =  `red+orange+yellow+green+blue+purple+black+brown+white+pink`;
-const objects = `method=cooperhewitt.objects.getInfo`;
-const method = `method=cooperhewitt.search.objects`;
-const img = `has_images=1`;
-const ip = `has_no_known_copyright=true`;
-
-// url we'll use to make our call
-const url = `${searchBaseURL}?${method}&access_token=${CH_KEY}&query=${search}&${img}&${ip}`
+//// CH query
+// const searchBaseURL = "https://api.collection.cooperhewitt.org/rest"
+// const search =  `red+orange+yellow+green+blue+purple+black+brown+white+pink`;
+// const objects = `method=cooperhewitt.objects.getInfo`;
+// const method = `method=cooperhewitt.search.objects`;
+// const img = `has_images=1`;
+// const ip = `has_no_known_copyright=true`;
+// const url = `${searchBaseURL}?${method}&access_token=${CH_KEY}&query=${search}&${img}&${ip}`
 
 console.log(url)
 
