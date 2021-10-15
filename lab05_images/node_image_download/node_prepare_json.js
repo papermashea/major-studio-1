@@ -18,12 +18,13 @@ const dotenv = require('dotenv');
 
 // getting our api key from .env
 dotenv.config();
-const API_KEY = process.env.API_KEY;
+const SI_KEY = process.env.SI_KEY;
 
 // endpoint URL
 const searchBaseURL = "https://api.si.edu/openaccess/api/v1.0/search";
-// our search term
-const search =  `portraits AND unit_code:"FSG" AND online_media_type:"Images"`
+
+//// search term
+const search =  `unit_code:"CHNDM" AND online_media_type:"Images"`;
 
 
 // url we'll use to make our call
@@ -42,7 +43,7 @@ function fetchSearchData(url) {
 
     // if there are more than 1000 objects, paginate
     // you can change the pageSize
-    let pageSize = 1000;
+    let pageSize = 10000;
     let numberOfQueries = Math.ceil(obj.response.rowCount / pageSize);
     console.log(numberOfQueries)
     for(let i = 0; i < numberOfQueries; i++) {

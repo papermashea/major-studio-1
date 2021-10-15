@@ -4,7 +4,7 @@
 
 // put your API key here;
 const {Client} = require('dotenv')
-const apiKey = process.env.API_KEY
+const apiKey = process.env.SI_KEY
 
 // search base URL
 const searchBaseURL = "https://api.si.edu/openaccess/api/v1.0/search";
