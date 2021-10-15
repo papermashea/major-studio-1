@@ -3,7 +3,7 @@ Example by Dan Shiffman:
 https://www.youtube.com/watch?v=lIPEvh8HbGQ
 
 RiTa.js reference:
-https://rednoise.org/rita/reference/index.php
+https://rednoise.org/rita/reference/RiTa/pos/index.html
 */
 
 function getInput() {
@@ -20,7 +20,7 @@ function processRita(input) {
   console.log(words);
 
   // get part-of-speech tags
-  // part-of-speech tags list: https://rednoise.org/rita/reference/PennTags.html
+  // part-of-speech tags list: https://rednoise.org/rita/reference/postags.html
   let pos = rs.pos();
   console.log(pos);
   
