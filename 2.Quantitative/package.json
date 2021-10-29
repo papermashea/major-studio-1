@@ -1,0 +1,26 @@
+{
+  "name": "movementsForm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "author": "shea molloy",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "d3": "^7.0.4",
+    "d3-force": "^3.0.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "node-cooperhewitt": "^0.0.2",
+    "p5": "^1.4.0",
+    "request": "^2.88.2",
+    "rita": "^2.4.501"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}

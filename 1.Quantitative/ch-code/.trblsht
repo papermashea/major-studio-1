@@ -8,6 +8,11 @@ curl -X GET 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.p
 curl -X GET 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.objects.tags.getAll&access_token=ba00fde38c1a8098aa1d684f0a387e31&format=json'
 
 
+// types
+curl -o types.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.types.getList&access_token=ba00fde38c1a8098aa1d684f0a387e31&page=1&per_page=1000'
+
+
+
 curl --write-out '%{json}' 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.objects.tags.getAll&access_token=ba00fde38c1a8098aa1d684f0a387e31&format=json' -o saved
 
 curl -o tags.txt 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.objects.tags.getAll&access_token=ba00fde38c1a8098aa1d684f0a387e31&format=json'
@@ -44,3 +49,48 @@ curl -o public/data/objects_pantone.json 'https://api.collection.cooperhewitt.or
 curl -o objects_pantone-yellow_1dpt.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&color=F5DF4D&department_id=35347501&has_images=1&page=1&per_page=1000'
 
 curl -o objects_pantone-yellow_5dpt.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&color=F5DF4D&department_id=35347501,35347497,35347501,35347503,35518655&has_images=1&page=1&per_page=1000'
+
+curl -o objects_pantone-test.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&color=F5DF4D&department_id=35347501,35347497,35347501,35347503,35518655&has_images=1&page=1&per_page=1000'
+
+//has images, no known copyright, 1720-2020, red,orange,yellow,green,blue,purple,black,white,brown, media *, type *
+
+https://collection.cooperhewitt.org/search/collection?query=&accession_number=&on_display=&has_images=1&has_no_known_copyright=1&color=red%2Corange%2Cyellow%2Cgreen%2Cblue%2Cpurple%2Cblack%2Cbrown%2Cwhite&exhibition=&location=&medium=*&period=&person=&role=&tag=&type=*&description=&justification=&title=&display_date=&year_acquired=&year_end=&year_start=1720-2020&width=&height=&depth=&longestside=&shortestside=&isa=objects
+
+curl -o objects_CYTM1.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31?query=&accession_number=&on_display=&has_images=1&has_no_known_copyright=1&color=red,orange,yellow,green,blue,purple,black,white,brown,pink&location=&medium=*&type=*&year_start=1720-2020&page=1&per_page=1000'
+
+curl -o objects_pantone-test2.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&color=F5DF4D&has_images=1&has_no_known_copyright=1&page=1&per_page=1000'
+
+curl -o data/objects.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.objects.getInfo&access_token=ba00fde38c1a8098aa1d684f0a387e31&query=&year_start=1720-2020&type=*&media=*&has_images=1&has_no_known_copyright=1'
+
+
+
+
+//// hacky
+// colors: red,orange,yellow,green,blue,purple,pink,brown,black,white,grey
+curl -o obj_color1.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&color=red,orange,yellow,green,blue,purple,pink,brown,black,white,grey&has_images=1&has_no_known_copyright=1&year_started=gte1721&type_id=*&media_id=*&&page=1&per_page=1000'
+
+curl -o obj_red2.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&color=red&has_images=1&has_no_known_copyright=1&year_started=gte1721&type_id=*&media_id=*&&page=2&per_page=1000'
+
+curl -o obj_orange1.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&color=orange&has_images=1&has_no_known_copyright=1&year_started=gte1721&type_id=*&media_id=*&page=1&per_page=1000'
+
+curl -o obj_yellow1.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&color=yellow&has_images=1&has_no_known_copyright=1&year_started=gte1721&type_id=*&media_id=*&page=1&per_page=1000'
+
+curl -o obj_green8.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&color=green&has_images=1&has_no_known_copyright=1&year_started=gte1721&type_id=*&media_id=*&page=8&per_page=1000'
+
+curl -o obj_blue2.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&color=blue&has_images=1&has_no_known_copyright=1&year_started=gte1721&type_id=*&media_id=*&page=2&per_page=1000'
+
+curl -o obj_purple1.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&color=purple&has_images=1&has_no_known_copyright=1&year_started=gte1721&type_id=*&media_id=*&page=1&per_page=1000'
+
+curl -o obj_brown1.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&color=brown&has_images=1&has_no_known_copyright=1&year_started=gte1721&type_id=*&media_id=*&page=1&per_page=1000'
+
+curl -o obj_pink1.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&color=pink&has_images=1&has_no_known_copyright=1&year_started=gte1721&type_id=*&media_id=*&page=1&per_page=1000'
+
+curl -o obj_black1.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&color=black&has_images=1&has_no_known_copyright=1&year_started=gte1721&type_id=*&media_id=*&page=1&per_page=1000'
+
+curl -o obj_white1.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&color=white&has_images=1&has_no_known_copyright=1&year_started=gte1721&type_id=*&media_id=*&page=1&per_page=1000'
+
+curl -o obj_test3.json 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&year_started=gte1721&color=red,orange,yellow,green,blue,purple,pink,brown,black,white&type_id=*&media_id=*&woe_id=*&has_images=1&has_no_known_copyright=1'
+
+curl -X GET 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&year_started=gte1721&color=red,orange,yellow,green,blue,purple,pink,brown,black,white&type_id=*&media_id=*&woe_id=*&has_images=1&has_no_known_copyright=1'
+
+curl -X GET 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&year_started=gte1721&color=red,orange,yellow,green,blue,purple,pink,brown,black,white&type_id=*&media_id=*&woe_id=*&has_images=1&has_no_known_copyright=1' -o colorObj.json
