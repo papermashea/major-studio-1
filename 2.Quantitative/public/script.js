@@ -1,4 +1,13 @@
-var myWords = [{word: "Running", size: "10"}, {word: "Surfing", size: "20"}, {word: "Climbing", size: "50"}, {word: "Kiting", size: "30"}, {word: "Sailing", size: "20"}, {word: "Snowboarding", size: "60"} ]
+// var myWords = [{word: "Running", size: "10"}, {word: "Surfing", size: "20"}, {word: "Climbing", size: "50"}, {word: "Kiting", size: "30"}, {word: "Sailing", size: "20"}, {word: "Snowboarding", size: "60"} ]
+
+let bg;
+var lines;
+var counts;
+var total;
+
+function preload() {
+  lines = loadJSON('data/colorObj.json');
+}
 
 // set the dimensions and margins of the graph
 var margin = {top: 10, right: 10, bottom: 10, left: 10},
@@ -27,6 +36,18 @@ layout.start();
 // This function takes the output of 'layout' above and draw the words
 // Wordcloud features that are THE SAME from one word to the other can be here
 function draw(words) {
+  
+  for (var k in counts) {
+    if (counts.hasOwnProperty(k)) {
+      if (counts[k]/total > 0.001) {
+        fill(0);
+        textSize((counts[k]/total) * 400);
+        text(k, random(width), random(height));
+        // text(k,(counts[k]/total), (counts[k]/total) * -1);
+      }
+    }
+  }
+
   svg
     .append("g")
       .attr("transform", "translate(" + layout.size()[0] / 2 + "," + layout.size()[1] / 2 + ")")
@@ -41,4 +62,14 @@ function draw(words) {
           return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
         })
         .text(function(d) { return d.text; });
+}
+
+function totalValues(obj) {
+  var total = 0;
+  for (var k in obj) {
+    if (obj.hasOwnProperty(k)) {
+      total += obj[k];
+    }
+  }
+  return total;
 }

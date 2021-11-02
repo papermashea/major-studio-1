@@ -5,7 +5,7 @@ const dotenv = require('dotenv');
 
 // API key from .env
 dotenv.config();
-// const SI_KEY = process.env.SI_KEY;
+const SI_KEY = process.env.SI_KEY;
 const CH_KEY = process.env.CH_KEY;
 
 // console.log(SI_KEY)
@@ -47,8 +47,8 @@ function fetchSearchData(url) {
     // if there are more than 1000 objects, paginate
     // you can change the pageSize
     let pageSize = 100;
-    // let numberOfQueries = Math.ceil(obj.response.rowCount / pageSize);
-    let numberOfQueries = 15321;
+    let numberOfQueries = Math.ceil(obj.response.rowCount / pageSize);
+    // let numberOfQueries = 15321;
     console.log(numberOfQueries)
     for(let i = 0; i < numberOfQueries; i++) {
       // making sure that our last query calls for the exact number of rows

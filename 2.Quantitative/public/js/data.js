@@ -113,35 +113,6 @@ let jsonString = '';
 // fetchSearchData(search);
 
 
-//// ARRAY FROM COLOR OBJECTS
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //// flattening json
 // // get objects by search term
 // function fetchSearchData(url) {

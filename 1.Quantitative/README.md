@@ -1,8 +1,6 @@
 ## Project 1 V1: Quantitative
 ### Pantone movements in color
 
-
-
 **Data needed**
 - id
 - accession_number (this maps to SI)
@@ -41,6 +39,16 @@
 
 **Local**
 - node app.js
+
+**Modules**
+npm i express --save
+npm i d3 --save
+npm i fs -- save
+npm i request --save
+npm i dotenv --save
+npm i rita --save
+npm i bootstrap --save
+
 
 **Legend**
 - CH = Cooper Hewitt
