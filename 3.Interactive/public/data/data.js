@@ -35,10 +35,11 @@ function object(){
         type_id: data.type_id,
         media: data.media,
         media_id: data.media_id,
-        country: data.woe[':country_name'],  
-        country_id: data.woe[':country'],
+        year: data.year_start,
+        // country: data.woe[':country_name'],  
+        // country_id: data.woe[':country'],
         description: data.description,
-        primaryImage: data.images[0].url,
+        // primaryImage: data.images[0].url,
       }
 
     })

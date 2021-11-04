@@ -48,6 +48,8 @@ npm i request --save
 npm i dotenv --save
 npm i rita --save
 npm i bootstrap --save
+npm i d3-cloud --save
+npm i d3-array --save
 
 
 **Legend**

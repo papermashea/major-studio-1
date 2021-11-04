@@ -1,4 +1,3 @@
-let bg;
 var lines;
 var counts;
 var total;
