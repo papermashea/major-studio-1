@@ -1,3 +1,35 @@
+// import d3 from 'd3';
+// import * as d3 from './../node_modules/d3/dist/d3.js';
+// import * as d3 from '../node_modules/d3/dist/d3.js';
+// import d3 from '/node_modules/d3';
+// import d3 from './node_modules/d3';
+// import d3 from '../node_modules/d3';
+
+// import d3 from '/node_modules/d3/src/index.js';
+// import * as d3 from '/node_modules/d3/src/index.js';
+
+// import d3 from './node_modules/d3/src/index.js';
+// import * as d3 from './node_modules/d3/src/index.js';
+
+// import d3 from '../node_modules/d3/src/index.js';
+// import * as d3 from './../node_modules/d3/src/index.js';
+
+// import d3 from '../../node_modules/d3/src/index.js';
+// import * as d3 from '../../node_modules/d3/src/index.js';
+
+// import d3 from '/node_modules/d3/dist/d3.js';
+// import * as d3 from '/node_modules/d3/dist/d3.js';
+
+// import d3 from './node_modules/d3/dist/d3.js';
+// import * as d3 from './node_modules/d3/dist/d3.js';
+
+// import d3 from '../node_modules/d3/dist/d3.js';
+// import * as d3 from '../node_modules/d3/dist/d3.js';
+
+// import { d3 } from '../node_modules/d3/dist/d3.js';
+
+
+
 //// chart
     var margin = {top: 40, right: 20, bottom: 30, left: 60},
       width = 1400 - margin.left - margin.right,

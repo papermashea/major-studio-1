@@ -1,29 +1,26 @@
 //// load app
-const express = require('express');
-const http = require('http');
-const fs = require('fs');
+// const express = require('express');
+// const http = require('http');
+// const fs = require('fs');
+// const app = express();
+
+import express from 'express';
+import http from 'http';
+import fs from 'fs';
+import * as d3 from './node_modules/d3/dist/d3.js';
 const app = express();
+
+import path from 'path';
+import { fileURLToPath } from 'url';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 
 const port = 8000;
 
 app.get('/', (req, res) => {
   res.sendFile(__dirname);
 });
-
-// homepage
-// app.get('/', (req, res) => {
-//   res.render('index.html');
-// });
-
-// form
-// app.get('/form', (req, res) => {
-//   res.render('pages/form.html');
-// });
-
-// color
-// app.get('/color', (req, res) => {
-//   res.render('pages/color.html');
-// });
 
 app.use(express.static('node_modules'));
 
