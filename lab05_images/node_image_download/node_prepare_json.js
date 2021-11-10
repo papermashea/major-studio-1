@@ -20,16 +20,19 @@ const dotenv = require('dotenv');
 dotenv.config();
 const SI_KEY = process.env.SI_KEY;
 
-// endpoint URL
+// // endpoint URL
+// const searchBaseURL = "https://api.si.edu/openaccess/api/v1.0/search";
+
+// //// search term
+// const search =  `unit_code:"CHNDM" AND online_media_type:"Images"`;
+
+
+// // url we'll use to make our call
+// const url = `${searchBaseURL}?api_key=${SI_KEY}&q=${search}`
+
 const searchBaseURL = "https://api.si.edu/openaccess/api/v1.0/search";
-
-//// search term
-const search =  `unit_code:"CHNDM" AND online_media_type:"Images"`;
-
-
-// url we'll use to make our call
-const url = `${searchBaseURL}?api_key=${API_KEY}&q=${search}`
-
+const search = `unit_code:"CHNDM" AND online_media_type:"Images" AND media_usage:"CC0"`
+const url = `${searchBaseURL}?api_key=${SI_KEY}&q=${search}`
 
 // get objects by search term
 function fetchSearchData(url) {
@@ -39,11 +42,11 @@ function fetchSearchData(url) {
     console.error('error:', error); // print the error if one occurred
     console.log('statusCode:', response && response.statusCode); // print the response status code if a response was received
     let obj = JSON.parse(body);
-    console.log(obj);
+    // console.log(obj);
 
     // if there are more than 1000 objects, paginate
     // you can change the pageSize
-    let pageSize = 10000;
+    let pageSize = 1000;
     let numberOfQueries = Math.ceil(obj.response.rowCount / pageSize);
     console.log(numberOfQueries)
     for(let i = 0; i < numberOfQueries; i++) {
@@ -61,6 +64,7 @@ function fetchSearchData(url) {
 
 // set up empty Array for us to save results to
 var myArray = [];
+console.log(myArray);
 
 function fetchUrl(searchAllURL){
   request(searchAllURL, function (error, response, body) {
@@ -68,7 +72,6 @@ function fetchUrl(searchAllURL){
     console.log('statusCode:', response && response.statusCode); // print the response status code if a response was received
 
     let obj = JSON.parse(body);
-
     // here we are constructing our own object with just the information we need
     // first we filter out the objects that do not have the information we need (change accordingly)
     // after the objects are filtered, we map our objects and construct a new object
@@ -125,5 +128,5 @@ fetchSearchData(url);
 // // the function inside the setTimeout saves myResults to a JSON
 // // it will automatically run after 5000 ms
 setTimeout(() => {
-    fs.writeFileSync('./data.json', JSON.stringify(myArray), 'utf8')
+    fs.writeFileSync('./dataTest.json', JSON.stringify(myArray), 'utf8')
 }, 5000)
