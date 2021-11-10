@@ -17,7 +17,9 @@ function processText(input) {
   //output just the text:
   addText("The text is: " + input);
   
+  
   // Task: What's the text length?
+  addText("The text is: " + input.length);
 
   // Task: What's the fifth character in the text?
 
