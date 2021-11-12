@@ -1,0 +1,17 @@
+{
+  "name": "00.cooper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "commonjs",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "https": "^1.0.0",
+    "node-cooperhewitt": "0.0.2",
+    "querystring": "^0.2.1"
+  }
+}

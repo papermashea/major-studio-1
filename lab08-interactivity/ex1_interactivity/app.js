@@ -46,7 +46,7 @@ async function dataLoad() {
 function setState(nextState) {
   // using Object.assign keeps the state *immutable*
   state = Object.assign(state, nextState);
-  console.log("state updated", state);
+  // console.log("state updated", state);
   draw();
 }
 
