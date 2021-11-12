@@ -13,13 +13,14 @@ const CH_KEY = process.env.CH_KEY;
 // https://collection.cooperhewitt.org/search/collection?query=&accession_number=&on_display=&has_images=1&has_no_known_copyright=1&color=red%2Corange%2Cyellow%2Cgreen%2Cblue%2Cpurple%2Cblack%2Cbrown%2Cwhite&exhibition=&location=&medium=*&period=&person=&role=&tag=&type=*&description=&justification=&title=&display_date=&year_acquired=&year_end=&year_start=1720-2020&width=&height=&depth=&longestside=&shortestside=&isa=objects
 
 const searchBaseURL = "https://api.collection.cooperhewitt.org/rest/"
-const color =  `red`;
 const method = `method=cooperhewitt.search.objects`;
 const year = `gte1721`
 const img = `has_images=1`;
 const ip = `has_no_known_copyright=1`;
 const all = '*'
 const url = `${searchBaseURL}?${method}&access_token=${CH_KEY}&year_started=${year}&color=${color}&type_id=${all}&media_id=${all}&woe_id=${all}&${img}&${ip}&per_page=500`
+var API_PORT = 443;
+
 
 // console.log(url)
 
@@ -41,9 +42,9 @@ function fetchSearchData(url) {
     console.log("fetchSearchData request end");
 
     let pageSize = 500;
-    // let numberOfQueries = Math.ceil(obj.response.rowCount / pageSize);
+    let numberOfQueries = Math.ceil(obj.response.rowCount / pageSize);
 
-    let numberOfQueries = 444 / pageSize;    
+    // let numberOfQueries = 444 / pageSize;    
     // let numberOfQueries = 15321 / pageSize;
     // console.log(numberOfQueries)
 
@@ -132,5 +133,5 @@ fetchSearchData(url);
 
 // the function inside the setTimeout saves myResults to a JSON
 setTimeout(() => {
-    fs.writeFileSync('queryRed.json', JSON.stringify(wordArray), 'utf8')
+    fs.writeFileSync('chQuery.json', JSON.stringify(wordArray), 'utf8')
 }, 5000)

@@ -1,12 +1,32 @@
 // var https = require('https');
 
-import https from 'https';
+const https = require('https');
+const qs = require('qs');
+const fs = require('fs');
+const request = require('request');
+const dotenv = require('dotenv');
 
 var API_HOST = 'api.collection.cooperhewitt.org';
 var API_PATH = '/rest/';
 var API_PORT = 443;
 
-function(method, args, oncomplete) {
+// API key from .env
+dotenv.config();
+// const CH_KEY = process.env.CH_KEY;
+// const CH_KEY = 'ba00fde38c1a8098aa1d684f0a387e31';
+
+console.log(CH_KEY)
+
+
+var method = 'cooperhewitt.objects.getRandom';
+var args = {'access_token': CH_KEY};
+      
+cooperhewitt.call(method, args, function(rsp){   
+    console.log(rsp); 
+});
+
+
+function cooperhewitt (method, args, oncomplete) {
 		
 		if (! oncomplete){
 			oncomplete = function(rsp){
@@ -16,8 +36,8 @@ function(method, args, oncomplete) {
 		
 		args['method'] = method;
 		
-		// var body = qs.stringify(args);
-		var body = JSON.stringify(args);
+		var body = qs.stringify(args);
+		// var body = JSON.stringify(args);
 
 		var headers = {
 			'Content-Type': 'application/x-www-form-urlencoded',
@@ -72,5 +92,4 @@ function(method, args, oncomplete) {
 		req.end();
 		
 		// return String('Hello node module');
-	}
-};
+	};

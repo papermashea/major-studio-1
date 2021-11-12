@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "type": "module",
+  "type": "commonjs",
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -21,6 +21,7 @@
     "https": "^1.0.0",
     "mdbootstrap": "^4.20.0",
     "node-cooperhewitt": "^0.0.2",
+    "qs": "^6.10.1",
     "request": "^2.88.2",
     "rita": "^2.4.501",
     "save": "^2.4.0"
