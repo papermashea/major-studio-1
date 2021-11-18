@@ -17,8 +17,8 @@ d3.json("./jabberwocky.json").then(data => {
 
   // https://vallandingham.me/scroll_talk/
   function position() {
-    var pos = window.pageYOffset - 10;
-    var sectionIndex = d3.bisect(sectionPositions, pos);
+    let pos = window.pageYOffset - 10;
+    let sectionIndex = d3.bisect(sectionPositions, pos);
     sectionIndex = Math.min(section.size() - 1, sectionIndex);
 
     if (state.currentIndex !== sectionIndex) {
