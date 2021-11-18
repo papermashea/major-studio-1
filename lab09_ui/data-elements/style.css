@@ -3,10 +3,10 @@
   stroke: white;
 }
 
-#interactive .tooltip.visible {
+#interactive #tooltip.visible {
   visibility: visible;
 }
 
-#interactive .tooltip:not(.visible) {
+#interactive #tooltip:not(.visible) {
   visibility: hidden;
 }

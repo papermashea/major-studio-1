@@ -4,11 +4,11 @@
 
 const CLASS = "class";
 const PETAL_LENGTH = "petallength";
-const PETAL_WIDTH =  "petalwidth";
-const SEPAL_LENGTH = "sepallength";
+const PETAL_WIDTH = "petalwidth";
+const SEPAL_LENGTH ="sepallength";
 const SEPAL_WIDTH = "sepalwidth";
-const TOOLTIP_WIDTH =  150;
-const TOOLTIP_HEIGHT =  20;
+const TOOLTIP_WIDTH = 150;
+const TOOLTIP_HEIGHT = 20;
 
 
 // we can set up our state schema before we have any data
@@ -110,7 +110,7 @@ function onSearchChange() {
 }
 
 function onMouseEvent(d) {
-  // console.log("mouse", d);
+  console.log("mouse", d3.event.target);
   if (d3.event.type === "mouseenter") {
     setState({
       tooltip: {
@@ -146,7 +146,7 @@ function initializeLayout() {
     .attr("height", svgHeight);
 
   // remember, we initialized these variables at the top
-  xScale = d3.scaleLinear().range([0, svgWidth]);
+  xScale = d3.scaleLinear().range([margin, svgWidth - margin]);
   yScale = d3
     .scaleBand()
     .paddingInner(0.1)
@@ -161,7 +161,7 @@ function initializeLayout() {
 
   svg.append("g").attr("class", "bars");
 
-  const tooltip = svg.append("g").attr("class", "tooltip");
+  const tooltip = svg.append("g").attr("id", "tooltip");
   tooltip
     .append("rect")
     .attr("height", TOOLTIP_HEIGHT)
@@ -246,7 +246,7 @@ function draw() {
     .classed("highlight", d => d.id === state.tooltip.value.id);
 
   // update tooltip based on state.tooltip
-  const tooltip = d3.select(".tooltip");
+  const tooltip = d3.select("#tooltip");
   tooltip
     .attr(
       "transform",
