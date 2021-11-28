@@ -51,8 +51,12 @@ html, body{
 
 
 /* navbar */
+.navbar {
+	background-color: black;
+}
 
-.navbar-brand {
+.navbar-brand, 
+.query-header {
 	width: 50%;
 	float: left;
 }
@@ -62,18 +66,14 @@ html, body{
 }
 
 .nav-item {
-	width: 25%;
+	width: 19%;
 	margin-right: 6%;
 	float: right;
 }
 
-.navbar {
-	background-color: black;
-}
-
 /* sub-nav */
 .sub-nav {
-	height: 60px;
+	height: 6%;
 	background-color: #DCDCDC;
 	position: relative;
 }
@@ -98,7 +98,7 @@ button {
 }
 
 /* typography */
-a.main {
+a.main, .query-header {
 	font-family: 'CooperHewitt', sans-serif;
 	font-weight: 300;
 }
@@ -109,7 +109,8 @@ a.nav-link {
 
 a.main, 
 a.nav-link,
-.subtitle {
+.subtitle, 
+.query-header {
 	text-transform: uppercase;
 	color: white;
 	line-height: 2;
@@ -145,6 +146,10 @@ cursor: pointer;
 
 text:hover { 
 	opacity: .7 !important; 
+}
+
+.query-header {
+	padding: .5rem 1rem;
 }
 
 /* slider */
@@ -194,14 +199,69 @@ text:hover {
 	border-radius: 0 4px 4px 0;
 }
 
+/* chart */
+.chart-area {
+	background-color: #FFF;
+	height: 25%;
+}
+
 
 /* gallery */
-#graph {
-    width: 100%;
-    height: 100%;
-    
+.gallery-section {
+	background-color: #000;
+	height: 5%;
 }
-.node {
-    position: absolute;
-    background-size:cover;
+.gallery-area {
+  height: 100%;
+	background-color: #DCDCDC;
 }
+
+#gallery {
+    width: 80%;
+    margin: 1% 10%;
+}
+
+/* test gallery
+img {
+  padding: 5px;
+} */
+
+#app {
+  /*https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#lengths*/
+  /*https://developer.mozilla.org/en-US/docs/Web/CSS/grid*/
+  /*https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids#flexible_grids_with_the_fr_unit*/
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	grid-template-rows: repeat(auto-fit, 200px);
+  grid-gap: .5rem;
+  grid-auto-flow: dense;
+  margin-top: 1rem;  
+}
+
+div.object-card {
+  align-content: center;
+  max-height: 200px;
+  /*max-width: 400px;*/
+  display: inline-flex;
+  margin:  .5rem;
+  vertical-align:top;
+  /*white-space: normal;*/
+}
+
+/*div.object-card h2 {
+  font-size: 1.2rem;
+  line-height: 1.1;
+  padding-bottom: 0.5em;
+}*/
+
+div.object-card div.image {
+  height: auto;
+  display:flex;
+  align-items: flex-end;
+}
+div.object-card div.image img {
+  max-width: 100%;
+  height: auto;
+  max-height: 200px;
+}
+.object-year { color: #999; }

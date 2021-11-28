@@ -1,74 +1,66 @@
-// "use strict"
+// THIS WORKS BUT IS SLOW
+// d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/local/cooper_data/data/allObjectsCountries.json").then(function (data) { 
+// console.log(data)
 
-// const fs = require('fs')
-// const request = require('request');
+//   data.forEach(function(d){
+//     d3.select("#gallery")
+//       .append("a")
+//       .attr("href", d.url)
+//       .append("img")
+//       .attr("src", d.image)
+//       .attr("width", 80)
+//     });
+// });
 
-// var data = fs.readFileSync('data/allObjectsCountries.json');
-d3.json("data/allObjectsCountries.json").then(function (data) { 
+d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/local/cooper_data/data/allObjectsCountries.json")
+  .then( json => {
+      // execute our 
+      // display images function
+      displayImages(json);
+  }); 
 
-console.log(data)
+// this function creates all
+// of our DOM elements
+function displayImages(json){
+    // select a <div> with an id of "app"
+    // this is where we want all of our
+    // images to be added
+    let app = d3.select('#gallery').text('');
 
-// var data = [
-// {id:"root",value:null},
-// {id:"root.1",value:null,img:"img1.jpg"},
-// {id:"root.2",value:null,img:"img2.jpg"},
-// {id:"root.3",value:null,img:"img3.jpg"},
-// {id:"root.4",value:null,img:"img4.jpg"},
-// {id:"root.5",value:null,img:"img5.jpg"},
-// ];
-
-var width = document.querySelector("#gallery").clientWidth;
-var height = document.querySelector("#gallery").clientHeight;
-var div = d3.select("#gallery").append("div").attr("width", width).attr("height", height);
-
-
-setInterval(draw, 2000);
-draw();
-
-
-function draw() {
-
-randomize();
-        
-var stratify = d3.stratify()
-    .parentId(function(d) {return d.objectID; });
-
-var root = stratify(data).sum(function(d) { return d.value ;});
-
-var treemap = d3.treemap()
-    .tile(d3.treemapBinary)
-    .size([width, height])
-    .padding(1)
-    .round(true);        
-
-treemap(root);
-drawTreemap(root);
-    
-}
-
-function randomize() {
-data.filter(function(d){ return d.objectID !== "root" ; })
-    .forEach(function(d){
-        d.value = ~~(d3.randomUniform(1, 10)());
-    });
-}
+    // take our JSON and sort it
+    // date descending
+    let data = json.sort( (a,b) => (b.year > a.year) ? 1 : -1 );
+    // // date ascending
+    // let data = json.sort( (a,b) => (a.year > b.year) ? 1 : -1 );
 
 
-function drawTreemap(root) {
+    // define "cards" for each item
+    let card = app.selectAll('div.object-card')
+                .data(data)
+                .join('div')
+                .attr('class', 'object-card')
+                .style('opacity', .7)
+                .on("click", click);
 
-var node = div.selectAll(".node").data(root.children);
-  
-var newNode = node.enter()
-   .append("div").attr("class", "node")
-    .style("background-image", function(d){ return "url(" + d.data.image + ")";});
+    card.append('div')
+        .attr('class', 'image')
+        .append('img')
+        .attr('src', d => { return d.image})
+        // .append('a')
+        // .attr('href', d => { return '#' + d.objectID});
 
-node.merge(newNode)
-    .transition()
-    .duration(1000)
-    .style("left", function(d) { return d.x0 + "px" ;})
-    .style("top", function(d) { return d.y0 + "px" ;})
-    .style("width", function(d) { return (d.x1 - d.x0) + "px" ;})
-    .style("height", function(d) { return (d.y1 - d.y0) + "px" ;});
-    
-}
-});
+    var click = function(event, d) {
+      card.style('opacity', 1)
+      imgDetails
+        .style("opacity", 1)
+        .html("<strong>" + d.title + "</strong> | <i>" + d.year + "</i><p>Type: " + d.type + "<br> Medium: " + d.media + "</p>")
+        .style("background-color", '#000')
+    }
+
+    var imgDetails = card.append("div")
+      .attr("class", "details")
+      .style("padding", "8px")
+      .style("opacity", .4)
+      .style("color", "white")
+
+} // close function
