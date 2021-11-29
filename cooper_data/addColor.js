@@ -1,63 +1,96 @@
-// this one condenses a saved json
 'use strict';
 
-const fs = require('fs')
-const request = require('request');
-// const vibrant = require('node-vibrant');
-const ColorThief = require('colorthief');
+d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/local/cooper_data/data/allObjectsCountries.json")
+  .then( json => {
+      // console.log(json)
+      // console.log(json[0].image)
+
+  // Object.keys(json).map(
+  //   function(object){
+  //     json[object]["color"]='tbd'
+  //     console.log(json)
+  // });
+      addColor(json)
+
+  }); 
 
 
-let objectArray = [];
-  // console.log(wordArray);
+function addColor(json){
+// console.log(json[0])
+// console.log(json[0].image)
 
-let dataSet = fs.readFileSync('data/allObjectsCountries.json');
+var img = JSON.stringify(json[0].image);
+// var img = json[0].image;
+console.log(img)
 
-function colorObj(){
+  Vibrant.from(img).getPalette(function(err, palette) {
+      for (var swatch in palette) {
+        console.log(swatch, palette[swatch].getHSL())
+      }
+    });
 
-  var obj = JSON.parse(dataSet);
-    console.log(obj)
-     
-        var objects = obj.objects.map(function(data) {
+var objects = json.map(function(data) {
+var colorKey = "color";
+var colorVal = "tbd"
 
-        // let v = new Vibrant('data.image', opts)
-        // v.getPalette((err, palette) => console.log(palette))
-        // vibrant should be able extract color on the execution of a promise
-        // checking is promise returns in memory
-        // test if you can show the image with a remote path
-        // test: display gallery from json
-        // keep daniel posted
+//// ADD THIS AFTER YOU CREATE COLORVAL
+// data[colorKey] = colorVal;
+// console.log(data.image)
 
-        // pandas + dataframe for json
 
-        //countries
-        // test japan
-        // test a few smaller ones
+// for(let x = 0; x < data.length; x++) {
+//   let img = data.image[1]
 
-        // const colorThief = new ColorThief();
-        // const img = data.image
+  // Vibrant.from(json[0].image).getPalette(function(err, palette) {
+  //     for (var swatch in palette) {
+  //       console.log(swatch, palette[swatch].getHEX())
+  //     }
+  //   });
+// } // close loop
 
-        var flat = {
-          objectID: data.objectID,
-          title: data.title,
-          description: data.description,
-          url: data.url,
-          type: data.type,
-          type_id: data.type_id,
-          media: data.media,
-          media_id: data.media_id,
-          year: data.year,
-          year: data.year,
-          date: data.date,
-          decade: data.decade,
-          acquired: data.acquired,
-          country: data.country,
-          lat: data.lat,
-          long: data.long,
-          image: data.image,
-          color: 
-        }
-        return flat;
-       });
+    // let v = new Vibrant('data.image', opts)
+    // v.getPalette((err, palette) => console.log(palette))
+
+    // let imgObj = data.image;
+
+    // imgObj.addEventListener('load', function() {
+    //     var vibrant = new Vibrant(imgObj);
+    //     var swatches = vibrant.swatches()
+    //     console.log(data[0])
+    //     Vibrant.from(data.image[0]).getPalette(function(err, palette) {
+
+    //     for (var swatch in palette)
+    //        console.log(swatch, palette[swatch].getHex());
+    //         });
+    // for(let x = 0; x < data.length; x++) {
+
+    // } // close loop
+
+
+
+
+   //  var flat = {
+   //    objectID: data.objectID,
+   //    title: data.title,
+   //    description: data.description,
+   //    url: data.url,
+   //    type: data.type,
+   //    type_id: data.type_id,
+   //    media: data.media,
+   //    media_id: data.media_id,
+   //    year: data.year,
+   //    year: data.year,
+   //    date: data.date,
+   //    decade: data.decade,
+   //    acquired: data.acquired,
+   //    country: data.country,
+   //    lat: data.lat,
+   //    long: data.long,
+   //    image: data.image,
+   //    color: 
+   //  }
+   //  return flat;
+   });
 
     // objectArray.push(objects);
     // // if there are more objects than the pageSize objectArray will look like this: [[...objects], [...objects]]
@@ -69,11 +102,6 @@ function colorObj(){
     // setTimeout(() => {
     //     fs.writeFileSync('data/nonLoop/allColorObjects.json', JSON.stringify(objectArray), 'utf8')
     // }, 5000)
-}
+}; // close function
 
-colorObj();
 
-// new json file
-// setTimeout(() => {
-//     fs.writeFileSync('allColorObjects.json', JSON.stringify(objectArray), 'utf8')
-// }, 5000)
