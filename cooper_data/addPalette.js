@@ -1,1 +1,0 @@
-const vibrant = require('vibrantw');
