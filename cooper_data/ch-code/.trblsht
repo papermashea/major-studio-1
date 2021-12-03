@@ -120,4 +120,9 @@ in objects where the has_no_known_copyright is 1 and the year_start is gte1921 t
 
 
 
+curl -X GET 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&has_images=1&has_no_known_copyright=1&year_start=1921-2021&per_page=500&page=1' -o data/1921_8.json
+
+
 curl -X GET 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&has_images=1&has_no_known_copyright=1&year_start=1821-2021&per_page=500&page=9' -o data/nonLoop/test_1821-1921_8.json
+
+curl -X GET 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&has_images=1&has_no_known_copyright=1&year_start=1897-2021&per_page=500&page=1' -o data/nonLoop/test_1897-1921.json

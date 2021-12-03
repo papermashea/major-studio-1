@@ -55,12 +55,15 @@
 
 
 
-d3.json("data/colorDataY.json").then(function (data) { 
+d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/local/3.Interactive/public/data/colorDataY.json").then(function (data) { 
+// d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/local/cooper_data/data/allObjectsCountries.json.json").then(function (data) { 
   // let d = data;
 
     // var yearRange = d3.extent(data, d => d.objectID);
-    var minYear = d3.min(data, d => d.year); 
-    var maxYear = d3.max(data, d => d.year); 
+    // var minYear = d3.min(data, d => d.year); 
+    var minYear = 1821; 
+    // var maxYear = d3.max(data, d => d.year); 
+    var maxYear = 2021; 
     // console.log(minYear,maxYear)
 
     var xScale = d3.scaleTime()
@@ -158,7 +161,7 @@ d3.json("data/colorDataY.json").then(function (data) {
   svg.append("g")
       .attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(xScale)
-        .ticks(30)
+        .ticks(20)
         .tickFormat(d3.format("d"))
         .tickSizeOuter(0));
 

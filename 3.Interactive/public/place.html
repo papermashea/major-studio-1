@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/d3/4.1.1/d3.min.js"></script>     -->
+
+    <!-- library scripts -->
+    <script src="./libraries/d3/dist/d3.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./libraries/vibrant.js" type="text/javascript" charset="utf-8"></script>
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Design Movements</title>
+
+</head>
+
+<!--navbar-->
+<nav class="navbar navbar-expand-lg">
+  <div class="navbar-brand"><a class="main" href="index.html">Design Movements</a></div>
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="color.html">In Color</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="form.html">In Form</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="place.html">In Place</a>
+      </li>
+
+    </ul>
+</nav>
+<!--end navbar-->
+<!--subnav-->
+<div class="row sub-nav">
+  <div class="col col-8"></div>
+  <div class="col col-2"><button id="vertical">Explore by origin</button></div>
+  <div class="col col-2"><button id="vertical">Explore by query</button></div>
+</div>
+<!--end subnav-->
+<body>
+
+<!--chart-->
+<div class="row row-cols-2 chart-area">
+  <div class="col col-2">
+    <div id ="countArea"></div>
+  </div>
+  <div class="col col-10">
+    <div id="map"></div>
+  </div>
+</div>
+<!--end chart-->
+
+<!--gallery-->
+<div class="row row-cols-2 gallery-section">
+    <h4 class="query-header">[All] Designs from 1821-1921</h4>
+</div>
+<div class="row row-cols-4 gallery-area">
+    <div class ="row row-cols-4" id="gallery"></div>
+</div>
+<!--end gallery-->
+
+<!--personal scripts-->
+  <script src="place.js"></script>
+  <script src="gallery.js"></script>
+</body>
+</html>

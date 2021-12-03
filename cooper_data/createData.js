@@ -14,7 +14,7 @@ const method = 'method=cooperhewitt.search.objects';
 ////1821-2021
 // const query = 'has_images=1&has_no_known_copyright=1&year_start=1821-2021&per_page=500';
 ////1921-2021
-const query = 'has_images=1&has_no_known_copyright=1&year_start=1921-2021&per_page=500'
+const query = 'has_images=1&has_no_known_copyright=1&year_start=1897-2021&per_page=500'
 const url = `${searchBaseURL}?${method}&access_token=${access}&${query}`
 // console.log(url)
 
@@ -26,8 +26,11 @@ function fetchSearchData(url) {
     let pageSize = 500;
     // let numberOfQueries = Math.ceil(obj.response.rowCount / pageSize);
 
+    //// 1897-2021
+
+    
     //// 1921-2021
-    let numberOfQueries = 345 / pageSize;
+    // let numberOfQueries = 345 / pageSize;
 
      //// 1821-2021
     // let numberOfQueries = 4864 / pageSize;
@@ -97,7 +100,7 @@ function fetchSearchData(url) {
       console.log(objectArray.length);
 
     setTimeout(() => {
-        fs.writeFileSync('data/nonLoop/allObjects_1921.json', JSON.stringify(objectArray), 'utf8')
+        fs.writeFileSync('data/nonLoop/allObjects_1897.json', JSON.stringify(objectArray), 'utf8')
     }, 5000)
 
     }); // close request
