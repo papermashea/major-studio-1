@@ -11,8 +11,7 @@
 
     <!-- library scripts -->
     <script src="./libraries/d3/dist/d3.js" type="text/javascript" charset="utf-8"></script>
-    <!-- <script src="./libraries/vibrant.js" type="text/javascript" charset="utf-8"></script> -->
-    <script src="vibrant.js" type="text/javascript" charset="utf-8"></script>
+<!--     <script src="vibrant.js" type="text/javascript" charset="utf-8"></script> -->
 
     <!-- stylesheets -->
     <link rel="stylesheet" type="text/css" href="styles.css">
@@ -75,45 +74,9 @@
 <!--personal scripts-->
   <!-- <script src="color.js"></script> -->
   <script src="gallery.js"></script>
-  <!-- <script src="gac.js"></script> -->
-  <!-- <script src="addColor.js"></script> -->
+  <script src="./libraries/node-vibrant/dist/vibrant.js" type="text/javascript" charset="utf-8"></script>
+  <script src="addColor.js"></script>
   <script>
-    function loadImage(imgSrc) {
-        window.addEventListener('load', function() {
-
-         //// cannot load from canvas
-         //  var elements = document.querySelector('[id=galleryImg]');
-         //  console.log(elements.src)
-
-         //  var imgSrc = elements.src
-         //  console.log(imgSrc)
-
-         // var vibrant = new Vibrant(imgSrc);
-         //  var swatches = vibrant.swatches()
-         //  for (var swatch in swatches)
-         //      if (swatches.hasOwnProperty(swatch) && swatches[swatch])
-         //          console.log(swatch, swatches[swatch].getHex()) 
-
-          //// fac working
-            // var elements = document.querySelector('[id=galleryImg]');
-            // console.log(elements.src)
-
-            // var imgSrc = elements.src
-            // console.log(imgSrc)
-
-            const fac = new FastAverageColor();
-
-            fac.getColorAsync(imgSrc)
-                .then(color => {
-                    console.log('Average color', color);
-                    return color.hex
-                })
-                .catch(e => {
-                    console.log(e);
-                }); // close fac
-              // } // id loop
-          }) // close window
-    } // close function
   </script>
 </body>
 </html>

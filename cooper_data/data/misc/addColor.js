@@ -1,85 +1,61 @@
-// const fs = require('fs');
-// let dataset = fs.readFileSync('./data/allObjectsCountries.json');
+// const fs = require('fs')
 
-// d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/local/cooper_data/data/allObjectsCountries.json")
-//   .then( json => {
-      // console.log(json)
-      // console.log(json[0].image)
+var imgClrs = [];
+function loadImage(imgSrc) {
+    window.addEventListener('load', function() {
 
-  // Object.keys(json).map(
-  //   function(object){
-  //     json[object]["color"]='tbd'
-  //     console.log(json)
-  // });
-  //     addColor(json)
+      // VIBRANT WORKING
+      Vibrant.from(imgSrc).getPalette(function (err, palette){
+        // console.log(palette);
 
-  // }); 
+        var objHsl;
+        var objHex;
+        var imgClr;
+        for (var swatch in palette) {
+          // console.log(swatch, palette[swatch].getHex());
+          // console.log(imgSrc, palette.Vibrant.getHsl());
 
-  // var data = JSON.parse(dataset);
-    // console.log(data)
-    // for(let i = 0; i < 3865; i++) {
-    //   var imgData = JSON.stringify(data[i].image)
-  
+          var objHsl = palette.Vibrant.getHsl();
+          var objHex = palette.Vibrant.getHex();
 
+        } // close loop
+      // console.log(objHex)
 
-// function addColor(){
-function addColor(window, document, undefined){
+      var imgClr = {
+          local: imgSrc,
+          hex: objHex,
+          hue: objHsl[0],
+        }// new obj
+      // console.log(imgClr)
 
-  //// loads before js
-  window.onload = init;
-  function init(){
-
-  var elements = document.querySelectorAll('[id=galleryImg]');
-    // console.log(elements)
-    for(var i = 0; i < elements.length; i++) {
-        var imgSrc = JSON.stringify(elements[i].src)
-          console.log(imgSrc)
-
-        //// vibrant is not a function
-        Vibrant.from(imgSrc).getPalette(function(err, palette) {
-          for (var swatch in palette) {
-            console.log(swatch, palette[swatch].getHex());
-          } // vibrant loop
-        });// vibrant function
-
-        //// fac is not defined
-        // fac.getColorAsync(imgSrc)
-        //   .then(color => {
-        //       console.log('Average color', color);
-        //   })
-        // .catch(e => {
-        //     console.log(e);
-        // });
-
-      } // id loop
-     console.log(elements.image)
-    } //init function
-   }; // close function 
-
-addColor(window, document, undefined);
+    imgClrs.push(imgClr)
+  // console.log(imgClrs) 
+// fs.writeFileSync('./allObjectsColors.json', JSON.stringify(imgClrs), 'utf8')
 
 
-  // for(var i = 0; i < imageCollection.length; i++) {
-  //     var imgSrc = imageCollection[i].src
-  //     console.log(imgSrc)
-  // }
+  function download(filename, text) {
+    var element = document.createElement('a');
+    element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+    element.setAttribute('download', filename);
 
-  // img.addEventListener('load', function() {
-  //   var vibrant = new Vibrant(img);
-  //   var swatches = vibrant.swatches()
-  //   for (var swatch in swatches)
-  //       if (swatches.hasOwnProperty(swatch) && swatches[swatch])
-  //           console.log(swatch, swatches[swatch].getHex())
-  //   }); 
+    element.style.display = 'none';
+    document.body.appendChild(element);
 
-// var objects = json.map(function(data) {
-// var colorKey = "color";
-// var colorVal = "tbd"
+    element.click();
 
-//// ADD THIS AFTER YOU CREATE COLORVAL
-// data[colorKey] = colorVal;
-// console.log(data)
+    document.body.removeChild(element);
+  }
 
-//   }; // close function
+  // Start file download.
+  download("hello.json",JSON.stringify(imgClrs));
 
-// addColor();
+
+    }); // close vibrant
+
+    }) // close window
+
+} // close function
+
+
+
+
