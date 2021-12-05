@@ -1,6 +1,8 @@
 .DS_Store
 NOTES.md
-.env
+*.env
 .trblesht
-.csv
-.xlsx
+*.csv
+*.xlsx
+cooper_data/data/misc/imgs/**
+cooper_data/node_modules/**
