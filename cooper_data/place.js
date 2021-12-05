@@ -26,38 +26,18 @@ d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/local/coop
     let data = initialize[1]
 
     //// return lat long as numbers
-    data.forEach(function(d){
-      d.lat = +d.lat;
-      d.long = +d.long;
-    });// close for Each
+    // data.forEach(function(d){
+    //   d.lat = +d.lat;
+    //   d.long = +d.long;
+    // });// close for Each
+    // // console.log(data)
 
   //// color scale
   const color = d3.scaleOrdinal()
     .domain(data.map(d => d.country))
     .range(d3.schemePaired);
 
-  // Counting countries
-  // const cnt = d3.count(data, d => d.country)
-  // console.log(cnt)
-
-  // var cntCount = [];
-  // var min = 0;
-  // for (var c = 0; c < data.length; c++){
-  //     var obj = data[c];
-
-  //     if (!cntCount[obj.country]){
-  //         cntCount[obj.country] = [];
-  //     }
-
-  //     cntCount[obj.country].push({country:obj.country, lat:obj.lat, long:obj.long,});
-  // }
-  // console.log(cntCount)
-
-  // let counts = d3.rollup(data, v => v.length, d => d.country)
-  // console.log(counts)
-
-
-  // Draw the map
+  // draw the map
   svg.append("g")
       .selectAll("path")
       .data(dataGeo.features)
@@ -69,102 +49,45 @@ d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/local/coop
       .style("stroke", "none")
       .style("opacity", .3)
 
-// console.log(data)
+//// counting countries
+  var countNest = d3.nest()
+    .key(function(d) { return d.country; })
+    .rollup(function(v) { return v.length; })
+    .key(function(d) { return d.lat; })
+    .key(function(d) { return d.long; })
+    .entries(data);
+    // console.log(countNest)
 
-  //// scale for bubble size
-  var counts = d3.rollup(data, v => v.length, d => d.country).entries(data)
-  var cntCounts = Array.from(counts, ([country, num]) => ({country, num}))
-  // console.log(cntCounts)
+  var cData = countNest.map( function(cnt) {
 
-  // const size = d3.scaleSqrt()
-  //   .domain(valueExtent)  // What's in the data
-  //   .range([ 1, 100])  // Size in pixel
+      var flat = {
+        country: cnt.key,
+        lat: JSON.parse(cnt.values[0].key),
+        long: JSON.parse(cnt.values[0].values[0].key),
+        count: cnt.values[0].values[0].value
+      }
+          return flat
+  }); //cdata
 
-  //   console.log(valueExtent)
+
+//// scale country counts
+  var Cscale = d3.scaleLinear()
+     .domain(d3.extent(cData.map(function (obj) {
+          return (obj.count);
+     })))
+     .range([2, 100]);
+
 
   //// add circles:
   svg
     .selectAll("circles")
-    // .data(data.sort((a,b) => +b.n - +a.n).filter((d,i) => i<1))
-    .data(data, function(d, i) { return d.country })
+    .data(cData)
     .join("circle")
-      .attr("cx", d => projection([d.long, d.lat][0]))
-      .attr("cy", d => projection([d.long, d.lat][1]))
-      .attr("r", function(d, c) {
-        for(let c = 0; c < cntCounts.length; c++) {
-            console.log(cntCounts[c])
-        } // close cnts
-
-      })
-      // .attr("r", 10)
-      .style("fill", "red")
-      .attr("fill-opacity", .1)
-
-// svg.selectAll("circles").each(function (d, i) { console.log('test'); })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  // Add title and explanation
-  // svg
-  //   .append("text")
-  //     .attr("text-anchor", "end")
-  //     .style("fill", "black")
-  //     .attr("x", width - 10)
-  //     .attr("y", height - 30)
-  //     .attr("width", 90)
-  //     .html("Objects by place")
-  //     .style("font-size", 14)
- 
-
-  // --------------- //
-  // ADD LEGEND //
-  // --------------- //
-
-  // Add legend: circles
-  // const valuesToShow = [10,100,1000]
-  // const xCircle = 40
-  // const xLabel = 90
-  // svg
-  //   .selectAll("legend")
-  //   .data(valuesToShow)
-  //   .join("circle")
-  //     .attr("cx", xCircle)
-  //     .attr("cy", d => height - size(d))
-  //     .attr("r", d => size(d))
-  //     .style("fill", "none")
-  //     .attr("stroke", "black")
-
-  // Add legend: segments
-  // svg
-  //   .selectAll("legend")
-  //   .data(valuesToShow)
-  //   .join("line")
-  //     .attr('x1', d => xCircle + size(d))
-  //     .attr('x2', xLabel)
-  //     .attr('y1', d => height - size(d))
-  //     .attr('y2', d => height - size(d))
-  //     .attr('stroke', 'black')
-  //     .style('stroke-dasharray', ('2,2'))
-
-  // Add legend: labels
-  // svg
-  //   .selectAll("legend")
-  //   .data(valuesToShow)
-  //   .join("text")
-  //     .attr('x', xLabel)
-  //     .attr('y', d => height - size(d))
-  //     .text(d => d)
-  //     .style("font-size", 10)
-  //     .attr('alignment-baseline', 'middle')
+      .attr("cx", function(d){ return projection([d.long, d.lat])[0]})
+      .attr("cy", function(d){ return projection([d.long, d.lat])[1]})
+      .attr("r", function(d) { return Cscale(d.count)})  
+        .style("fill", "black")
+        .attr("fill-opacity", .2)
+      .append("text").text(function(d) { return d.country;})
+            .style("fill", "black")
 })

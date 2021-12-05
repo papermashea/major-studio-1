@@ -1,7 +1,6 @@
 /* general */
 html, body{
     width: 100%;
-    height: 100%;
     padding: 0px;
     margin: 0px;
 }
@@ -73,7 +72,7 @@ html, body{
 
 /* sub-nav */
 .sub-nav {
-	height: 6%;
+	height: 3em;
 	background-color: #DCDCDC;
 	position: relative;
 }
@@ -95,6 +94,20 @@ button {
 
 .container {
 	margin-top: 20px;
+}
+
+/* footer */
+footer {
+	width: 100%;
+	height: 4em;
+	background-color: black;
+	color: white;
+}
+
+footer a {
+	color: white;
+	padding: 1em;
+	margin: 1em 5em;
 }
 
 /* typography */
@@ -200,6 +213,14 @@ text:hover {
 }
 
 /* chart */
+.filterCol {
+	width:  10%;
+}
+
+.vizCol {
+	width: 90%;
+}
+
 .chart-area {
 	background-color: #FFF;
 	height: 60%;
@@ -209,7 +230,7 @@ text:hover {
 /* gallery */
 .gallery-section {
 	background-color: #000;
-	height: 5%;
+	height: 5em;
 }
 .gallery-area {
   height: 100%;
@@ -254,12 +275,12 @@ div.object-card {
   padding-bottom: 0.5em;
 }*/
 
-div.object-card div.image {
+div.object-card div.image-container {
   height: auto;
   display:flex;
   align-items: flex-end;
 }
-div.object-card div.image img {
+div.object-card div.image-container img {
   max-width: 100%;
   height: auto;
   max-height: 200px;

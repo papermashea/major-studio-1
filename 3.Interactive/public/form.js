@@ -10,7 +10,7 @@ let words = [];
 
 
 // let rawdata = fs.readFileSync('data/colorData.json');
-d3.json("data/colorDataY.json").then(function (data) { 
+d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/local/3.Interactive/public/data/colorDataY.json").then(function (data) { 
   // console.log(data)
   // console.log(data.length)
 

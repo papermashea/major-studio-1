@@ -18,12 +18,12 @@ function downloadImage(uri, filename, callback){
 
 // go through the json we created before
 function downloadData() {
-  fs.readFile("data/allObjects.json", "utf8", (err, data) => {
+  fs.readFile("./data/allObjectsCountries.json", "utf8", (err, data) => {
     if (err) console.log(err);
 
     JSON.parse(data).forEach(e => {
-      console.log(e)
-      downloadImage(e.image, e.objectID, function(){
+      console.log(e.image)
+      downloadImage(e.image, e.objectID + '.jpg', function(){
         console.log('Finished Downloading ' + e.objectID);
       });
     });

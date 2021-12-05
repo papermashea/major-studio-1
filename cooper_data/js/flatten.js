@@ -7,7 +7,7 @@ const request = require('request');
 let objectArray = [];
   // console.log(wordArray);
 
-let dataSet = fs.readFileSync('data/nonLoop/test_1821-1921_8.json');
+let dataSet = fs.readFileSync('../data/1921.json');
 
 function colorObj(){
 
