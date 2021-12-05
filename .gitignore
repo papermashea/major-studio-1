@@ -4,5 +4,5 @@ NOTES.md
 .trblesht
 .csv
 .xlsx
-cooper_data/images/**
+cooper_data/data/misc/imgs/**
 cooper_data/node_modules/**
