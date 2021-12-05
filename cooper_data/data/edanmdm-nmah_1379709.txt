@@ -1,0 +1,166 @@
+
+id:edanmdm-nmah_1379709
+url:edanmdm:nmah_1379709
+hash:e7ec0cb1e5c8c5cc3cc68d9149d9d521e6287a77
+type:edanmdm
+title:J. S. Fry & Sons Concentrated Cocoa Container
+status:0
+content:
+ freetext:
+  name:
+  
+  label:maker
+  content:J. S. Fry & Sons
+
+
+  notes:
+  
+  label:Description
+  content:This small, cardboard box was used to store and market Fry's Concentrated Cocoa. The box is cream colored with red writing.
+
+  
+  label:Description
+  content:J. S. Fry & Sons was a British chocolate company owned by Joseph Storrs Fry and his family. In 1759, Joseph Fry started making chocolate, with Joseph S. Fry gaining control in 1795. That same year, he patented a modified Watt steam engine used to grind cacao beans. This marked the beginning of the mechanization of chocolate production. In 1847, Fry’s made the first molded chocolate eating bar by removing excess cocoa butter, then slowly adding it back into the melted chocolate. In 1919, J. S. Fry & Sons merged with Cadbury’s, and by the early 1980s, the Fry name was removed from company packaging.
+
+  
+  label:Description
+  content:Chocolate had been known and treasured by Native Americans in Central and South America for thousands of years prior to the arrival of the first Spanish explorers in the late 1400s and early 1500s. Cacao beans were so highly prized by Mayans and Aztecs that they were used as currency in many areas of the Americas. When first taken back to Europe by the Spanish, the chocolate drink continued to be produced exclusively for the enjoyment of royalty or the extremely wealthy. As the cacao bean gradually made its presence known throughout Europe, it still remained trapped in this exclusive section of society well into the 19th century.
+
+  
+  label:Description
+  content:The chocolate trade to North America began more than 300 years ago, primarily centered in or near major port cities of the time, such as New York City, Boston, Philadelphia and Newport, RI. Due to lower transportation costs, chocolate was often less expensive in the Americas than in Europe and therefore had a broader consumer base. The Industrial Revolution radically changed chocolate production and helped propel it into the hearts and stomachs of the working class. Instead of being a labor intensive product, it became entirely machine made reducing costs even further in the late 19th and early 20th century. During this time, chocolate went from being something a person drank to being something to eat, finally becoming a treat for the masses.
+
+  
+  label:Location
+  content:Currently not on view
+
+
+  place:
+  
+  label:place made
+  content:United Kingdom: England, Bristol, City of
+
+
+  setName:
+  
+  label:See more items in
+  content:Work and Industry: Production and Manufacturing
+
+  
+  label:See more items in
+  content:Food
+
+  
+  label:See more items in
+  content:Advertising
+
+
+  dataSource:
+  
+  label:Data Source
+  content:National Museum of American History
+
+
+  identifier:
+  
+  label:ID Number
+  content:ZZ.RSN80525Z76
+
+
+  objectType:
+  
+  label:Object Name
+  content:container, cocoa
+
+
+  physicalDescription:
+  
+  label:Physical Description
+  content:cardboard (overall material)
+
+  
+  label:Measurements
+  content:overall: 2 in x 1 1/2 in; 5.08 cm x 3.81 cm
+
+
+
+  indexedStructured:
+  name:
+  J. S. Fry & Sons
+
+  place:
+  City of
+  Bristol
+  England
+  United Kingdom
+
+  topic:
+  Advertising
+  Food
+
+  geoLocation:0
+  object_type:
+  container, cocoa
+
+  online_media_type:
+  Images
+
+
+  descriptiveNonRepeating:
+   guid:http://n2t.net/ark:/65665/ng49ca746ad-248e-704b-e053-15f76fa0b4fa
+   title:
+   label:Title
+   content:J. S. Fry & Sons Concentrated Cocoa Container
+
+   record_ID:nmah_1379709
+   unit_code:NMAH
+   title_sort:J. S. FRY & SONS CONCENTRATED COCOA CONTAINER
+   data_source:National Museum of American History
+   online_media:
+   media:
+   
+   guid:http://n2t.net/ark:/65665/bq99ca783b4-f756-7e84-e053-15f76fa05eb7
+   type:Images
+   idsId:NMAH-JN2013-1958
+   usage:
+   access:Not determined
+
+   content:https://ids.si.edu/ids/deliveryService?id=NMAH-JN2013-1958
+   thumbnail:https://ids.si.edu/ids/deliveryService?id=NMAH-JN2013-1958&max=150
+
+   
+   guid:http://n2t.net/ark:/65665/bq99ca783b4-f758-7e84-e053-15f76fa05eb7
+   type:Images
+   idsId:NMAH-JN2013-1959
+   usage:
+   access:Not determined
+
+   content:https://ids.si.edu/ids/deliveryService?id=NMAH-JN2013-1959
+   thumbnail:https://ids.si.edu/ids/deliveryService?id=NMAH-JN2013-1959&max=150
+
+   
+   guid:http://n2t.net/ark:/65665/bq99ca783b9-a7b1-7e84-e053-15f76fa05eb7
+   type:Images
+   idsId:NMAH-AHB2010q38980
+   usage:
+   access:Not determined
+
+   content:https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2010q38980
+   thumbnail:https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2010q38980&max=150
+
+
+   mediaCount:3
+
+   metadata_usage:
+   access:CC0
+
+
+
+version:0
+linkedId:0
+unitCode:NMAH
+timestamp:1594109884
+docSignature:d974a8cc7676ea56c56ca808ac766ba62acda066_37c62fc9825400a4e94067800d0a5b17
+publicSearch:1
+linkedContent:0
+lastTimeUpdated:1594109852

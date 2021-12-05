@@ -38,7 +38,7 @@ function fetchSearchData(url) {
     console.error('error:', error); // print the error if one occurred
     console.log('statusCode:', response && response.statusCode); // print the response status code if a response was received
     let obj = JSON.parse(body);
-    console.log(obj);
+    // console.log(obj);
 
     // if there are more than 1000 objects, paginate
     // you can change the pageSize
@@ -62,11 +62,17 @@ function fetchSearchData(url) {
 var myArray = [];
 
 function fetchUrl(searchAllURL){
+  //   method: ‘GET’,
+  //   headers: {
+  //   ‘Content-Type’: ‘application/json’
+  // }
+
   request(searchAllURL, function (error, response, body) {
     console.error('error:', error); // print the error if one occurred
     console.log('statusCode:', response && response.statusCode); // print the response status code if a response was received
 
     let obj = JSON.parse(body);
+    console.log(obj)
 
     // here we are constructing our own object with just the information we need
     // first we filter out the objects that do not have the information we need (change accordingly)

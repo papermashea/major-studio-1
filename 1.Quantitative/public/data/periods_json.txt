@@ -1,0 +1,501 @@
+{
+			"id": "35417101",
+			"url": "https://collection.cooperhewitt.org/periods/35417101/",
+			"name": "Rococo"
+		},
+		{
+			"id": "35417175",
+			"url": "https://collection.cooperhewitt.org/periods/35417175/",
+			"name": "Hudson River School"
+		},
+		{
+			"id": "35417089",
+			"url": "https://collection.cooperhewitt.org/periods/35417089/",
+			"name": "Neoclassical"
+		},
+		{
+			"id": "35435409",
+			"url": "https://collection.cooperhewitt.org/periods/35435409/",
+			"name": "American Modern"
+		},
+		{
+			"id": "35435467",
+			"url": "https://collection.cooperhewitt.org/periods/35435467/",
+			"name": "Wiener Werkstätte"
+		},
+		{
+			"id": "35417049",
+			"url": "https://collection.cooperhewitt.org/periods/35417049/",
+			"name": "early Modern"
+		},
+		{
+			"id": "35417235",
+			"url": "https://collection.cooperhewitt.org/periods/35417235/",
+			"name": "Art Deco"
+		},
+		{
+			"id": "35417081",
+			"url": "https://collection.cooperhewitt.org/periods/35417081/",
+			"name": "Baroque"
+		},
+		{
+			"id": "35435429",
+			"url": "https://collection.cooperhewitt.org/periods/35435429/",
+			"name": "postwar"
+		},
+		{
+			"id": "35417141",
+			"url": "https://collection.cooperhewitt.org/periods/35417141/",
+			"name": "Civil War"
+		},
+		{
+			"id": "35417075",
+			"url": "https://collection.cooperhewitt.org/periods/35417075/",
+			"name": "Northern Renaissance"
+		},
+		{
+			"id": "35417251",
+			"url": "https://collection.cooperhewitt.org/periods/35417251/",
+			"name": "Modern"
+		},
+		{
+			"id": "35417269",
+			"url": "https://collection.cooperhewitt.org/periods/35417269/",
+			"name": "Victorian"
+		},
+		{
+			"id": "35435941",
+			"url": "https://collection.cooperhewitt.org/periods/35435941/",
+			"name": "Psychedelic"
+		},
+		{
+			"id": "35417233",
+			"url": "https://collection.cooperhewitt.org/periods/35417233/",
+			"name": "post-Civil War"
+		},
+		{
+			"id": "35417341",
+			"url": "https://collection.cooperhewitt.org/periods/35417341/",
+			"name": "World War II"
+		},
+		{
+			"id": "35417085",
+			"url": "https://collection.cooperhewitt.org/periods/35417085/",
+			"name": "Late Renaissance"
+		},
+		{
+			"id": "35435527",
+			"url": "https://collection.cooperhewitt.org/periods/35435527/",
+			"name": "Postmodern"
+		},
+		{
+			"id": "35435521",
+			"url": "https://collection.cooperhewitt.org/periods/35435521/",
+			"name": "Jugendstil/Art Deco"
+		},
+		{
+			"id": "35417077",
+			"url": "https://collection.cooperhewitt.org/periods/35417077/",
+			"name": "Northern Baroque"
+		},
+		{
+			"id": "35417337",
+			"url": "https://collection.cooperhewitt.org/periods/35417337/",
+			"name": "Regency"
+		},
+		{
+			"id": "35417379",
+			"url": "https://collection.cooperhewitt.org/periods/35417379/",
+			"name": "American Arts and Crafts"
+		},
+		{
+			"id": "35417073",
+			"url": "https://collection.cooperhewitt.org/periods/35417073/",
+			"name": "Renaissance"
+		},
+		{
+			"id": "35417231",
+			"url": "https://collection.cooperhewitt.org/periods/35417231/",
+			"name": "Art Nouveau"
+		},
+		{
+			"id": "35435877",
+			"url": "https://collection.cooperhewitt.org/periods/35435877/",
+			"name": "Contemporary"
+		},
+		{
+			"id": "35417129",
+			"url": "https://collection.cooperhewitt.org/periods/35417129/",
+			"name": "Late Baroque"
+		},
+		{
+			"id": "35417113",
+			"url": "https://collection.cooperhewitt.org/periods/35417113/",
+			"name": "Neapolitan"
+		},
+		{
+			"id": "35417229",
+			"url": "https://collection.cooperhewitt.org/periods/35417229/",
+			"name": "Louis XIV"
+		},
+		{
+			"id": "35417203",
+			"url": "https://collection.cooperhewitt.org/periods/35417203/",
+			"name": "Directoire"
+		},
+		{
+			"id": "35435927",
+			"url": "https://collection.cooperhewitt.org/periods/35435927/",
+			"name": "Late Modern"
+		},
+		{
+			"id": "35417393",
+			"url": "https://collection.cooperhewitt.org/periods/35417393/",
+			"name": "Post-World War II"
+		},
+		{
+			"id": "35417291",
+			"url": "https://collection.cooperhewitt.org/periods/35417291/",
+			"name": "Biedermeier"
+		},
+		{
+			"id": "35417093",
+			"url": "https://collection.cooperhewitt.org/periods/35417093/",
+			"name": "Empire"
+		},
+		{
+			"id": "35435471",
+			"url": "https://collection.cooperhewitt.org/periods/35435471/",
+			"name": "Romantic"
+		},
+		{
+			"id": "35459609",
+			"url": "https://collection.cooperhewitt.org/periods/35459609/",
+			"name": "historicism"
+		},
+		{
+			"id": "35435937",
+			"url": "https://collection.cooperhewitt.org/periods/35435937/",
+			"name": "Pop"
+		},
+		{
+			"id": "35417335",
+			"url": "https://collection.cooperhewitt.org/periods/35417335/",
+			"name": "Edo"
+		},
+		{
+			"id": "35417281",
+			"url": "https://collection.cooperhewitt.org/periods/35417281/",
+			"name": "Aesthetic Movement"
+		},
+		{
+			"id": "35417247",
+			"url": "https://collection.cooperhewitt.org/periods/35417247/",
+			"name": "High Victorian"
+		},
+		{
+			"id": "35417211",
+			"url": "https://collection.cooperhewitt.org/periods/35417211/",
+			"name": "William and Mary"
+		},
+		{
+			"id": "35417375",
+			"url": "https://collection.cooperhewitt.org/periods/35417375/",
+			"name": "Rococo Revival"
+		},
+		{
+			"id": "35417255",
+			"url": "https://collection.cooperhewitt.org/periods/35417255/",
+			"name": "Second Empire"
+		},
+		{
+			"id": "35417183",
+			"url": "https://collection.cooperhewitt.org/periods/35417183/",
+			"name": "American"
+		},
+		{
+			"id": "35417119",
+			"url": "https://collection.cooperhewitt.org/periods/35417119/",
+			"name": "Louis XVI"
+		},
+		{
+			"id": "35459629",
+			"url": "https://collection.cooperhewitt.org/periods/35459629/",
+			"name": "Streamlined Moderne"
+		},
+		{
+			"id": "35459619",
+			"url": "https://collection.cooperhewitt.org/periods/35459619/",
+			"name": "Mid-Century Modernist"
+		},
+		{
+			"id": "35435939",
+			"url": "https://collection.cooperhewitt.org/periods/35435939/",
+			"name": "New Wave"
+		},
+		{
+			"id": "35435401",
+			"url": "https://collection.cooperhewitt.org/periods/35435401/",
+			"name": "pre-conquest"
+		},
+		{
+			"id": "35417401",
+			"url": "https://collection.cooperhewitt.org/periods/35417401/",
+			"name": "Classical Revival"
+		},
+		{
+			"id": "35417315",
+			"url": "https://collection.cooperhewitt.org/periods/35417315/",
+			"name": "Late Victorian"
+		},
+		{
+			"id": "35417265",
+			"url": "https://collection.cooperhewitt.org/periods/35417265/",
+			"name": "Mannerist"
+		},
+		{
+			"id": "35435477",
+			"url": "https://collection.cooperhewitt.org/periods/35435477/",
+			"name": "Japonisme"
+		},
+		{
+			"id": "35417197",
+			"url": "https://collection.cooperhewitt.org/periods/35417197/",
+			"name": "Roman"
+		},
+		{
+			"id": "35459623",
+			"url": "https://collection.cooperhewitt.org/periods/35459623/",
+			"name": "Post-Impressionist"
+		},
+		{
+			"id": "35435921",
+			"url": "https://collection.cooperhewitt.org/periods/35435921/",
+			"name": "Modernist"
+		},
+		{
+			"id": "35435525",
+			"url": "https://collection.cooperhewitt.org/periods/35435525/",
+			"name": "Jugendstil"
+		},
+		{
+			"id": "35435499",
+			"url": "https://collection.cooperhewitt.org/periods/35435499/",
+			"name": "Symbolist"
+		},
+		{
+			"id": "35417357",
+			"url": "https://collection.cooperhewitt.org/periods/35417357/",
+			"name": "late Eastern Chou"
+		},
+		{
+			"id": "35417355",
+			"url": "https://collection.cooperhewitt.org/periods/35417355/",
+			"name": "Ottoman"
+		},
+		{
+			"id": "35417339",
+			"url": "https://collection.cooperhewitt.org/periods/35417339/",
+			"name": "Exotic"
+		},
+		{
+			"id": "35417307",
+			"url": "https://collection.cooperhewitt.org/periods/35417307/",
+			"name": "Louis XIII"
+		},
+		{
+			"id": "35417305",
+			"url": "https://collection.cooperhewitt.org/periods/35417305/",
+			"name": "Louis XV"
+		},
+		{
+			"id": "35417279",
+			"url": "https://collection.cooperhewitt.org/periods/35417279/",
+			"name": "Late Rococo"
+		},
+		{
+			"id": "35417213",
+			"url": "https://collection.cooperhewitt.org/periods/35417213/",
+			"name": "Pope Clement XIII"
+		},
+		{
+			"id": "35417209",
+			"url": "https://collection.cooperhewitt.org/periods/35417209/",
+			"name": "Italian Late Renaissance"
+		},
+		{
+			"id": "35417173",
+			"url": "https://collection.cooperhewitt.org/periods/35417173/",
+			"name": "Tao Kuang period, Ch'ing Dynasty"
+		},
+		{
+			"id": "35417117",
+			"url": "https://collection.cooperhewitt.org/periods/35417117/",
+			"name": "Renaissance Revival"
+		},
+		{
+			"id": "35417083",
+			"url": "https://collection.cooperhewitt.org/periods/35417083/",
+			"name": "Northern Rennaisance"
+		},
+		{
+			"id": "35459617",
+			"url": "https://collection.cooperhewitt.org/periods/35459617/",
+			"name": "late Tokugawa"
+		},
+		{
+			"id": "35459611",
+			"url": "https://collection.cooperhewitt.org/periods/35459611/",
+			"name": "Huari"
+		},
+		{
+			"id": "35435905",
+			"url": "https://collection.cooperhewitt.org/periods/35435905/",
+			"name": "Late Neoclassical"
+		},
+		{
+			"id": "35435899",
+			"url": "https://collection.cooperhewitt.org/periods/35435899/",
+			"name": "Charles X, Restoration"
+		},
+		{
+			"id": "35435625",
+			"url": "https://collection.cooperhewitt.org/periods/35435625/",
+			"name": "1880s"
+		},
+		{
+			"id": "35435517",
+			"url": "https://collection.cooperhewitt.org/periods/35435517/",
+			"name": "Gothic Revival"
+		},
+		{
+			"id": "35435513",
+			"url": "https://collection.cooperhewitt.org/periods/35435513/",
+			"name": "Spanish Civil War"
+		},
+		{
+			"id": "35435505",
+			"url": "https://collection.cooperhewitt.org/periods/35435505/",
+			"name": "LateTwentieth Century"
+		},
+		{
+			"id": "35435495",
+			"url": "https://collection.cooperhewitt.org/periods/35435495/",
+			"name": "Antwerp Mannerism"
+		},
+		{
+			"id": "35435489",
+			"url": "https://collection.cooperhewitt.org/periods/35435489/",
+			"name": "`"
+		},
+		{
+			"id": "35435469",
+			"url": "https://collection.cooperhewitt.org/periods/35435469/",
+			"name": "Weiner Werkstatte"
+		},
+		{
+			"id": "35435463",
+			"url": "https://collection.cooperhewitt.org/periods/35435463/",
+			"name": "AmericanModern"
+		},
+		{
+			"id": "35435459",
+			"url": "https://collection.cooperhewitt.org/periods/35435459/",
+			"name": "American  Modern"
+		},
+		{
+			"id": "35435455",
+			"url": "https://collection.cooperhewitt.org/periods/35435455/",
+			"name": "American Mirror"
+		},
+		{
+			"id": "35435449",
+			"url": "https://collection.cooperhewitt.org/periods/35435449/",
+			"name": "American Moern"
+		},
+		{
+			"id": "35435397",
+			"url": "https://collection.cooperhewitt.org/periods/35435397/",
+			"name": "Silla Dynasty"
+		},
+		{
+			"id": "35435387",
+			"url": "https://collection.cooperhewitt.org/periods/35435387/",
+			"name": "Mid to Late 18th century"
+		},
+		{
+			"id": "35417411",
+			"url": "https://collection.cooperhewitt.org/periods/35417411/",
+			"name": "Late Gothic"
+		},
+		{
+			"id": "35417409",
+			"url": "https://collection.cooperhewitt.org/periods/35417409/",
+			"name": "Late Nineteenth Cenury"
+		},
+		{
+			"id": "35417397",
+			"url": "https://collection.cooperhewitt.org/periods/35417397/",
+			"name": "Baroque/Rococo"
+		},
+		{
+			"id": "35417395",
+			"url": "https://collection.cooperhewitt.org/periods/35417395/",
+			"name": "Italian Rococo"
+		},
+		{
+			"id": "35417389",
+			"url": "https://collection.cooperhewitt.org/periods/35417389/",
+			"name": "Barbizon School"
+		},
+		{
+			"id": "35417381",
+			"url": "https://collection.cooperhewitt.org/periods/35417381/",
+			"name": "American Arts"
+		},
+		{
+			"id": "35417361",
+			"url": "https://collection.cooperhewitt.org/periods/35417361/",
+			"name": "Beaux-Arts"
+		},
+		{
+			"id": "35417309",
+			"url": "https://collection.cooperhewitt.org/periods/35417309/",
+			"name": "Gilded Age"
+		},
+		{
+			"id": "35417219",
+			"url": "https://collection.cooperhewitt.org/periods/35417219/",
+			"name": "Ch'ing Dynasty; Ch'ien Lung Period"
+		},
+		{
+			"id": "35417199",
+			"url": "https://collection.cooperhewitt.org/periods/35417199/",
+			"name": "Italian Baroque"
+		},
+		{
+			"id": "35417179",
+			"url": "https://collection.cooperhewitt.org/periods/35417179/",
+			"name": "pre-Civil War"
+		},
+		{
+			"id": "35417143",
+			"url": "https://collection.cooperhewitt.org/periods/35417143/",
+			"name": "Civil  War"
+		},
+		{
+			"id": "35417109",
+			"url": "https://collection.cooperhewitt.org/periods/35417109/",
+			"name": "late Baroque/Rococo"
+		},
+		{
+			"id": "35417103",
+			"url": "https://collection.cooperhewitt.org/periods/35417103/",
+			"name": "Italian Renaissance"
+		},
+		{
+			"id": "35417099",
+			"url": "https://collection.cooperhewitt.org/periods/35417099/",
+			"name": "Restoration"
+		}
+	],

@@ -1,0 +1,11 @@
+red: 683
+orange: 372
+yellow: 376
+green: 500*8
+blue:
+purple:
+pink:
+brown:
+black:
+grey:
+white:
