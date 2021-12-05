@@ -6,3 +6,4 @@ NOTES.md
 *.xlsx
 cooper_data/data/misc/imgs/**
 cooper_data/node_modules/**
+cooper_data/data/libraries/**
