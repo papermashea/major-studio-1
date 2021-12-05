@@ -18,17 +18,21 @@ const dotenv = require('dotenv');
 
 // getting our api key from .env
 dotenv.config();
-const API_KEY = process.env.API_KEY;
+const SI_KEY = process.env.SI_KEY;
 
-// endpoint URL
+// // endpoint URL
+// const searchBaseURL = "https://api.si.edu/openaccess/api/v1.0/search";
+
+// //// search term
+// const search =  `unit_code:"CHNDM" AND online_media_type:"Images"`;
+
+
+// // url we'll use to make our call
+// const url = `${searchBaseURL}?api_key=${SI_KEY}&q=${search}`
+
 const searchBaseURL = "https://api.si.edu/openaccess/api/v1.0/search";
-// our search term
-const search =  `portraits AND unit_code:"FSG" AND online_media_type:"Images"`
-
-
-// url we'll use to make our call
-const url = `${searchBaseURL}?api_key=${API_KEY}&q=${search}`
-
+const search = `unit_code:"CHNDM" AND online_media_type:"Images" AND media_usage:"CC0"`
+const url = `${searchBaseURL}?api_key=${SI_KEY}&q=${search}`
 
 // get objects by search term
 function fetchSearchData(url) {
@@ -60,6 +64,7 @@ function fetchSearchData(url) {
 
 // set up empty Array for us to save results to
 var myArray = [];
+console.log(myArray);
 
 function fetchUrl(searchAllURL){
   //   method: ‘GET’,
@@ -72,7 +77,6 @@ function fetchUrl(searchAllURL){
     console.log('statusCode:', response && response.statusCode); // print the response status code if a response was received
 
     let obj = JSON.parse(body);
-    console.log(obj)
 
     // here we are constructing our own object with just the information we need
     // first we filter out the objects that do not have the information we need (change accordingly)
@@ -130,5 +134,5 @@ fetchSearchData(url);
 // // the function inside the setTimeout saves myResults to a JSON
 // // it will automatically run after 5000 ms
 setTimeout(() => {
-    fs.writeFileSync('./data.json', JSON.stringify(myArray), 'utf8')
+    fs.writeFileSync('./dataTest.json', JSON.stringify(myArray), 'utf8')
 }, 5000)
