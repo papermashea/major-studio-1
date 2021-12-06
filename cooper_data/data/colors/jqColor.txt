@@ -1,0 +1,3 @@
+jq -s '[.[][]]'*.json &gt; 1900_2000.json
+
+jq -n '[inputs[]]' *.json > 1900_2000.json
