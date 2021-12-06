@@ -12,7 +12,7 @@
 		"date": "ca. 1896",
 		"year_acquired": "1969",
 		"country": "South Africa",
-		"image": "imgs/81402_08713bae7f36ab5a_b.jpg",
+		"image": "./imgs/81402_08713bae7f36ab5a_b.jpg",
 		"lat": -29,
 		"long": 24
 	},
@@ -29,7 +29,7 @@
 		"date": "1901",
 		"year_acquired": "1957",
 		"country": "United States",
-		"image": "imgs/43422_1ec0740d649b8fd3_x.jpg",
+		"image": "./imgs/43422_1ec0740d649b8fd3_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -46,7 +46,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -63,7 +63,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -80,7 +80,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -97,7 +97,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -114,7 +114,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -131,7 +131,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -148,7 +148,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -165,7 +165,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -182,7 +182,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -199,7 +199,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -216,7 +216,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -233,7 +233,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -250,7 +250,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -267,7 +267,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -284,7 +284,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -301,7 +301,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -318,7 +318,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -335,7 +335,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -352,7 +352,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -369,7 +369,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -386,7 +386,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -403,7 +403,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -420,7 +420,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -437,7 +437,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -454,7 +454,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -471,7 +471,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -488,7 +488,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -505,7 +505,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -522,7 +522,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -539,7 +539,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -556,7 +556,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -573,7 +573,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -590,7 +590,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -607,7 +607,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -624,7 +624,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -641,7 +641,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -658,7 +658,7 @@
 		"date": "1901",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "imgs/19524_ca539080c80d50a6_o.jpg",
+		"image": "./imgs/19524_ca539080c80d50a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -675,7 +675,7 @@
 		"date": "1901",
 		"year_acquired": "1999",
 		"country": "Austria",
-		"image": "imgs/51503_8910c7b6ba3056a7_b.jpg",
+		"image": "./imgs/51503_8910c7b6ba3056a7_b.jpg",
 		"lat": 47.3333,
 		"long": 13.3333
 	},
@@ -692,7 +692,7 @@
 		"date": "June 2, 1901",
 		"year_acquired": "1917",
 		"country": "United States",
-		"image": "imgs/340835_87805d1ec6de873f_b.jpg",
+		"image": "./imgs/340835_87805d1ec6de873f_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -709,7 +709,7 @@
 		"date": "1901",
 		"year_acquired": "1996",
 		"country": "United Kingdom",
-		"image": "imgs/118833_c11db00750868b6b_b.jpg",
+		"image": "./imgs/118833_c11db00750868b6b_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -726,7 +726,7 @@
 		"date": "1901",
 		"year_acquired": "2008",
 		"country": "United Kingdom",
-		"image": "imgs/61540_0e6351f36351c9c8_b.jpg",
+		"image": "./imgs/61540_0e6351f36351c9c8_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -743,7 +743,7 @@
 		"date": "1901",
 		"year_acquired": "2001",
 		"country": "Germany",
-		"image": "imgs/120267_80d1413b75a465e2_b.jpg",
+		"image": "./imgs/120267_80d1413b75a465e2_b.jpg",
 		"lat": 51,
 		"long": 9
 	},
@@ -760,7 +760,7 @@
 		"date": "ca. 1901",
 		"year_acquired": "1912",
 		"country": "Cuba",
-		"image": "imgs/340272_8862dfac7b2092a3_b.jpg",
+		"image": "./imgs/340272_8862dfac7b2092a3_b.jpg",
 		"lat": 21.5,
 		"long": -80
 	},
@@ -777,7 +777,7 @@
 		"date": "1901",
 		"year_acquired": "2008",
 		"country": "United Kingdom",
-		"image": "imgs/213348_6cd871e901a94128_b.jpg",
+		"image": "./imgs/213348_6cd871e901a94128_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -794,7 +794,7 @@
 		"date": "June 7, 1901",
 		"year_acquired": "1917",
 		"country": "United States",
-		"image": "imgs/340816_5f692f1ad93da01f_b.jpg",
+		"image": "./imgs/340816_5f692f1ad93da01f_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -811,7 +811,7 @@
 		"date": "1900-01",
 		"year_acquired": "1987",
 		"country": "United Kingdom",
-		"image": "imgs/127218_02d6e1e53a837b8c_b.jpg",
+		"image": "./imgs/127218_02d6e1e53a837b8c_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -828,7 +828,7 @@
 		"date": "ca. 1896",
 		"year_acquired": "1969",
 		"country": "South Africa",
-		"image": "imgs/81403_e3ebcab0fdfebb20_b.jpg",
+		"image": "./imgs/81403_e3ebcab0fdfebb20_b.jpg",
 		"lat": -29,
 		"long": 24
 	},
@@ -845,7 +845,7 @@
 		"date": "1901",
 		"year_acquired": "1984",
 		"country": "United States",
-		"image": "imgs/377231_a97a637f5df41478_b.jpg",
+		"image": "./imgs/377231_a97a637f5df41478_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -862,7 +862,7 @@
 		"date": "May 1901",
 		"year_acquired": "1917",
 		"country": "United States",
-		"image": "imgs/340813_e8d342afc42d11c4_b.jpg",
+		"image": "./imgs/340813_e8d342afc42d11c4_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -879,7 +879,7 @@
 		"date": "1901",
 		"year_acquired": "1984",
 		"country": "United States",
-		"image": "imgs/377275_63ae924ff4da9738_b.jpg",
+		"image": "./imgs/377275_63ae924ff4da9738_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -896,7 +896,7 @@
 		"date": "1901",
 		"year_acquired": "2008",
 		"country": "United Kingdom",
-		"image": "imgs/213025_58858cbd74a2057c_b.jpg",
+		"image": "./imgs/213025_58858cbd74a2057c_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -913,7 +913,7 @@
 		"date": "1902",
 		"year_acquired": "1967",
 		"country": "United States",
-		"image": "imgs/377904_fe29ed66a40d4905_b.jpg",
+		"image": "./imgs/377904_fe29ed66a40d4905_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -930,7 +930,7 @@
 		"date": "ca. 1902",
 		"year_acquired": "1960",
 		"country": "United States",
-		"image": "imgs/43424_fc7ba507f1028a64_x.jpg",
+		"image": "./imgs/43424_fc7ba507f1028a64_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -947,7 +947,7 @@
 		"date": "ca. 1897",
 		"year_acquired": "1943",
 		"country": "United States",
-		"image": "imgs/90058_ebac134fd5d64e04_x.jpg",
+		"image": "./imgs/90058_ebac134fd5d64e04_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -964,7 +964,7 @@
 		"date": "1902",
 		"year_acquired": "1994",
 		"country": "Netherlands",
-		"image": "imgs/16054_4dbc9c567847c0ac_b.jpg",
+		"image": "./imgs/16054_4dbc9c567847c0ac_b.jpg",
 		"lat": 52.5,
 		"long": 5.75
 	},
@@ -981,7 +981,7 @@
 		"date": "1902",
 		"year_acquired": "1946",
 		"country": "United Kingdom",
-		"image": "imgs/143075_888ed61ec04563c9_b.jpg",
+		"image": "./imgs/143075_888ed61ec04563c9_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -998,7 +998,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1912",
 		"country": "United States",
-		"image": "imgs/47047_913d04baec32b158_o.jpg",
+		"image": "./imgs/47047_913d04baec32b158_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1015,7 +1015,7 @@
 		"date": "1902",
 		"year_acquired": "1939",
 		"country": "United States",
-		"image": "imgs/111699_b1062c75d4beaff1_x.jpg",
+		"image": "./imgs/111699_b1062c75d4beaff1_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1032,7 +1032,7 @@
 		"date": "1902",
 		"year_acquired": "1972",
 		"country": "United States",
-		"image": "imgs/7859_e27a9471dfb16b8a_o.jpg",
+		"image": "./imgs/7859_e27a9471dfb16b8a_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1049,7 +1049,7 @@
 		"date": "1885-1902",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "imgs/35751_0eefded351408ef5_o.jpg",
+		"image": "./imgs/35751_0eefded351408ef5_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1066,7 +1066,7 @@
 		"date": "1885-1902",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "imgs/36309_e8f3d33e0eed3608_o.jpg",
+		"image": "./imgs/36309_e8f3d33e0eed3608_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1083,7 +1083,7 @@
 		"date": "1902",
 		"year_acquired": "1996",
 		"country": "Germany",
-		"image": "imgs/125046_e0be797e798c6cdf_b.jpg",
+		"image": "./imgs/125046_e0be797e798c6cdf_b.jpg",
 		"lat": 51,
 		"long": 9
 	},
@@ -1100,7 +1100,7 @@
 		"date": "1885-1902",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "imgs/36315_d9696c5cb6c7332a_o.jpg",
+		"image": "./imgs/36315_d9696c5cb6c7332a_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1117,7 +1117,7 @@
 		"date": "1885-1902",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "imgs/36321_5f513569468f5b88_o.jpg",
+		"image": "./imgs/36321_5f513569468f5b88_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1134,7 +1134,7 @@
 		"date": "1885-1902",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "imgs/36317_fec7679f997e531f_o.jpg",
+		"image": "./imgs/36317_fec7679f997e531f_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1151,7 +1151,7 @@
 		"date": "1902",
 		"year_acquired": "1980",
 		"country": "United Kingdom",
-		"image": "imgs/63413_216ec561c4d14c1d_b.jpg",
+		"image": "./imgs/63413_216ec561c4d14c1d_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -1168,7 +1168,7 @@
 		"date": "1902",
 		"year_acquired": "1941",
 		"country": "United Kingdom",
-		"image": "imgs/49278_39103fe675c0ea2b_b.jpg",
+		"image": "./imgs/49278_39103fe675c0ea2b_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -1185,7 +1185,7 @@
 		"date": "1885-1902",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "imgs/35752_d06879e8ba5adccd_o.jpg",
+		"image": "./imgs/35752_d06879e8ba5adccd_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1202,7 +1202,7 @@
 		"date": "1885-1902",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "imgs/36318_790a35e37ca761b2_o.jpg",
+		"image": "./imgs/36318_790a35e37ca761b2_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1219,7 +1219,7 @@
 		"date": "1902",
 		"year_acquired": "1996",
 		"country": "Germany",
-		"image": "imgs/125456_67707d58fdc2df51_b.jpg",
+		"image": "./imgs/125456_67707d58fdc2df51_b.jpg",
 		"lat": 51,
 		"long": 9
 	},
@@ -1236,7 +1236,7 @@
 		"date": "1885-1902",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "imgs/36320_e88d927948711645_o.jpg",
+		"image": "./imgs/36320_e88d927948711645_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1253,7 +1253,7 @@
 		"date": "1885-1902",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "imgs/35758_540e3e5145da9bfe_o.jpg",
+		"image": "./imgs/35758_540e3e5145da9bfe_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1270,7 +1270,7 @@
 		"date": "1885-1902",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "imgs/35760_386908a336074fa2_o.jpg",
+		"image": "./imgs/35760_386908a336074fa2_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1287,7 +1287,7 @@
 		"date": "1902",
 		"year_acquired": "1961",
 		"country": "United States",
-		"image": "imgs/42469_53a9496de81b514e_x.jpg",
+		"image": "./imgs/42469_53a9496de81b514e_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1304,7 +1304,7 @@
 		"date": "1902",
 		"year_acquired": "1985",
 		"country": "Germany",
-		"image": "imgs/103914_8780263197dbdb3d_b.jpg",
+		"image": "./imgs/103914_8780263197dbdb3d_b.jpg",
 		"lat": 51,
 		"long": 9
 	},
@@ -1321,7 +1321,7 @@
 		"date": "1902",
 		"year_acquired": "1960",
 		"country": "United States",
-		"image": "imgs/43426_d16e4e92427743a6_x.jpg",
+		"image": "./imgs/43426_d16e4e92427743a6_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1338,7 +1338,7 @@
 		"date": "1885-1902",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "imgs/36316_98657c40d23c5bf8_o.jpg",
+		"image": "./imgs/36316_98657c40d23c5bf8_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1355,7 +1355,7 @@
 		"date": "1885-1902",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "imgs/36312_b8d0b9db861b0bc2_o.jpg",
+		"image": "./imgs/36312_b8d0b9db861b0bc2_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1372,7 +1372,7 @@
 		"date": "1902",
 		"year_acquired": "1980",
 		"country": "United Kingdom",
-		"image": "imgs/63413_216ec561c4d14c1d_b.jpg",
+		"image": "./imgs/63413_216ec561c4d14c1d_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -1389,7 +1389,7 @@
 		"date": "1902",
 		"year_acquired": "1941",
 		"country": "United Kingdom",
-		"image": "imgs/49278_39103fe675c0ea2b_b.jpg",
+		"image": "./imgs/49278_39103fe675c0ea2b_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -1406,7 +1406,7 @@
 		"date": "1902",
 		"year_acquired": "1994",
 		"country": "Netherlands",
-		"image": "imgs/107283_c63eacd35e581746_b.jpg",
+		"image": "./imgs/107283_c63eacd35e581746_b.jpg",
 		"lat": 52.5,
 		"long": 5.75
 	},
@@ -1423,7 +1423,7 @@
 		"date": "1885-1902",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "imgs/35763_e9c31f4f65e20d6c_o.jpg",
+		"image": "./imgs/35763_e9c31f4f65e20d6c_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1440,7 +1440,7 @@
 		"date": "1885-1902",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "imgs/36311_b819c313a31d9c55_o.jpg",
+		"image": "./imgs/36311_b819c313a31d9c55_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1457,7 +1457,7 @@
 		"date": "1885-1902",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "imgs/35768_acab165fd914c26e_o.jpg",
+		"image": "./imgs/35768_acab165fd914c26e_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1474,7 +1474,7 @@
 		"date": "1902",
 		"year_acquired": "1971",
 		"country": "United States",
-		"image": "imgs/106057_44ca263b187db8a9_b.jpg",
+		"image": "./imgs/106057_44ca263b187db8a9_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1491,7 +1491,7 @@
 		"date": "1902",
 		"year_acquired": "1967",
 		"country": "United States",
-		"image": "imgs/87902_e54d8fe6a302cd4c_x.jpg",
+		"image": "./imgs/87902_e54d8fe6a302cd4c_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1508,7 +1508,7 @@
 		"date": "1903",
 		"year_acquired": "1994",
 		"country": "Netherlands",
-		"image": "imgs/106869_0cbd8290ebd4fcc7_b.jpg",
+		"image": "./imgs/106869_0cbd8290ebd4fcc7_b.jpg",
 		"lat": 52.5,
 		"long": 5.75
 	},
@@ -1525,7 +1525,7 @@
 		"date": "ca. 1893",
 		"year_acquired": "1970",
 		"country": "United States",
-		"image": "imgs/108760_0cf134d135b0ca40_x.jpg",
+		"image": "./imgs/108760_0cf134d135b0ca40_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1542,7 +1542,7 @@
 		"date": "1903",
 		"year_acquired": "1994",
 		"country": "Netherlands",
-		"image": "imgs/47682_be103c2fa41317dc_b.jpg",
+		"image": "./imgs/47682_be103c2fa41317dc_b.jpg",
 		"lat": 52.5,
 		"long": 5.75
 	},
@@ -1559,7 +1559,7 @@
 		"date": "1903",
 		"year_acquired": "1969",
 		"country": "United States",
-		"image": "imgs/373417_4742939850476cfd_b.jpg",
+		"image": "./imgs/373417_4742939850476cfd_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1576,7 +1576,7 @@
 		"date": "1903",
 		"year_acquired": "1994",
 		"country": "Netherlands",
-		"image": "imgs/106841_9f96fdcf60e92767_b.jpg",
+		"image": "./imgs/106841_9f96fdcf60e92767_b.jpg",
 		"lat": 52.5,
 		"long": 5.75
 	},
@@ -1593,7 +1593,7 @@
 		"date": "ca. 1898-1900",
 		"year_acquired": "1966",
 		"country": "United States",
-		"image": "imgs/114662_28ab785dc814d803_x.jpg",
+		"image": "./imgs/114662_28ab785dc814d803_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1610,7 +1610,7 @@
 		"date": "1903",
 		"year_acquired": "1986",
 		"country": "United Kingdom",
-		"image": "imgs/107511_df73ee9074d70601_b.jpg",
+		"image": "./imgs/107511_df73ee9074d70601_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -1627,7 +1627,7 @@
 		"date": "1902-03",
 		"year_acquired": "1982",
 		"country": "United Kingdom",
-		"image": "imgs/102016_77ffa7323bb44da7_b.jpg",
+		"image": "./imgs/102016_77ffa7323bb44da7_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -1644,7 +1644,7 @@
 		"date": "1903",
 		"year_acquired": "1990",
 		"country": "United Kingdom",
-		"image": "imgs/105252_854f0a1a6c8e2dbe_b.jpg",
+		"image": "./imgs/105252_854f0a1a6c8e2dbe_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -1661,7 +1661,7 @@
 		"date": "ca. 1887-1903",
 		"year_acquired": "1943",
 		"country": "United States",
-		"image": "imgs/90060_03fc153825292ec2_x.jpg",
+		"image": "./imgs/90060_03fc153825292ec2_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1678,7 +1678,7 @@
 		"date": "ca. 1887-1903",
 		"year_acquired": "1943",
 		"country": "United States",
-		"image": "imgs/90062_7194375b7ca90ad5_x.jpg",
+		"image": "./imgs/90062_7194375b7ca90ad5_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1695,7 +1695,7 @@
 		"date": "early 20th century",
 		"year_acquired": "1903",
 		"country": "Netherlands",
-		"image": "imgs/90204_c3c19bae62cd6cdf_b.jpg",
+		"image": "./imgs/90204_c3c19bae62cd6cdf_b.jpg",
 		"lat": 52.5,
 		"long": 5.75
 	},
@@ -1712,7 +1712,7 @@
 		"date": "1903",
 		"year_acquired": "1936",
 		"country": "United States",
-		"image": "imgs/43411_e760e435e65cad85_x.jpg",
+		"image": "./imgs/43411_e760e435e65cad85_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1729,7 +1729,7 @@
 		"date": "ca. 1896-1903",
 		"year_acquired": "1943",
 		"country": "United States",
-		"image": "imgs/90059_f024dedc8a5fd6d2_x.jpg",
+		"image": "./imgs/90059_f024dedc8a5fd6d2_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1746,7 +1746,7 @@
 		"date": "1900-03",
 		"year_acquired": "1987",
 		"country": "United Kingdom",
-		"image": "imgs/141747_533540336f050074_b.jpg",
+		"image": "./imgs/141747_533540336f050074_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -1763,7 +1763,7 @@
 		"date": "1904",
 		"year_acquired": "1950",
 		"country": "France",
-		"image": "imgs/41371_34ef5aa042838260_b.jpg",
+		"image": "./imgs/41371_34ef5aa042838260_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -1780,7 +1780,7 @@
 		"date": "1903-04",
 		"year_acquired": "1982",
 		"country": "United Kingdom",
-		"image": "imgs/104268_f8f5ac6995f32cbd_b.jpg",
+		"image": "./imgs/104268_f8f5ac6995f32cbd_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -1797,7 +1797,7 @@
 		"date": "1904",
 		"year_acquired": "1968",
 		"country": "United States",
-		"image": "imgs/376018_64ea788ec345d355_b.jpg",
+		"image": "./imgs/376018_64ea788ec345d355_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1814,7 +1814,7 @@
 		"date": "late 19th-early 20th century",
 		"year_acquired": "1996",
 		"country": "France",
-		"image": "imgs/44266_adebe416f13325e1_b.jpg",
+		"image": "./imgs/44266_adebe416f13325e1_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -1831,7 +1831,7 @@
 		"date": "1904",
 		"year_acquired": "1968",
 		"country": "United Kingdom",
-		"image": "imgs/105947_c630d2b8fd1be3f0_b.jpg",
+		"image": "./imgs/105947_c630d2b8fd1be3f0_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -1848,7 +1848,7 @@
 		"date": "1904",
 		"year_acquired": "1917",
 		"country": "United States",
-		"image": "imgs/340851_e59e09f55e63ced1_b.jpg",
+		"image": "./imgs/340851_e59e09f55e63ced1_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1865,7 +1865,7 @@
 		"date": "1904",
 		"year_acquired": "1971",
 		"country": "United States",
-		"image": "imgs/46072_48e2fc97c8d430ab_b.jpg",
+		"image": "./imgs/46072_48e2fc97c8d430ab_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1882,7 +1882,7 @@
 		"date": "late 19th-early 20th century",
 		"year_acquired": "1996",
 		"country": "France",
-		"image": "imgs/45728_f097c8b204ecc7ea_b.jpg",
+		"image": "./imgs/45728_f097c8b204ecc7ea_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -1899,7 +1899,7 @@
 		"date": "1904",
 		"year_acquired": "1968",
 		"country": "United States",
-		"image": "imgs/46982_899ddfeb886ddb4e_x.jpg",
+		"image": "./imgs/46982_899ddfeb886ddb4e_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1916,7 +1916,7 @@
 		"date": "1904",
 		"year_acquired": "2000",
 		"country": "France",
-		"image": "imgs/279260_fb01f772a2fc04b0_b.jpg",
+		"image": "./imgs/279260_fb01f772a2fc04b0_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -1933,7 +1933,7 @@
 		"date": "ca. 1901",
 		"year_acquired": "1987",
 		"country": "France",
-		"image": "imgs/41669_38e788114434a9c7_b.jpg",
+		"image": "./imgs/41669_38e788114434a9c7_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -1950,7 +1950,7 @@
 		"date": "1904",
 		"year_acquired": "1968",
 		"country": "Japan",
-		"image": "imgs/109631_f5ddc2dd49a22246_b.jpg",
+		"image": "./imgs/109631_f5ddc2dd49a22246_b.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -1967,7 +1967,7 @@
 		"date": "1904",
 		"year_acquired": "1950",
 		"country": "France",
-		"image": "imgs/41368_883df8f086020ae1_b.jpg",
+		"image": "./imgs/41368_883df8f086020ae1_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -1984,7 +1984,7 @@
 		"date": "1904",
 		"year_acquired": "2000",
 		"country": "France",
-		"image": "imgs/279261_3430507c0ad43de9_b.jpg",
+		"image": "./imgs/279261_3430507c0ad43de9_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -2001,7 +2001,7 @@
 		"date": "late 19th-early 20th century",
 		"year_acquired": "1996",
 		"country": "France",
-		"image": "imgs/45732_cf4166be8d6d6a18_x.jpg",
+		"image": "./imgs/45732_cf4166be8d6d6a18_x.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -2018,7 +2018,7 @@
 		"date": "1904",
 		"year_acquired": "1994",
 		"country": "Netherlands",
-		"image": "imgs/118803_f8aff4a25e2f4f76_b.jpg",
+		"image": "./imgs/118803_f8aff4a25e2f4f76_b.jpg",
 		"lat": 52.5,
 		"long": 5.75
 	},
@@ -2035,7 +2035,7 @@
 		"date": "ca. 1894",
 		"year_acquired": "1943",
 		"country": "United States",
-		"image": "imgs/245046_b6c81565c7ee0cb2_b.jpg",
+		"image": "./imgs/245046_b6c81565c7ee0cb2_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2052,7 +2052,7 @@
 		"date": "1903-1904",
 		"year_acquired": "1971",
 		"country": "United States",
-		"image": "imgs/41892_124688a415937fb0_b.jpg",
+		"image": "./imgs/41892_124688a415937fb0_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2069,7 +2069,7 @@
 		"date": "late 19th-early 20th century",
 		"year_acquired": "1996",
 		"country": "France",
-		"image": "imgs/45724_2443657ad78aefbc_x.jpg",
+		"image": "./imgs/45724_2443657ad78aefbc_x.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -2086,7 +2086,7 @@
 		"date": "1904",
 		"year_acquired": "1973",
 		"country": "United States",
-		"image": "imgs/40727_adc8a3975c156988_o.jpg",
+		"image": "./imgs/40727_adc8a3975c156988_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2103,7 +2103,7 @@
 		"date": "1904",
 		"year_acquired": "1998",
 		"country": "France",
-		"image": "imgs/119742_8599d889ff0962d9_b.jpg",
+		"image": "./imgs/119742_8599d889ff0962d9_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -2120,7 +2120,7 @@
 		"date": "1904",
 		"year_acquired": "2000",
 		"country": "France",
-		"image": "imgs/279256_760a467d21e34f5d_b.jpg",
+		"image": "./imgs/279256_760a467d21e34f5d_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -2137,7 +2137,7 @@
 		"date": "late 19th-early 20th century",
 		"year_acquired": "1996",
 		"country": "France",
-		"image": "imgs/45730_bb44a95891e464dd_x.jpg",
+		"image": "./imgs/45730_bb44a95891e464dd_x.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -2154,7 +2154,7 @@
 		"date": "1903-04",
 		"year_acquired": "1978",
 		"country": "United Kingdom",
-		"image": "imgs/115932_f6d8f11732d3614c_b.jpg",
+		"image": "./imgs/115932_f6d8f11732d3614c_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -2171,7 +2171,7 @@
 		"date": "1904",
 		"year_acquired": "2000",
 		"country": "France",
-		"image": "imgs/279262_76f3eeb16a660214_b.jpg",
+		"image": "./imgs/279262_76f3eeb16a660214_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -2188,7 +2188,7 @@
 		"date": "patented 1904",
 		"year_acquired": "1978",
 		"country": "United States",
-		"image": "imgs/96648_7ccf64ab94221ad0_x.jpg",
+		"image": "./imgs/96648_7ccf64ab94221ad0_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2205,7 +2205,7 @@
 		"date": "late 19th-early 20th century",
 		"year_acquired": "1996",
 		"country": "France",
-		"image": "imgs/45726_68b54ace38fa3bc4_b.jpg",
+		"image": "./imgs/45726_68b54ace38fa3bc4_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -2222,7 +2222,7 @@
 		"date": "ca. 1894",
 		"year_acquired": "1943",
 		"country": "United States",
-		"image": "imgs/245186_36f11941ba980b77_b.jpg",
+		"image": "./imgs/245186_36f11941ba980b77_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2239,7 +2239,7 @@
 		"date": "ca. 1894",
 		"year_acquired": "1970",
 		"country": "United States",
-		"image": "imgs/111548_951d5c22dab591af_x.jpg",
+		"image": "./imgs/111548_951d5c22dab591af_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2256,7 +2256,7 @@
 		"date": "1902-04",
 		"year_acquired": "1997",
 		"country": "Germany",
-		"image": "imgs/19037_ed82fcf4d324564d_b.jpg",
+		"image": "./imgs/19037_ed82fcf4d324564d_b.jpg",
 		"lat": 51,
 		"long": 9
 	},
@@ -2273,7 +2273,7 @@
 		"date": "1904",
 		"year_acquired": "1971",
 		"country": "United States",
-		"image": "imgs/92813_40f351e03a2c061c_x.jpg",
+		"image": "./imgs/92813_40f351e03a2c061c_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2290,7 +2290,7 @@
 		"date": "ca. 1894",
 		"year_acquired": "1943",
 		"country": "United States",
-		"image": "imgs/245046_b6c81565c7ee0cb2_b.jpg",
+		"image": "./imgs/245046_b6c81565c7ee0cb2_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2307,7 +2307,7 @@
 		"date": "1903-1904",
 		"year_acquired": "1971",
 		"country": "United States",
-		"image": "imgs/41892_124688a415937fb0_b.jpg",
+		"image": "./imgs/41892_124688a415937fb0_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2324,7 +2324,7 @@
 		"date": "late 19th-early 20th century",
 		"year_acquired": "1996",
 		"country": "France",
-		"image": "imgs/45724_2443657ad78aefbc_x.jpg",
+		"image": "./imgs/45724_2443657ad78aefbc_x.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -2341,7 +2341,7 @@
 		"date": "1904",
 		"year_acquired": "2000",
 		"country": "France",
-		"image": "imgs/279266_1cf42db224545bae_b.jpg",
+		"image": "./imgs/279266_1cf42db224545bae_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -2358,7 +2358,7 @@
 		"date": "ca. 1899",
 		"year_acquired": "1943",
 		"country": "United States",
-		"image": "imgs/90057_f49a842d260aecbe_x.jpg",
+		"image": "./imgs/90057_f49a842d260aecbe_x.jpg",
 		"lat": 38,
 		"long": -97
 	}
