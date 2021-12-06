@@ -5,3 +5,4 @@ http-server -c-1 -a localhost -p 8000
 xargs -n 1 curl -O < 00.missing2.txt
 xargs -n 1 curl -O < 00.missing3.txt
 xargs -n 1 curl -O < 00.missing4.txt
+xargs -n 1 curl -O < get1.txt

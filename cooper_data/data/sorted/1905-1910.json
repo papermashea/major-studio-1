@@ -12,7 +12,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1966",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/46411_1128a26379488eff_x.jpg",
+		"image": "./imgs/46411_1128a26379488eff_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -29,7 +29,7 @@
 		"date": "1905",
 		"year_acquired": "2009",
 		"country": "Austria",
-		"image": "https://images.collection.cooperhewitt.org/120730_5649b42d4453fdd7_b.jpg",
+		"image": "./imgs/120730_5649b42d4453fdd7_b.jpg",
 		"lat": 47.3333,
 		"long": 13.3333
 	},
@@ -46,7 +46,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1966",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/46137_61acc97151a47fad_x.jpg",
+		"image": "./imgs/46137_61acc97151a47fad_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -63,7 +63,7 @@
 		"date": "1905",
 		"year_acquired": "2009",
 		"country": "Austria",
-		"image": "https://images.collection.cooperhewitt.org/120720_ce0c6607c060d1a0_b.jpg",
+		"image": "./imgs/120720_ce0c6607c060d1a0_b.jpg",
 		"lat": 47.3333,
 		"long": 13.3333
 	},
@@ -80,7 +80,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1994",
 		"country": "Netherlands",
-		"image": "https://images.collection.cooperhewitt.org/106850_0b368b6b99fabe3f_b.jpg",
+		"image": "./imgs/106850_0b368b6b99fabe3f_b.jpg",
 		"lat": 52.5,
 		"long": 5.75
 	},
@@ -97,7 +97,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1994",
 		"country": "Netherlands",
-		"image": "https://images.collection.cooperhewitt.org/106955_783accbdeb1447d6_b.jpg",
+		"image": "./imgs/106955_783accbdeb1447d6_b.jpg",
 		"lat": 52.5,
 		"long": 5.75
 	},
@@ -114,7 +114,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1966",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/46410_288a042b270dc826_x.jpg",
+		"image": "./imgs/46410_288a042b270dc826_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -131,7 +131,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1994",
 		"country": "Netherlands",
-		"image": "https://images.collection.cooperhewitt.org/106792_f45327b5937485c3_b.jpg",
+		"image": "./imgs/106792_f45327b5937485c3_b.jpg",
 		"lat": 52.5,
 		"long": 5.75
 	},
@@ -148,7 +148,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1966",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/46418_db8d40b0fb6c15aa_x.jpg",
+		"image": "./imgs/46418_db8d40b0fb6c15aa_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -165,7 +165,7 @@
 		"date": "1905",
 		"year_acquired": "1935",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/63773_43e8cd8be51bf64f_b.jpg",
+		"image": "./imgs/63773_43e8cd8be51bf64f_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -182,7 +182,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1953",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/137644_2726b276eddec7b3_b.jpg",
+		"image": "./imgs/137644_2726b276eddec7b3_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -199,7 +199,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1962",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/157030_04dfd3f6e8831437_x.jpg",
+		"image": "./imgs/157030_04dfd3f6e8831437_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -216,7 +216,7 @@
 		"date": "ca. 1880-1900",
 		"year_acquired": "1990",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/180120_7cc4850340301709_x.jpg",
+		"image": "./imgs/180120_7cc4850340301709_x.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -233,7 +233,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1968",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/43516_10470e4d5c97c356_b.jpg",
+		"image": "./imgs/43516_10470e4d5c97c356_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -250,7 +250,7 @@
 		"date": "ca. 1890-1900",
 		"year_acquired": "1994",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/114589_7e1691b45f2e78cb_x.jpg",
+		"image": "./imgs/114589_7e1691b45f2e78cb_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -267,7 +267,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1966",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/46413_bf62d87e5d868a00_x.jpg",
+		"image": "./imgs/46413_bf62d87e5d868a00_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -284,7 +284,7 @@
 		"date": "1900-05",
 		"year_acquired": "1985",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/50131_fe00ec05fd253b81_b.jpg",
+		"image": "./imgs/50131_fe00ec05fd253b81_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -301,7 +301,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1995",
 		"country": "Russia",
-		"image": "https://images.collection.cooperhewitt.org/136991_31e949c9f35f234f_b.jpg",
+		"image": "./imgs/136991_31e949c9f35f234f_b.jpg",
 		"lat": 60,
 		"long": 100
 	},
@@ -318,7 +318,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1968",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/377782_7aa5cf3fa56ab896_b.jpg",
+		"image": "./imgs/377782_7aa5cf3fa56ab896_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -335,7 +335,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1943",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48993_32d7114ddd4fbb09_b.jpg",
+		"image": "./imgs/48993_32d7114ddd4fbb09_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -352,7 +352,7 @@
 		"date": "ca. 1895",
 		"year_acquired": "1966",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/21667_c1f7e26519055211_o.jpg",
+		"image": "./imgs/21667_c1f7e26519055211_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -369,7 +369,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1966",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/46441_094853cf7af5d316_x.jpg",
+		"image": "./imgs/46441_094853cf7af5d316_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -386,7 +386,7 @@
 		"date": "1905",
 		"year_acquired": "1961",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/42438_0fc082cc194d82a5_x.jpg",
+		"image": "./imgs/42438_0fc082cc194d82a5_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -403,7 +403,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/36122_35609f0fd97dda51_o.jpg",
+		"image": "./imgs/36122_35609f0fd97dda51_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -420,7 +420,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1974",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/55635_a49f23cd776ebd3d_x.jpg",
+		"image": "./imgs/55635_a49f23cd776ebd3d_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -437,7 +437,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1952",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/110641_9f94f16d249e9eb4_b.jpg",
+		"image": "./imgs/110641_9f94f16d249e9eb4_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -454,7 +454,7 @@
 		"date": "ca. 1895",
 		"year_acquired": "1912",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/122462_7815357975771be2_x.jpg",
+		"image": "./imgs/122462_7815357975771be2_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -471,7 +471,7 @@
 		"date": "ca. 1880",
 		"year_acquired": "1993",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/109085_5033f8c63a8af500_x.jpg",
+		"image": "./imgs/109085_5033f8c63a8af500_x.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -488,7 +488,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1968",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/107818_fd80e5cda2303b9c_b.jpg",
+		"image": "./imgs/107818_fd80e5cda2303b9c_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -505,7 +505,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1979",
 		"country": "Germany",
-		"image": "https://images.collection.cooperhewitt.org/96255_565889746b3d792b_b.jpg",
+		"image": "./imgs/96255_565889746b3d792b_b.jpg",
 		"lat": 51,
 		"long": 9
 	},
@@ -522,7 +522,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1966",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/46099_0649cee8c4af943a_b.jpg",
+		"image": "./imgs/46099_0649cee8c4af943a_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -539,7 +539,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1968",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/107744_fe07b85f653307f0_b.jpg",
+		"image": "./imgs/107744_fe07b85f653307f0_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -556,7 +556,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1943",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/43362_29031ef53241f4dd_x.jpg",
+		"image": "./imgs/43362_29031ef53241f4dd_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -573,7 +573,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1973",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/89565_7dd5cf05098e2711_x.jpg",
+		"image": "./imgs/89565_7dd5cf05098e2711_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -590,7 +590,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1961",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/251046_1583409818209d22_b.jpg",
+		"image": "./imgs/251046_1583409818209d22_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -607,7 +607,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1966",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/114851_78e74b9a20b1707c_x.jpg",
+		"image": "./imgs/114851_78e74b9a20b1707c_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -624,7 +624,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1943",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/43363_031dd856a4f3852c_x.jpg",
+		"image": "./imgs/43363_031dd856a4f3852c_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -641,7 +641,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1952",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/106442_a19f9c201da88c25_b.jpg",
+		"image": "./imgs/106442_a19f9c201da88c25_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -658,7 +658,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1965",
 		"country": "Austria",
-		"image": "https://images.collection.cooperhewitt.org/141072_32d9f88d3f03494b_b.jpg",
+		"image": "./imgs/141072_32d9f88d3f03494b_b.jpg",
 		"lat": 47.3333,
 		"long": 13.3333
 	},
@@ -675,7 +675,7 @@
 		"date": "1904-1905",
 		"year_acquired": "1968",
 		"country": "Austria",
-		"image": "https://images.collection.cooperhewitt.org/92918_e8599ddd84091c74_b.jpg",
+		"image": "./imgs/92918_e8599ddd84091c74_b.jpg",
 		"lat": 47.3333,
 		"long": 13.3333
 	},
@@ -692,7 +692,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1966",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48945__x.jpg",
+		"image": "./imgs/48945__x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -709,7 +709,7 @@
 		"date": "1905",
 		"year_acquired": "2012",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/46083_c2a75beb5fe7e115_x.jpg",
+		"image": "./imgs/46083_c2a75beb5fe7e115_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -726,7 +726,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1962",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/132790_063828693f3d1010_x.jpg",
+		"image": "./imgs/132790_063828693f3d1010_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -743,7 +743,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1966",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/46094_7efc195a096a1e3a_b.jpg",
+		"image": "./imgs/46094_7efc195a096a1e3a_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -760,7 +760,7 @@
 		"date": "ca. 1880-1900",
 		"year_acquired": "1990",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/178490_6de3b13310c1f664_x.jpg",
+		"image": "./imgs/178490_6de3b13310c1f664_x.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -777,7 +777,7 @@
 		"date": "ca. 1880-1900",
 		"year_acquired": "1990",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/177890_3aab33a7f90b94bf_x.jpg",
+		"image": "./imgs/177890_3aab33a7f90b94bf_x.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -794,7 +794,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1966",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/46409_9b8fbf14ce89ae0b_x.jpg",
+		"image": "./imgs/46409_9b8fbf14ce89ae0b_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -811,7 +811,7 @@
 		"date": "ca. 1880-1900",
 		"year_acquired": "1990",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/178766_93788415bf24515a_x.jpg",
+		"image": "./imgs/178766_93788415bf24515a_x.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -828,7 +828,7 @@
 		"date": "1900-05",
 		"year_acquired": "1950",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/41404_f7774dc6417bbc49_b.jpg",
+		"image": "./imgs/41404_f7774dc6417bbc49_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -845,7 +845,7 @@
 		"date": "1905",
 		"year_acquired": "1938",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/28121_c9bde30f391911a6_o.jpg",
+		"image": "./imgs/28121_c9bde30f391911a6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -862,7 +862,7 @@
 		"date": "1905",
 		"year_acquired": "1950",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/41367_1d0ba82432c9b44e_b.jpg",
+		"image": "./imgs/41367_1d0ba82432c9b44e_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -879,7 +879,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/36020_97c95871aaf6852e_o.jpg",
+		"image": "./imgs/36020_97c95871aaf6852e_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -896,7 +896,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/35774_f28fa2f67988d704_o.jpg",
+		"image": "./imgs/35774_f28fa2f67988d704_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -913,7 +913,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/36022_762a2f5c4bdc3e36_o.jpg",
+		"image": "./imgs/36022_762a2f5c4bdc3e36_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -930,7 +930,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/36153_b608c339046f0862_o.jpg",
+		"image": "./imgs/36153_b608c339046f0862_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -947,7 +947,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/36120_33433238bcea5257_o.jpg",
+		"image": "./imgs/36120_33433238bcea5257_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -964,7 +964,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/36129_e50b1e1ece78dd1e_o.jpg",
+		"image": "./imgs/36129_e50b1e1ece78dd1e_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -981,7 +981,7 @@
 		"date": "1905",
 		"year_acquired": "1973",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/41064_318c44e329df75f4_x.jpg",
+		"image": "./imgs/41064_318c44e329df75f4_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -998,7 +998,7 @@
 		"date": "1900-05",
 		"year_acquired": "1938",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/41871_4d7b0429841ee98d_b.jpg",
+		"image": "./imgs/41871_4d7b0429841ee98d_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1015,7 +1015,7 @@
 		"date": "ca. 1903",
 		"year_acquired": "1955",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/42882_3fed6b61d7949ad0_b.jpg",
+		"image": "./imgs/42882_3fed6b61d7949ad0_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -1032,7 +1032,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/36016_e6b3af6eb884979b_o.jpg",
+		"image": "./imgs/36016_e6b3af6eb884979b_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1049,7 +1049,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/36017_45f35fe6e093d7e2_o.jpg",
+		"image": "./imgs/36017_45f35fe6e093d7e2_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1066,7 +1066,7 @@
 		"date": "1905",
 		"year_acquired": "2009",
 		"country": "Austria",
-		"image": "https://images.collection.cooperhewitt.org/120749_407087fe3c91aa14_b.jpg",
+		"image": "./imgs/120749_407087fe3c91aa14_b.jpg",
 		"lat": 47.3333,
 		"long": 13.3333
 	},
@@ -1083,7 +1083,7 @@
 		"date": "ca. 1895",
 		"year_acquired": "1912",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/1936_5e7b21890e7ce083_o.jpg",
+		"image": "./imgs/1936_5e7b21890e7ce083_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1100,7 +1100,7 @@
 		"date": "ca. 1895",
 		"year_acquired": "1912",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/47078_9324ab850dc884be_o.jpg",
+		"image": "./imgs/47078_9324ab850dc884be_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1117,7 +1117,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1972",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/54256_74bb22bdf9f786f3_b.jpg",
+		"image": "./imgs/54256_74bb22bdf9f786f3_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -1134,7 +1134,7 @@
 		"date": "1900-05",
 		"year_acquired": "1938",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/49036_484ae3c880180ba8_x.jpg",
+		"image": "./imgs/49036_484ae3c880180ba8_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1151,7 +1151,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/36071_9f0ed84cfded5ccf_o.jpg",
+		"image": "./imgs/36071_9f0ed84cfded5ccf_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1168,7 +1168,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/36125_32702759877d13d0_o.jpg",
+		"image": "./imgs/36125_32702759877d13d0_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1185,7 +1185,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/36126_dccb6a44be8ec38c_o.jpg",
+		"image": "./imgs/36126_dccb6a44be8ec38c_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1202,7 +1202,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/36019_32ee99fac6aadf6d_o.jpg",
+		"image": "./imgs/36019_32ee99fac6aadf6d_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1219,7 +1219,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/36032_119e2df92bd5f366_o.jpg",
+		"image": "./imgs/36032_119e2df92bd5f366_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1236,7 +1236,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/36037_b5a87af58defa656_o.jpg",
+		"image": "./imgs/36037_b5a87af58defa656_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1253,7 +1253,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/36064_e3c470af21c9bb85_o.jpg",
+		"image": "./imgs/36064_e3c470af21c9bb85_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1270,7 +1270,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/35775_531ee265168a78eb_o.jpg",
+		"image": "./imgs/35775_531ee265168a78eb_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1287,7 +1287,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/36074_266a8da5138405a3_o.jpg",
+		"image": "./imgs/36074_266a8da5138405a3_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1304,7 +1304,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/35777_4a549797a0545ba7_o.jpg",
+		"image": "./imgs/35777_4a549797a0545ba7_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1321,7 +1321,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/36167_6c2b20ca88f8770c_o.jpg",
+		"image": "./imgs/36167_6c2b20ca88f8770c_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1338,7 +1338,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "2013",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/83649_fdd5f19efdd423c6_b.jpg",
+		"image": "./imgs/83649_fdd5f19efdd423c6_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -1355,7 +1355,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1979",
 		"country": "Germany",
-		"image": "https://images.collection.cooperhewitt.org/96261_afe55140796a4347_b.jpg",
+		"image": "./imgs/96261_afe55140796a4347_b.jpg",
 		"lat": 51,
 		"long": 9
 	},
@@ -1372,7 +1372,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1949",
 		"country": "Russia",
-		"image": "https://images.collection.cooperhewitt.org/110655_8c2d2b1e90e5f6fd_b.jpg",
+		"image": "./imgs/110655_8c2d2b1e90e5f6fd_b.jpg",
 		"lat": 60,
 		"long": 100
 	},
@@ -1389,7 +1389,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/36065_acc838aac13799b0_o.jpg",
+		"image": "./imgs/36065_acc838aac13799b0_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1406,7 +1406,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/36156_e87aa3e64d0a6206_o.jpg",
+		"image": "./imgs/36156_e87aa3e64d0a6206_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1423,7 +1423,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/61634_3dce7ca9ee2b0ce6_x.jpg",
+		"image": "./imgs/61634_3dce7ca9ee2b0ce6_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1440,7 +1440,7 @@
 		"date": "1900-05",
 		"year_acquired": "1938",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/41874_886c1abb4db95b20_x.jpg",
+		"image": "./imgs/41874_886c1abb4db95b20_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1457,7 +1457,7 @@
 		"date": "1905",
 		"year_acquired": "1981",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/48141_e892bedbc43c03aa_b.jpg",
+		"image": "./imgs/48141_e892bedbc43c03aa_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -1474,7 +1474,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1943",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/43370_4a82ad2808890930_x.jpg",
+		"image": "./imgs/43370_4a82ad2808890930_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1491,7 +1491,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/36068_55332bfc7ced89c6_o.jpg",
+		"image": "./imgs/36068_55332bfc7ced89c6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1508,7 +1508,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1966",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/362744_abf82b60e9812b3b_b.jpg",
+		"image": "./imgs/362744_abf82b60e9812b3b_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1525,7 +1525,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1968",
 		"country": "China",
-		"image": "https://images.collection.cooperhewitt.org/378162_adec43b82a5dc993_b.jpg",
+		"image": "./imgs/378162_adec43b82a5dc993_b.jpg",
 		"lat": 35,
 		"long": 105
 	},
@@ -1542,7 +1542,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1943",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/43369_f61a4e9708e8539b_x.jpg",
+		"image": "./imgs/43369_f61a4e9708e8539b_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1559,7 +1559,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1931",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/100106_d1e34f478b5a0fb3_b.jpg",
+		"image": "./imgs/100106_d1e34f478b5a0fb3_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -1576,7 +1576,7 @@
 		"date": "ca. 1895",
 		"year_acquired": "1978",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/104716_65616837bfa37471_x.jpg",
+		"image": "./imgs/104716_65616837bfa37471_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1593,7 +1593,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/36041_3480dbfc95faa960_o.jpg",
+		"image": "./imgs/36041_3480dbfc95faa960_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1610,7 +1610,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/36116_94d6f0b60c5b0982_o.jpg",
+		"image": "./imgs/36116_94d6f0b60c5b0982_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1627,7 +1627,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1940",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/153777_4933a6403ef923ef_b.jpg",
+		"image": "./imgs/153777_4933a6403ef923ef_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1644,7 +1644,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1956",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48067_024c0c87665a878e_x.jpg",
+		"image": "./imgs/48067_024c0c87665a878e_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1661,7 +1661,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1979",
 		"country": "Germany",
-		"image": "https://images.collection.cooperhewitt.org/42830_260adc5aec1f90a2_b.jpg",
+		"image": "./imgs/42830_260adc5aec1f90a2_b.jpg",
 		"lat": 51,
 		"long": 9
 	},
@@ -1678,7 +1678,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1967",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/134993_fb546b8990f6520c_x.jpg",
+		"image": "./imgs/134993_fb546b8990f6520c_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1695,7 +1695,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1956",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/42389_bda447079d066f2d_b.jpg",
+		"image": "./imgs/42389_bda447079d066f2d_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1712,7 +1712,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1979",
 		"country": "Germany",
-		"image": "https://images.collection.cooperhewitt.org/42891_154d63c237cf7595_b.jpg",
+		"image": "./imgs/42891_154d63c237cf7595_b.jpg",
 		"lat": 51,
 		"long": 9
 	},
@@ -1729,7 +1729,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1966",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/114882_658166a56734c423_b.jpg",
+		"image": "./imgs/114882_658166a56734c423_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1746,7 +1746,7 @@
 		"date": "ca. 1895",
 		"year_acquired": "1955",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/260476_fdf7a183ee0534be_b.jpg",
+		"image": "./imgs/260476_fdf7a183ee0534be_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1763,7 +1763,7 @@
 		"date": "1904-1905",
 		"year_acquired": "1971",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/21429_ce00570f14bd32a4_o.jpg",
+		"image": "./imgs/21429_ce00570f14bd32a4_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1780,7 +1780,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1966",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/46098_0fb83e6ef4e1a8ca_x.jpg",
+		"image": "./imgs/46098_0fb83e6ef4e1a8ca_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1797,7 +1797,7 @@
 		"date": "patented 1905",
 		"year_acquired": "1978",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/97456_a203d73bfaddc169_x.jpg",
+		"image": "./imgs/97456_a203d73bfaddc169_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1814,7 +1814,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1920",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/41625_439bfcae708c3486_x.jpg",
+		"image": "./imgs/41625_439bfcae708c3486_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1831,7 +1831,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1950",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/21854_c2516be766da1cb0_o.jpg",
+		"image": "./imgs/21854_c2516be766da1cb0_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1848,7 +1848,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1979",
 		"country": "Germany",
-		"image": "https://images.collection.cooperhewitt.org/42817_9f534070f4339fce_b.jpg",
+		"image": "./imgs/42817_9f534070f4339fce_b.jpg",
 		"lat": 51,
 		"long": 9
 	},
@@ -1865,7 +1865,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1966",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/46414_f23b08a0965d4998_x.jpg",
+		"image": "./imgs/46414_f23b08a0965d4998_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1882,7 +1882,7 @@
 		"date": "1900-05",
 		"year_acquired": "1994",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/25664_bc6ddb3b628c21f3_b.jpg",
+		"image": "./imgs/25664_bc6ddb3b628c21f3_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -1899,7 +1899,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1936",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/122000_486b4ba58e7d2bd3_b.jpg",
+		"image": "./imgs/122000_486b4ba58e7d2bd3_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1916,7 +1916,7 @@
 		"date": "1905",
 		"year_acquired": "1975",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/28135_dc4a51dc3434637f_b.jpg",
+		"image": "./imgs/28135_dc4a51dc3434637f_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -1933,7 +1933,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/36073_b7e658d0eab63062_o.jpg",
+		"image": "./imgs/36073_b7e658d0eab63062_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1950,7 +1950,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1966",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/46412_384109b4f82b8f7c_x.jpg",
+		"image": "./imgs/46412_384109b4f82b8f7c_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1967,7 +1967,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1966",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/114696_f86fcd47bf8d4532_x.jpg",
+		"image": "./imgs/114696_f86fcd47bf8d4532_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -1984,7 +1984,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/36042_10e4423e678db0ae_o.jpg",
+		"image": "./imgs/36042_10e4423e678db0ae_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2001,7 +2001,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/35793_13460ae51d706e17_o.jpg",
+		"image": "./imgs/35793_13460ae51d706e17_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2018,7 +2018,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1979",
 		"country": "Germany",
-		"image": "https://images.collection.cooperhewitt.org/96256_d05898bb89558b4c_b.jpg",
+		"image": "./imgs/96256_d05898bb89558b4c_b.jpg",
 		"lat": 51,
 		"long": 9
 	},
@@ -2035,7 +2035,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/36035_f2e7e3e4f92a9157_o.jpg",
+		"image": "./imgs/36035_f2e7e3e4f92a9157_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2052,7 +2052,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/36170_c182a0a1088164c6_o.jpg",
+		"image": "./imgs/36170_c182a0a1088164c6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2069,7 +2069,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1992",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/49169_a67f43d4e035b60a_x.jpg",
+		"image": "./imgs/49169_a67f43d4e035b60a_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2086,7 +2086,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1939",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/91412_6ec9c7ed2a30f7c0_b.jpg",
+		"image": "./imgs/91412_6ec9c7ed2a30f7c0_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2103,7 +2103,7 @@
 		"date": "1900-05",
 		"year_acquired": "1938",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/41871_4d7b0429841ee98d_b.jpg",
+		"image": "./imgs/41871_4d7b0429841ee98d_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2120,7 +2120,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1975",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/83862_71c60274aaaed4bf_o.jpg",
+		"image": "./imgs/83862_71c60274aaaed4bf_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2137,7 +2137,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1966",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/49425_945aab022c16af14_x.jpg",
+		"image": "./imgs/49425_945aab022c16af14_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2154,7 +2154,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1991",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/45594_cbed7f37fd797ea7_b.jpg",
+		"image": "./imgs/45594_cbed7f37fd797ea7_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -2171,7 +2171,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1973",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/21505_2bd4ab4a07f23fbe_o.jpg",
+		"image": "./imgs/21505_2bd4ab4a07f23fbe_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2188,7 +2188,7 @@
 		"date": "1900-05",
 		"year_acquired": "1938",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48065_b6b9f10c93decacc_x.jpg",
+		"image": "./imgs/48065_b6b9f10c93decacc_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2205,7 +2205,7 @@
 		"date": "ca. 1880-1900",
 		"year_acquired": "1990",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/179003_7744efb1434b8950_x.jpg",
+		"image": "./imgs/179003_7744efb1434b8950_x.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -2221,7 +2221,7 @@
 		"date": "Designed 1905",
 		"year_acquired": "2011",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/347853_d5af7cb61c789e6a_b.jpg",
+		"image": "./imgs/347853_d5af7cb61c789e6a_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -2238,7 +2238,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1966",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/46093_872f4eb5c243cda7_x.jpg",
+		"image": "./imgs/46093_872f4eb5c243cda7_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2255,7 +2255,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1994",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/128102_125386b73ac89cfd_x.jpg",
+		"image": "./imgs/128102_125386b73ac89cfd_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2272,7 +2272,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/36034_33f96fad469d9652_o.jpg",
+		"image": "./imgs/36034_33f96fad469d9652_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2289,7 +2289,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/36066_99f65a1e0d09c7e4_o.jpg",
+		"image": "./imgs/36066_99f65a1e0d09c7e4_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2306,7 +2306,7 @@
 		"date": "after 1878",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/36152_cf446784a3742a37_o.jpg",
+		"image": "./imgs/36152_cf446784a3742a37_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2323,7 +2323,7 @@
 		"date": "1900-05",
 		"year_acquired": "1961",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/42451_7878e897245c7cc7_x.jpg",
+		"image": "./imgs/42451_7878e897245c7cc7_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2340,7 +2340,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1966",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/46408_9c14bcbf6674e3b3_x.jpg",
+		"image": "./imgs/46408_9c14bcbf6674e3b3_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2357,7 +2357,7 @@
 		"date": "1905",
 		"year_acquired": "1943",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/49003_d4a2dac665a8156d_x.jpg",
+		"image": "./imgs/49003_d4a2dac665a8156d_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2374,7 +2374,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1979",
 		"country": "Germany",
-		"image": "https://images.collection.cooperhewitt.org/42822_0aa8d014770f28db_b.jpg",
+		"image": "./imgs/42822_0aa8d014770f28db_b.jpg",
 		"lat": 51,
 		"long": 9
 	},
@@ -2391,7 +2391,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1995",
 		"country": "Austria",
-		"image": "https://images.collection.cooperhewitt.org/378190_981fb5e39e7946fa_b.jpg",
+		"image": "./imgs/378190_981fb5e39e7946fa_b.jpg",
 		"lat": 47.3333,
 		"long": 13.3333
 	},
@@ -2408,7 +2408,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "2008",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/61989_080c44fcbf620297_x.jpg",
+		"image": "./imgs/61989_080c44fcbf620297_x.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -2425,7 +2425,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "2008",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/213250_f31340276342a8d3_b.jpg",
+		"image": "./imgs/213250_f31340276342a8d3_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -2442,7 +2442,7 @@
 		"date": "1895-1905",
 		"year_acquired": "1971",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/92970_3cf1b2ab8e5ffd4e_x.jpg",
+		"image": "./imgs/92970_3cf1b2ab8e5ffd4e_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2459,7 +2459,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "2009",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/116139_b630eaa460f9e270_b.jpg",
+		"image": "./imgs/116139_b630eaa460f9e270_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -2476,7 +2476,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/49293_54662addf6424d1e_x.jpg",
+		"image": "./imgs/49293_54662addf6424d1e_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2493,7 +2493,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/60223_c6f2f03fe9508061_x.jpg",
+		"image": "./imgs/60223_c6f2f03fe9508061_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2510,7 +2510,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/60186_8d8144b5591057c5_x.jpg",
+		"image": "./imgs/60186_8d8144b5591057c5_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2527,7 +2527,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/60228_4c76810c9eb73d90_x.jpg",
+		"image": "./imgs/60228_4c76810c9eb73d90_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2544,7 +2544,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/49292_d4c383d991ecd128_x.jpg",
+		"image": "./imgs/49292_d4c383d991ecd128_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2561,7 +2561,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/95662_ae0535b63dd714a8_x.jpg",
+		"image": "./imgs/95662_ae0535b63dd714a8_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2578,7 +2578,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/60192_d556f91b4d4107f0_x.jpg",
+		"image": "./imgs/60192_d556f91b4d4107f0_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2595,7 +2595,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/60231_cb4afe5ea5a2e07d_x.jpg",
+		"image": "./imgs/60231_cb4afe5ea5a2e07d_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2612,7 +2612,7 @@
 		"date": "before 1906",
 		"year_acquired": "1954",
 		"country": "Afghanistan",
-		"image": "https://images.collection.cooperhewitt.org/43372_eefdb2f9ed36cf5c_x.jpg",
+		"image": "./imgs/43372_eefdb2f9ed36cf5c_x.jpg",
 		"lat": 33,
 		"long": 65
 	},
@@ -2629,7 +2629,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/60216_8cf42e18846874a7_x.jpg",
+		"image": "./imgs/60216_8cf42e18846874a7_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2646,7 +2646,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/60225_2b3b9da64336815b_x.jpg",
+		"image": "./imgs/60225_2b3b9da64336815b_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2663,7 +2663,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/49294_b1c365c53bbc8783_x.jpg",
+		"image": "./imgs/49294_b1c365c53bbc8783_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2680,7 +2680,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/49295_b8fdaf186ac70d46_x.jpg",
+		"image": "./imgs/49295_b8fdaf186ac70d46_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2697,7 +2697,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/60218_70d96fc905e7777f_x.jpg",
+		"image": "./imgs/60218_70d96fc905e7777f_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2714,7 +2714,7 @@
 		"date": "1906",
 		"year_acquired": "1979",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/123406_692484dd71c3c454_x.jpg",
+		"image": "./imgs/123406_692484dd71c3c454_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2731,7 +2731,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/49291_b0560625cfba3564_x.jpg",
+		"image": "./imgs/49291_b0560625cfba3564_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2748,7 +2748,7 @@
 		"date": "1906",
 		"year_acquired": "1906",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/59216_aa082b2c6b764e13_x.jpg",
+		"image": "./imgs/59216_aa082b2c6b764e13_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2765,7 +2765,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/49290_b76eb14eeebe13c9_x.jpg",
+		"image": "./imgs/49290_b76eb14eeebe13c9_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2782,7 +2782,7 @@
 		"date": "1906",
 		"year_acquired": "1956",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/42390_9b1c50292efc7af4_b.jpg",
+		"image": "./imgs/42390_9b1c50292efc7af4_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -2799,7 +2799,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/49300_a9be7014513c0d03_x.jpg",
+		"image": "./imgs/49300_a9be7014513c0d03_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2816,7 +2816,7 @@
 		"date": "1906",
 		"year_acquired": "1955",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/41410_2b211cd10619758a_x.jpg",
+		"image": "./imgs/41410_2b211cd10619758a_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2833,7 +2833,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/60209_270a462fcbfd026c_x.jpg",
+		"image": "./imgs/60209_270a462fcbfd026c_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2850,7 +2850,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/60229_8d5ec450acddc6ad_x.jpg",
+		"image": "./imgs/60229_8d5ec450acddc6ad_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2867,7 +2867,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/60215_39010dd06629ff7a_x.jpg",
+		"image": "./imgs/60215_39010dd06629ff7a_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2884,7 +2884,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/49310_843337875d827d29_x.jpg",
+		"image": "./imgs/49310_843337875d827d29_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2901,7 +2901,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/60196_d8e1ed538f7ca71b_x.jpg",
+		"image": "./imgs/60196_d8e1ed538f7ca71b_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2918,7 +2918,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/60212_e6e6e3d8d47b6061_x.jpg",
+		"image": "./imgs/60212_e6e6e3d8d47b6061_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2935,7 +2935,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/60188_31df7c276e5a77c4_x.jpg",
+		"image": "./imgs/60188_31df7c276e5a77c4_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2952,7 +2952,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/49305_a74c29e85e1649a6_x.jpg",
+		"image": "./imgs/49305_a74c29e85e1649a6_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2969,7 +2969,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/60230_42f19901330b6b96_x.jpg",
+		"image": "./imgs/60230_42f19901330b6b96_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -2986,7 +2986,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/60217_aea4564fbe4df336_x.jpg",
+		"image": "./imgs/60217_aea4564fbe4df336_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3003,7 +3003,7 @@
 		"date": "1906",
 		"year_acquired": "1984",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/284697_816861518349145a_x.jpg",
+		"image": "./imgs/284697_816861518349145a_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3020,7 +3020,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/94589_55c8f6e81084b422_o.jpg",
+		"image": "./imgs/94589_55c8f6e81084b422_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3037,7 +3037,7 @@
 		"date": "1904-06",
 		"year_acquired": "1998",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/23987_cf257756555eb7c2_b.jpg",
+		"image": "./imgs/23987_cf257756555eb7c2_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -3054,7 +3054,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/49299_e99cbf87c6e0457e_x.jpg",
+		"image": "./imgs/49299_e99cbf87c6e0457e_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3071,7 +3071,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/49296_26b4f97d49938ca7_x.jpg",
+		"image": "./imgs/49296_26b4f97d49938ca7_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3088,7 +3088,7 @@
 		"date": "1906",
 		"year_acquired": "1990",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/109744_1002fee8c541ceef_b.jpg",
+		"image": "./imgs/109744_1002fee8c541ceef_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -3105,7 +3105,7 @@
 		"date": "ca. 1896",
 		"year_acquired": "1980",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/102199_aeea0cff8769740a_x.jpg",
+		"image": "./imgs/102199_aeea0cff8769740a_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3122,7 +3122,7 @@
 		"date": "ca. 1896",
 		"year_acquired": "1984",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/109042_af5b61804beca7c4_x.jpg",
+		"image": "./imgs/109042_af5b61804beca7c4_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3139,7 +3139,7 @@
 		"date": "1904-06",
 		"year_acquired": "1968",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/285482_3717bdc295b97bac_b.jpg",
+		"image": "./imgs/285482_3717bdc295b97bac_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -3156,7 +3156,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/60220_e1dd142a22971496_x.jpg",
+		"image": "./imgs/60220_e1dd142a22971496_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3173,7 +3173,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/12745_ab33bab18a9cea10_o.jpg",
+		"image": "./imgs/12745_ab33bab18a9cea10_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3190,7 +3190,7 @@
 		"date": "1901-06",
 		"year_acquired": "1950",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/25287_b42d7f76b5ed257f_b.jpg",
+		"image": "./imgs/25287_b42d7f76b5ed257f_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -3207,7 +3207,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/60209_270a462fcbfd026c_x.jpg",
+		"image": "./imgs/60209_270a462fcbfd026c_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3224,7 +3224,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/60229_8d5ec450acddc6ad_x.jpg",
+		"image": "./imgs/60229_8d5ec450acddc6ad_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3241,7 +3241,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/60215_39010dd06629ff7a_x.jpg",
+		"image": "./imgs/60215_39010dd06629ff7a_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3258,7 +3258,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/49297_7966522e8480a9c0_x.jpg",
+		"image": "./imgs/49297_7966522e8480a9c0_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3275,7 +3275,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/60221_1881d0ef9d6862b1_x.jpg",
+		"image": "./imgs/60221_1881d0ef9d6862b1_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3292,7 +3292,7 @@
 		"date": "1875-1906",
 		"year_acquired": "1995",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/60213_028306194e21071e_x.jpg",
+		"image": "./imgs/60213_028306194e21071e_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3309,7 +3309,7 @@
 		"date": "1906-1907",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/42000_be12c597c3efd5dc_o.jpg",
+		"image": "./imgs/42000_be12c597c3efd5dc_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3326,7 +3326,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/42012_39cb480059ef39d4_o.jpg",
+		"image": "./imgs/42012_39cb480059ef39d4_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3343,7 +3343,7 @@
 		"date": "1906-1907",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/42009_7b64e04b2c4066c8_o.jpg",
+		"image": "./imgs/42009_7b64e04b2c4066c8_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3360,7 +3360,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/42008_8c26b1294e5eb396_o.jpg",
+		"image": "./imgs/42008_8c26b1294e5eb396_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3377,7 +3377,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/42011_05693094e74be457_o.jpg",
+		"image": "./imgs/42011_05693094e74be457_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3394,7 +3394,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45471_e4bdb8fbb9702d56_o.jpg",
+		"image": "./imgs/45471_e4bdb8fbb9702d56_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3411,7 +3411,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45478_153f033775f7557b_o.jpg",
+		"image": "./imgs/45478_153f033775f7557b_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3428,7 +3428,7 @@
 		"date": "1898-1907",
 		"year_acquired": "1953",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/101264_a294b2a191a584d0_b.jpg",
+		"image": "./imgs/101264_a294b2a191a584d0_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -3445,7 +3445,7 @@
 		"date": "1898-1907",
 		"year_acquired": "1953",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/101851_332a91ec378bf2a9_b.jpg",
+		"image": "./imgs/101851_332a91ec378bf2a9_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -3462,7 +3462,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45629_eafaf013e6c39d94_o.jpg",
+		"image": "./imgs/45629_eafaf013e6c39d94_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3479,7 +3479,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45467_aee7c3ba52a9e86b_o.jpg",
+		"image": "./imgs/45467_aee7c3ba52a9e86b_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3496,7 +3496,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/41999_7eecfcf201ac141b_o.jpg",
+		"image": "./imgs/41999_7eecfcf201ac141b_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3513,7 +3513,7 @@
 		"date": "1907",
 		"year_acquired": "2013",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/86352__b.jpg",
+		"image": "./imgs/86352__b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -3530,7 +3530,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45470_0501573841e25af0_o.jpg",
+		"image": "./imgs/45470_0501573841e25af0_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3547,7 +3547,7 @@
 		"date": "ca. 1902",
 		"year_acquired": "1963",
 		"country": "Italy",
-		"image": "https://images.collection.cooperhewitt.org/103814_289fbfd6164558b1_b.jpg",
+		"image": "./imgs/103814_289fbfd6164558b1_b.jpg",
 		"lat": 42.8333,
 		"long": 12.8333
 	},
@@ -3564,7 +3564,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48977_ae456ddd5cfe47b6_o.jpg",
+		"image": "./imgs/48977_ae456ddd5cfe47b6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3581,7 +3581,7 @@
 		"date": "1907",
 		"year_acquired": "1968",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/46427_e794952171adb48c_x.jpg",
+		"image": "./imgs/46427_e794952171adb48c_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3598,7 +3598,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45639_da2e7add3580465b_o.jpg",
+		"image": "./imgs/45639_da2e7add3580465b_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3615,7 +3615,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45474_c4057543b8957427_o.jpg",
+		"image": "./imgs/45474_c4057543b8957427_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3632,7 +3632,7 @@
 		"date": "1906-07",
 		"year_acquired": "1979",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/41080_89c42ab88ec9094f_b.jpg",
+		"image": "./imgs/41080_89c42ab88ec9094f_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3649,7 +3649,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45638_f46a73d9a297bc00_o.jpg",
+		"image": "./imgs/45638_f46a73d9a297bc00_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3666,7 +3666,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/42016_5f88b047b305679f_o.jpg",
+		"image": "./imgs/42016_5f88b047b305679f_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3683,7 +3683,7 @@
 		"date": "late 19th century",
 		"year_acquired": "1907",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/105835_c3eaef727a557bbc_b.jpg",
+		"image": "./imgs/105835_c3eaef727a557bbc_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -3700,7 +3700,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45469_691b5fdda2012c1a_o.jpg",
+		"image": "./imgs/45469_691b5fdda2012c1a_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3717,7 +3717,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45479_809b1834332cd4cd_o.jpg",
+		"image": "./imgs/45479_809b1834332cd4cd_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3734,7 +3734,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45480_c48bd222a47b3e4c_o.jpg",
+		"image": "./imgs/45480_c48bd222a47b3e4c_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3751,7 +3751,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45627_b19a7ba9edae9012_o.jpg",
+		"image": "./imgs/45627_b19a7ba9edae9012_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3768,7 +3768,7 @@
 		"date": "ca. 1902",
 		"year_acquired": "1911",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/205830_5328ad5e885bd2f1_x.jpg",
+		"image": "./imgs/205830_5328ad5e885bd2f1_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3785,7 +3785,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45637_79c2a59c257fca85_o.jpg",
+		"image": "./imgs/45637_79c2a59c257fca85_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3802,7 +3802,7 @@
 		"date": "1907",
 		"year_acquired": "1968",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/114561_d70d594a31e1c356_x.jpg",
+		"image": "./imgs/114561_d70d594a31e1c356_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3819,7 +3819,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45624_489f7526264f40f5_o.jpg",
+		"image": "./imgs/45624_489f7526264f40f5_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3836,7 +3836,7 @@
 		"date": "1907",
 		"year_acquired": "1994",
 		"country": "Netherlands",
-		"image": "https://images.collection.cooperhewitt.org/107273_b5c3624c08f962e6_b.jpg",
+		"image": "./imgs/107273_b5c3624c08f962e6_b.jpg",
 		"lat": 52.5,
 		"long": 5.75
 	},
@@ -3853,7 +3853,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48980_989753989d1c665e_o.jpg",
+		"image": "./imgs/48980_989753989d1c665e_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3870,7 +3870,7 @@
 		"date": "1907",
 		"year_acquired": "1995",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/128021_e7baa714645a7c9a_b.jpg",
+		"image": "./imgs/128021_e7baa714645a7c9a_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -3887,7 +3887,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48979_caea32b545d85104_o.jpg",
+		"image": "./imgs/48979_caea32b545d85104_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3904,7 +3904,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45628_1e4389636875f61e_o.jpg",
+		"image": "./imgs/45628_1e4389636875f61e_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3921,7 +3921,7 @@
 		"date": "1907",
 		"year_acquired": "2005",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/44727_fc6b509fb072d38b_x.jpg",
+		"image": "./imgs/44727_fc6b509fb072d38b_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3938,7 +3938,7 @@
 		"date": "1907",
 		"year_acquired": "1971",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/91441_ca8ff32a1643f2ce_b.jpg",
+		"image": "./imgs/91441_ca8ff32a1643f2ce_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3955,7 +3955,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/42006_a38f8a7f48be8632_o.jpg",
+		"image": "./imgs/42006_a38f8a7f48be8632_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3972,7 +3972,7 @@
 		"date": "ca. 1902",
 		"year_acquired": "1911",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/205453_1e0cc6b8850a494c_x.jpg",
+		"image": "./imgs/205453_1e0cc6b8850a494c_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -3989,7 +3989,7 @@
 		"date": "1907",
 		"year_acquired": "1952",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/59558_c4c6803e62eac103_x.jpg",
+		"image": "./imgs/59558_c4c6803e62eac103_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4006,7 +4006,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45465_8e68b399732ef254_o.jpg",
+		"image": "./imgs/45465_8e68b399732ef254_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4023,7 +4023,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45464_b9a4ec5ee742bfb7_o.jpg",
+		"image": "./imgs/45464_b9a4ec5ee742bfb7_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4040,7 +4040,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45636_2168ca39267865da_o.jpg",
+		"image": "./imgs/45636_2168ca39267865da_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4057,7 +4057,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/41995_c290fdf9df403c06_o.jpg",
+		"image": "./imgs/41995_c290fdf9df403c06_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4074,7 +4074,7 @@
 		"date": "1907",
 		"year_acquired": "1956",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/62010_7b6c8c3d05d3c7f9_b.jpg",
+		"image": "./imgs/62010_7b6c8c3d05d3c7f9_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4091,7 +4091,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45626_abdeb48aedf21791_o.jpg",
+		"image": "./imgs/45626_abdeb48aedf21791_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4108,7 +4108,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45642_557336a10d7a6a5e_o.jpg",
+		"image": "./imgs/45642_557336a10d7a6a5e_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4125,7 +4125,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/41996_edc00dedc6274efb_o.jpg",
+		"image": "./imgs/41996_edc00dedc6274efb_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4142,7 +4142,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/42004_5621cd431c3153c9_o.jpg",
+		"image": "./imgs/42004_5621cd431c3153c9_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4159,7 +4159,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/42005_e12d466239787e58_o.jpg",
+		"image": "./imgs/42005_e12d466239787e58_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4176,7 +4176,7 @@
 		"date": "1906-1907",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45481_60088f4dd7d91a8d_o.jpg",
+		"image": "./imgs/45481_60088f4dd7d91a8d_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4193,7 +4193,7 @@
 		"date": "November 9, 1907",
 		"year_acquired": "1952",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/59556_f2ab4e36f384457d_b.jpg",
+		"image": "./imgs/59556_f2ab4e36f384457d_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -4210,7 +4210,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/42013_77a06d3bd5b1e630_o.jpg",
+		"image": "./imgs/42013_77a06d3bd5b1e630_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4227,7 +4227,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45473_038d45e24e334557_o.jpg",
+		"image": "./imgs/45473_038d45e24e334557_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4244,7 +4244,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48976_0be35084d2be1faf_o.jpg",
+		"image": "./imgs/48976_0be35084d2be1faf_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4261,7 +4261,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45641_a451c8bd036a25fb_o.jpg",
+		"image": "./imgs/45641_a451c8bd036a25fb_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4278,7 +4278,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45477_3f2d599cbd2b6a4c_o.jpg",
+		"image": "./imgs/45477_3f2d599cbd2b6a4c_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4295,7 +4295,7 @@
 		"date": "1906-07",
 		"year_acquired": "1956",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/62011_d4bdfb06a24239a7_b.jpg",
+		"image": "./imgs/62011_d4bdfb06a24239a7_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -4312,7 +4312,7 @@
 		"date": "1906-1907",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45463_e3025ab64188344b_o.jpg",
+		"image": "./imgs/45463_e3025ab64188344b_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4329,7 +4329,7 @@
 		"date": "November 3, 1907",
 		"year_acquired": "1952",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/59557_10dbef6a450bba2a_b.jpg",
+		"image": "./imgs/59557_10dbef6a450bba2a_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -4346,7 +4346,7 @@
 		"date": "1905-1907",
 		"year_acquired": "1979",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/260210_d15a34152b5a10bd_b.jpg",
+		"image": "./imgs/260210_d15a34152b5a10bd_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4363,7 +4363,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45630_17794f6a960e05fa_o.jpg",
+		"image": "./imgs/45630_17794f6a960e05fa_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4380,7 +4380,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45640_c5f92e157deadadb_o.jpg",
+		"image": "./imgs/45640_c5f92e157deadadb_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4397,7 +4397,7 @@
 		"date": "ca. 1902",
 		"year_acquired": "1960",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/43423_a91146bbd87287dd_x.jpg",
+		"image": "./imgs/43423_a91146bbd87287dd_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4414,7 +4414,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/41994_a6014aac361069b3_o.jpg",
+		"image": "./imgs/41994_a6014aac361069b3_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4431,7 +4431,7 @@
 		"date": "ca. 1907",
 		"year_acquired": "1950",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/41373_5b031e453c729f34_b.jpg",
+		"image": "./imgs/41373_5b031e453c729f34_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -4448,7 +4448,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48978_141cc4df178f29dc_o.jpg",
+		"image": "./imgs/48978_141cc4df178f29dc_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4465,7 +4465,7 @@
 		"date": "late 19th century",
 		"year_acquired": "1907",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/105949_9520448e36d23e61_b.jpg",
+		"image": "./imgs/105949_9520448e36d23e61_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -4482,7 +4482,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48975_1793a5f7e8957e7e_o.jpg",
+		"image": "./imgs/48975_1793a5f7e8957e7e_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4499,7 +4499,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/45475_fc143bd923413dee_b.jpg",
+		"image": "./imgs/45475_fc143bd923413dee_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -4516,7 +4516,7 @@
 		"date": "1902-07",
 		"year_acquired": "1984",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/143738__x.jpg",
+		"image": "./imgs/143738__x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4533,7 +4533,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45482_f9ab287591c347db_o.jpg",
+		"image": "./imgs/45482_f9ab287591c347db_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4550,7 +4550,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45472_9e04e717b66ded9c_o.jpg",
+		"image": "./imgs/45472_9e04e717b66ded9c_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4567,7 +4567,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45643_7beb8ed3f710f0df_o.jpg",
+		"image": "./imgs/45643_7beb8ed3f710f0df_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4584,7 +4584,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45468_1f06127bce8c872b_o.jpg",
+		"image": "./imgs/45468_1f06127bce8c872b_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4601,7 +4601,7 @@
 		"date": "ca. 1897",
 		"year_acquired": "1978",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/99633_8bb0d087c9fb173c_b.jpg",
+		"image": "./imgs/99633_8bb0d087c9fb173c_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -4618,7 +4618,7 @@
 		"date": "1902-07",
 		"year_acquired": "1984",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/103132__x.jpg",
+		"image": "./imgs/103132__x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4635,7 +4635,7 @@
 		"date": "1898-1907",
 		"year_acquired": "1953",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/101287_ecea51922ed69045_b.jpg",
+		"image": "./imgs/101287_ecea51922ed69045_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -4652,7 +4652,7 @@
 		"date": "1902-07",
 		"year_acquired": "1984",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/139585_b49f1cceafb08c61_b.jpg",
+		"image": "./imgs/139585_b49f1cceafb08c61_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4669,7 +4669,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/41995_c290fdf9df403c06_o.jpg",
+		"image": "./imgs/41995_c290fdf9df403c06_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4686,7 +4686,7 @@
 		"date": "1907",
 		"year_acquired": "1956",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/62010_7b6c8c3d05d3c7f9_b.jpg",
+		"image": "./imgs/62010_7b6c8c3d05d3c7f9_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4703,7 +4703,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45626_abdeb48aedf21791_o.jpg",
+		"image": "./imgs/45626_abdeb48aedf21791_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4720,7 +4720,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45642_557336a10d7a6a5e_o.jpg",
+		"image": "./imgs/45642_557336a10d7a6a5e_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4737,7 +4737,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45483_3fb03efdbb3a89eb_o.jpg",
+		"image": "./imgs/45483_3fb03efdbb3a89eb_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4754,7 +4754,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45633_10e0c212e3301859_o.jpg",
+		"image": "./imgs/45633_10e0c212e3301859_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4771,7 +4771,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45632_42affd2facb8c424_o.jpg",
+		"image": "./imgs/45632_42affd2facb8c424_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4788,7 +4788,7 @@
 		"date": "1906-1907",
 		"year_acquired": "2005",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/89308_c63aa064ca6020cf_x.jpg",
+		"image": "./imgs/89308_c63aa064ca6020cf_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4805,7 +4805,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/41997_fe76db16a5897c66_o.jpg",
+		"image": "./imgs/41997_fe76db16a5897c66_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4822,7 +4822,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/42001_b362b5651bd541d5_o.jpg",
+		"image": "./imgs/42001_b362b5651bd541d5_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4839,7 +4839,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45476_19548ca119eed062_o.jpg",
+		"image": "./imgs/45476_19548ca119eed062_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4856,7 +4856,7 @@
 		"date": "1906-07",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45466_8cd2f2d7bdfb38e7_o.jpg",
+		"image": "./imgs/45466_8cd2f2d7bdfb38e7_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4873,7 +4873,7 @@
 		"date": "ca. 1903-05",
 		"year_acquired": "1978",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/59128_0a2501594322607e_x.jpg",
+		"image": "./imgs/59128_0a2501594322607e_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4890,7 +4890,7 @@
 		"date": "ca. 1908",
 		"year_acquired": "1994",
 		"country": "Netherlands",
-		"image": "https://images.collection.cooperhewitt.org/107246_64d10472d451567b_b.jpg",
+		"image": "./imgs/107246_64d10472d451567b_b.jpg",
 		"lat": 52.5,
 		"long": 5.75
 	},
@@ -4907,7 +4907,7 @@
 		"date": "1906-1908",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48908_26d03931b5d3da78_b.jpg",
+		"image": "./imgs/48908_26d03931b5d3da78_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4924,7 +4924,7 @@
 		"date": "1907-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45618_d80b557fe7e26bba_x.jpg",
+		"image": "./imgs/45618_d80b557fe7e26bba_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4941,7 +4941,7 @@
 		"date": "1907-1908",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/10195_9f960ef18ce0bca6_o.jpg",
+		"image": "./imgs/10195_9f960ef18ce0bca6_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -4958,7 +4958,7 @@
 		"date": "1908",
 		"year_acquired": "1982",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/96795_493b82a67577ab55_b.jpg",
+		"image": "./imgs/96795_493b82a67577ab55_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -4975,7 +4975,7 @@
 		"date": "ca. 1908",
 		"year_acquired": "1994",
 		"country": "Netherlands",
-		"image": "https://images.collection.cooperhewitt.org/107300_206bfd2fb5f2bdb0_b.jpg",
+		"image": "./imgs/107300_206bfd2fb5f2bdb0_b.jpg",
 		"lat": 52.5,
 		"long": 5.75
 	},
@@ -4992,7 +4992,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48911_07b2aca6f025cf82_x.jpg",
+		"image": "./imgs/48911_07b2aca6f025cf82_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5009,7 +5009,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48952_d52457a54161f21e_o.jpg",
+		"image": "./imgs/48952_d52457a54161f21e_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5026,7 +5026,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48959_8d79adb88fbe94e8_o.jpg",
+		"image": "./imgs/48959_8d79adb88fbe94e8_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5043,7 +5043,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48972_00f12567e0242676_o.jpg",
+		"image": "./imgs/48972_00f12567e0242676_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5060,7 +5060,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48962_27a4e55bc3420752_o.jpg",
+		"image": "./imgs/48962_27a4e55bc3420752_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5077,7 +5077,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48963_08e927c98296b4c8_o.jpg",
+		"image": "./imgs/48963_08e927c98296b4c8_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5094,7 +5094,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48957_55cc17b7c5ca0a15_o.jpg",
+		"image": "./imgs/48957_55cc17b7c5ca0a15_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5111,7 +5111,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48970_d4db224f5157cdfb_o.jpg",
+		"image": "./imgs/48970_d4db224f5157cdfb_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5128,7 +5128,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48965_e64018ba805c5fcc_o.jpg",
+		"image": "./imgs/48965_e64018ba805c5fcc_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5145,7 +5145,7 @@
 		"date": "1908",
 		"year_acquired": "1950",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/41300_f9f2fb385bc3a219_b.jpg",
+		"image": "./imgs/41300_f9f2fb385bc3a219_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -5162,7 +5162,7 @@
 		"date": "ca. 1908",
 		"year_acquired": "1994",
 		"country": "Netherlands",
-		"image": "https://images.collection.cooperhewitt.org/107175_247b82f62d25c5d5_b.jpg",
+		"image": "./imgs/107175_247b82f62d25c5d5_b.jpg",
 		"lat": 52.5,
 		"long": 5.75
 	},
@@ -5179,7 +5179,7 @@
 		"date": "1907-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45617_9d675cc0a462a521_x.jpg",
+		"image": "./imgs/45617_9d675cc0a462a521_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5196,7 +5196,7 @@
 		"date": "1907-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45621_7a7df97b4edc2976_x.jpg",
+		"image": "./imgs/45621_7a7df97b4edc2976_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5213,7 +5213,7 @@
 		"date": "1907-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45616_c1819bcfd1fc148c_x.jpg",
+		"image": "./imgs/45616_c1819bcfd1fc148c_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5230,7 +5230,7 @@
 		"date": "1907-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45603_e652929ab3b50aa3_x.jpg",
+		"image": "./imgs/45603_e652929ab3b50aa3_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5247,7 +5247,7 @@
 		"date": "1907-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45622_0e76686d4bfdb02c_x.jpg",
+		"image": "./imgs/45622_0e76686d4bfdb02c_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5264,7 +5264,7 @@
 		"date": "1907-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45612_ff3f8dfee9523d40_x.jpg",
+		"image": "./imgs/45612_ff3f8dfee9523d40_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5281,7 +5281,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48903_39a6663fff9c862d_x.jpg",
+		"image": "./imgs/48903_39a6663fff9c862d_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5298,7 +5298,7 @@
 		"date": "1907-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45608_b397cb6e3b54bc38_x.jpg",
+		"image": "./imgs/45608_b397cb6e3b54bc38_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5315,7 +5315,7 @@
 		"date": "1907-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45607_0d5dfc318a1ca083_x.jpg",
+		"image": "./imgs/45607_0d5dfc318a1ca083_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5332,7 +5332,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45451_7947214f43dcc7a1_o.jpg",
+		"image": "./imgs/45451_7947214f43dcc7a1_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5349,7 +5349,7 @@
 		"date": "1907-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45620_631f3e7a8b2ec1fb_x.jpg",
+		"image": "./imgs/45620_631f3e7a8b2ec1fb_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5366,7 +5366,7 @@
 		"date": "1907-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45613_0f01ab4441bc0142_x.jpg",
+		"image": "./imgs/45613_0f01ab4441bc0142_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5383,7 +5383,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45458_94dbbecb609096d5_o.jpg",
+		"image": "./imgs/45458_94dbbecb609096d5_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5400,7 +5400,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48906_b2a19e5ceb099185_x.jpg",
+		"image": "./imgs/48906_b2a19e5ceb099185_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5417,7 +5417,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48953_2c0ffcea64784720_o.jpg",
+		"image": "./imgs/48953_2c0ffcea64784720_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5434,7 +5434,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48902_b24ac8be81152d61_x.jpg",
+		"image": "./imgs/48902_b24ac8be81152d61_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5451,7 +5451,7 @@
 		"date": "1907-1908",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45610_363bfcf42c20d4a1_x.jpg",
+		"image": "./imgs/45610_363bfcf42c20d4a1_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5468,7 +5468,7 @@
 		"date": "1907-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45609_1a15d962a2fe60a2_x.jpg",
+		"image": "./imgs/45609_1a15d962a2fe60a2_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5484,7 +5484,7 @@
 		"date": "1908",
 		"year_acquired": "1948",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/109539_0cd8fa5fbfa95a56_b.jpg",
+		"image": "./imgs/109539_0cd8fa5fbfa95a56_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -5501,7 +5501,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45611_974beeecb9cc73ec_x.jpg",
+		"image": "./imgs/45611_974beeecb9cc73ec_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5518,7 +5518,7 @@
 		"date": "1907-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45606_a694ca027c1ea25f_x.jpg",
+		"image": "./imgs/45606_a694ca027c1ea25f_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5535,7 +5535,7 @@
 		"date": "ca. 1898",
 		"year_acquired": "1980",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/99613_2cc56c196e4ade4c_x.jpg",
+		"image": "./imgs/99613_2cc56c196e4ade4c_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5552,7 +5552,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48849_0adeb2dc74f98797_x.jpg",
+		"image": "./imgs/48849_0adeb2dc74f98797_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5569,7 +5569,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45446_972a7bdaec30cd7e_o.jpg",
+		"image": "./imgs/45446_972a7bdaec30cd7e_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5586,7 +5586,7 @@
 		"date": "ca. 1908",
 		"year_acquired": "1994",
 		"country": "Netherlands",
-		"image": "https://images.collection.cooperhewitt.org/107395_906be5eef889c89d_b.jpg",
+		"image": "./imgs/107395_906be5eef889c89d_b.jpg",
 		"lat": 52.5,
 		"long": 5.75
 	},
@@ -5603,7 +5603,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48924_c7b57e6add9ecac9_o.jpg",
+		"image": "./imgs/48924_c7b57e6add9ecac9_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5620,7 +5620,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45448_95bfd93b915626c2_o.jpg",
+		"image": "./imgs/45448_95bfd93b915626c2_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5637,7 +5637,7 @@
 		"date": "ca. 1908",
 		"year_acquired": "1994",
 		"country": "Netherlands",
-		"image": "https://images.collection.cooperhewitt.org/107212_911a75c570916b89_b.jpg",
+		"image": "./imgs/107212_911a75c570916b89_b.jpg",
 		"lat": 52.5,
 		"long": 5.75
 	},
@@ -5654,7 +5654,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45450_6689f7059706d4d1_o.jpg",
+		"image": "./imgs/45450_6689f7059706d4d1_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5671,7 +5671,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48898_fca4dcc2d72036f6_x.jpg",
+		"image": "./imgs/48898_fca4dcc2d72036f6_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5688,7 +5688,7 @@
 		"date": "ca. 1903-04",
 		"year_acquired": "1975",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/362745_664a1bc35191987e_b.jpg",
+		"image": "./imgs/362745_664a1bc35191987e_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5705,7 +5705,7 @@
 		"date": "1907-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/106027_af76fa8017412824_x.jpg",
+		"image": "./imgs/106027_af76fa8017412824_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5722,7 +5722,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48900_ff54abbaea42a898_x.jpg",
+		"image": "./imgs/48900_ff54abbaea42a898_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5739,7 +5739,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45461_d4aae0606478b189_o.jpg",
+		"image": "./imgs/45461_d4aae0606478b189_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5756,7 +5756,7 @@
 		"date": "1907-08",
 		"year_acquired": "1985",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/90852_ee91f9f3344f0eba_b.jpg",
+		"image": "./imgs/90852_ee91f9f3344f0eba_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -5773,7 +5773,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48913_02972b4394f933da_o.jpg",
+		"image": "./imgs/48913_02972b4394f933da_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5790,7 +5790,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48917_37fefca6f9b8592a_o.jpg",
+		"image": "./imgs/48917_37fefca6f9b8592a_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5807,7 +5807,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45453_9f1d569501edaf20_o.jpg",
+		"image": "./imgs/45453_9f1d569501edaf20_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5824,7 +5824,7 @@
 		"date": "1907-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48850_da6b05f6c07ed050_x.jpg",
+		"image": "./imgs/48850_da6b05f6c07ed050_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5841,7 +5841,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48852_ff2449782ed9c2eb_x.jpg",
+		"image": "./imgs/48852_ff2449782ed9c2eb_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5858,7 +5858,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45444_7c56947177396b5f_o.jpg",
+		"image": "./imgs/45444_7c56947177396b5f_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5875,7 +5875,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48894_6b270c10a101801c_x.jpg",
+		"image": "./imgs/48894_6b270c10a101801c_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5892,7 +5892,7 @@
 		"date": "1908",
 		"year_acquired": "1938",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/105911_0a9db60f0cb0cf0a_x.jpg",
+		"image": "./imgs/105911_0a9db60f0cb0cf0a_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5909,7 +5909,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48853_eb908a0b06e487ae_x.jpg",
+		"image": "./imgs/48853_eb908a0b06e487ae_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5926,7 +5926,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48893_31872ec7fdcffff8_x.jpg",
+		"image": "./imgs/48893_31872ec7fdcffff8_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5943,7 +5943,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48904_8d35cd44ac92439e_x.jpg",
+		"image": "./imgs/48904_8d35cd44ac92439e_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5960,7 +5960,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48932_87ddeeb39e1e5361_o.jpg",
+		"image": "./imgs/48932_87ddeeb39e1e5361_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5977,7 +5977,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45449_54ec7b787516b69b_o.jpg",
+		"image": "./imgs/45449_54ec7b787516b69b_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -5994,7 +5994,7 @@
 		"date": "1906-1908",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48895_5b40e912cc80c092_b.jpg",
+		"image": "./imgs/48895_5b40e912cc80c092_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6011,7 +6011,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48973_ca9de08c73d9492f_o.jpg",
+		"image": "./imgs/48973_ca9de08c73d9492f_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6028,7 +6028,7 @@
 		"date": "ca. 1908",
 		"year_acquired": "1994",
 		"country": "Netherlands",
-		"image": "https://images.collection.cooperhewitt.org/107279_baa86e2ae7b1ab31_b.jpg",
+		"image": "./imgs/107279_baa86e2ae7b1ab31_b.jpg",
 		"lat": 52.5,
 		"long": 5.75
 	},
@@ -6045,7 +6045,7 @@
 		"date": "1908",
 		"year_acquired": "1954",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/28125_a1eff5c1f944741f_b.jpg",
+		"image": "./imgs/28125_a1eff5c1f944741f_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -6062,7 +6062,7 @@
 		"date": "1907-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/106082_2dc4c3b6dbf7e2c8_x.jpg",
+		"image": "./imgs/106082_2dc4c3b6dbf7e2c8_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6079,7 +6079,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45454_c7c033eb0bbba0d9_o.jpg",
+		"image": "./imgs/45454_c7c033eb0bbba0d9_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6096,7 +6096,7 @@
 		"date": "1907-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/106120_9da3daa449ef087b_x.jpg",
+		"image": "./imgs/106120_9da3daa449ef087b_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6113,7 +6113,7 @@
 		"date": "ca. 1903",
 		"year_acquired": "1977",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/46100_d4c239680c4d7a0b_x.jpg",
+		"image": "./imgs/46100_d4c239680c4d7a0b_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6130,7 +6130,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48947_4a26abb43ff8ab04_o.jpg",
+		"image": "./imgs/48947_4a26abb43ff8ab04_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6147,7 +6147,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48905_8fda7659d283bccd_x.jpg",
+		"image": "./imgs/48905_8fda7659d283bccd_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6164,7 +6164,7 @@
 		"date": "ca. 1898",
 		"year_acquired": "1978",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/97649_702d69bd578c9e86_b.jpg",
+		"image": "./imgs/97649_702d69bd578c9e86_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -6181,7 +6181,7 @@
 		"date": "1906-1908",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/106060_8a004dcc7f53cff5_b.jpg",
+		"image": "./imgs/106060_8a004dcc7f53cff5_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6198,7 +6198,7 @@
 		"date": "1907-08",
 		"year_acquired": "1982",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/102277_f5fbdb01a68edfeb_b.jpg",
+		"image": "./imgs/102277_f5fbdb01a68edfeb_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -6215,7 +6215,7 @@
 		"date": "1907-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45619_6af57b3a26b9cb16_x.jpg",
+		"image": "./imgs/45619_6af57b3a26b9cb16_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6232,7 +6232,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48892_1cb9eb1ad2dfc0e6_x.jpg",
+		"image": "./imgs/48892_1cb9eb1ad2dfc0e6_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6249,7 +6249,7 @@
 		"date": "1907-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45614_29ec6bfac03496fd_x.jpg",
+		"image": "./imgs/45614_29ec6bfac03496fd_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6266,7 +6266,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45456_db941b6bea6549d9_o.jpg",
+		"image": "./imgs/45456_db941b6bea6549d9_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6283,7 +6283,7 @@
 		"date": "1908",
 		"year_acquired": "1980",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/121912_07e6b50bc65403cb_x.jpg",
+		"image": "./imgs/121912_07e6b50bc65403cb_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6300,7 +6300,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48909_2317e51381649171_x.jpg",
+		"image": "./imgs/48909_2317e51381649171_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6317,7 +6317,7 @@
 		"date": "1908",
 		"year_acquired": "1953",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/42880_2912dbb4594e0850_b.jpg",
+		"image": "./imgs/42880_2912dbb4594e0850_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -6334,7 +6334,7 @@
 		"date": "1907-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48848_c9ce059a6fdf318f_x.jpg",
+		"image": "./imgs/48848_c9ce059a6fdf318f_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6351,7 +6351,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48855_1a179356ca706d2e_x.jpg",
+		"image": "./imgs/48855_1a179356ca706d2e_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6368,7 +6368,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48912_fc53872590df7744_x.jpg",
+		"image": "./imgs/48912_fc53872590df7744_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6385,7 +6385,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48907_ced1fea192d16828_x.jpg",
+		"image": "./imgs/48907_ced1fea192d16828_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6402,7 +6402,7 @@
 		"date": "1907-08",
 		"year_acquired": "1985",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/90852_ee91f9f3344f0eba_b.jpg",
+		"image": "./imgs/90852_ee91f9f3344f0eba_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -6419,7 +6419,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45460_789983b5f39a873d_o.jpg",
+		"image": "./imgs/45460_789983b5f39a873d_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6436,7 +6436,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48910_0a8c709287fbf799_x.jpg",
+		"image": "./imgs/48910_0a8c709287fbf799_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6453,7 +6453,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48951_2414fd1e1a9bd3e4_o.jpg",
+		"image": "./imgs/48951_2414fd1e1a9bd3e4_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6470,7 +6470,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48896_76da5f034b63b2b5_x.jpg",
+		"image": "./imgs/48896_76da5f034b63b2b5_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6487,7 +6487,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45457_13b1625bda0b6a38_o.jpg",
+		"image": "./imgs/45457_13b1625bda0b6a38_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6504,7 +6504,7 @@
 		"date": "ca. 1908",
 		"year_acquired": "1994",
 		"country": "Netherlands",
-		"image": "https://images.collection.cooperhewitt.org/107357_74501960aa9fe5ec_b.jpg",
+		"image": "./imgs/107357_74501960aa9fe5ec_b.jpg",
 		"lat": 52.5,
 		"long": 5.75
 	},
@@ -6521,7 +6521,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45459_d3d8d22ebbdc9dff_o.jpg",
+		"image": "./imgs/45459_d3d8d22ebbdc9dff_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6538,7 +6538,7 @@
 		"date": "1904-08",
 		"year_acquired": "1989",
 		"country": "Denmark",
-		"image": "https://images.collection.cooperhewitt.org/132194_88725b223ec13086_b.jpg",
+		"image": "./imgs/132194_88725b223ec13086_b.jpg",
 		"lat": 56,
 		"long": 10
 	},
@@ -6555,7 +6555,7 @@
 		"date": "ca. 1908",
 		"year_acquired": "1917",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/340829_b2c6dd7bf6d2eae6_b.jpg",
+		"image": "./imgs/340829_b2c6dd7bf6d2eae6_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6572,7 +6572,7 @@
 		"date": "ca. 1908",
 		"year_acquired": "1938",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/41873_0d654ad8cf9d3855_b.jpg",
+		"image": "./imgs/41873_0d654ad8cf9d3855_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6589,7 +6589,7 @@
 		"date": "1906-08",
 		"year_acquired": "1985",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45452_dda124c0f836831f_o.jpg",
+		"image": "./imgs/45452_dda124c0f836831f_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6606,7 +6606,7 @@
 		"date": "ca. 1909",
 		"year_acquired": "1912",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/122120_8118e74534d86657_b.jpg",
+		"image": "./imgs/122120_8118e74534d86657_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6623,7 +6623,7 @@
 		"date": "1909",
 		"year_acquired": "1981",
 		"country": "Germany",
-		"image": "https://images.collection.cooperhewitt.org/41562_0b6d24b0bf499570_b.jpg",
+		"image": "./imgs/41562_0b6d24b0bf499570_b.jpg",
 		"lat": 51,
 		"long": 9
 	},
@@ -6640,7 +6640,7 @@
 		"date": "ca. 1904",
 		"year_acquired": "2001",
 		"country": "Germany",
-		"image": "https://images.collection.cooperhewitt.org/63288_3794839efe7d867b_b.jpg",
+		"image": "./imgs/63288_3794839efe7d867b_b.jpg",
 		"lat": 51,
 		"long": 9
 	},
@@ -6657,7 +6657,7 @@
 		"date": "1904-09",
 		"year_acquired": "1983",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/25590_2c638c5751c60ccc_o.jpg",
+		"image": "./imgs/25590_2c638c5751c60ccc_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6674,7 +6674,7 @@
 		"date": "ca. 1899",
 		"year_acquired": "1991",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/147768_785287485e77a117_x.jpg",
+		"image": "./imgs/147768_785287485e77a117_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6691,7 +6691,7 @@
 		"date": "1909",
 		"year_acquired": "1974",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/161189_fc149c81820b9290_b.jpg",
+		"image": "./imgs/161189_fc149c81820b9290_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -6708,7 +6708,7 @@
 		"date": "1909",
 		"year_acquired": "2013",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/88443_35196b32fd9a3064_b.jpg",
+		"image": "./imgs/88443_35196b32fd9a3064_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -6725,7 +6725,7 @@
 		"date": "1909",
 		"year_acquired": "1956",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/138562_b2522960ada0e994_b.jpg",
+		"image": "./imgs/138562_b2522960ada0e994_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -6742,7 +6742,7 @@
 		"date": "ca. 1909",
 		"year_acquired": "1909",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/42162_ee3bbce3900979d2_x.jpg",
+		"image": "./imgs/42162_ee3bbce3900979d2_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6759,7 +6759,7 @@
 		"date": "possibly 1909",
 		"year_acquired": "1920",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/101373_dddcbea607b97d62_b.jpg",
+		"image": "./imgs/101373_dddcbea607b97d62_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -6776,7 +6776,7 @@
 		"date": "November 20, 1909",
 		"year_acquired": "1950",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/41375_18dd491676a49fc7_b.jpg",
+		"image": "./imgs/41375_18dd491676a49fc7_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -6793,7 +6793,7 @@
 		"date": "1909",
 		"year_acquired": "1956",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/139002_6c0e68a41690adff_b.jpg",
+		"image": "./imgs/139002_6c0e68a41690adff_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -6810,7 +6810,7 @@
 		"date": "1909",
 		"year_acquired": "1992",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/60392_5c3ff69467c1e480_b.jpg",
+		"image": "./imgs/60392_5c3ff69467c1e480_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6827,7 +6827,7 @@
 		"date": "ca. 1909",
 		"year_acquired": "1909",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/42163_02cced766516deec_x.jpg",
+		"image": "./imgs/42163_02cced766516deec_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6844,7 +6844,7 @@
 		"date": "1909",
 		"year_acquired": "1949",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/347608_2154e65cd57ff2b3_b.jpg",
+		"image": "./imgs/347608_2154e65cd57ff2b3_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -6861,7 +6861,7 @@
 		"date": "1909",
 		"year_acquired": "1956",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/138711_61c19870b42597e9_b.jpg",
+		"image": "./imgs/138711_61c19870b42597e9_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -6878,7 +6878,7 @@
 		"date": "ca. 1899",
 		"year_acquired": "1991",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/148591_084b58d3b567a3ed_x.jpg",
+		"image": "./imgs/148591_084b58d3b567a3ed_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6895,7 +6895,7 @@
 		"date": "1909",
 		"year_acquired": "1979",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/22139_9da27a7981c2237d_o.jpg",
+		"image": "./imgs/22139_9da27a7981c2237d_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6912,7 +6912,7 @@
 		"date": "1899-1909",
 		"year_acquired": "1983",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/350791_94a2062809d06b1b_b.jpg",
+		"image": "./imgs/350791_94a2062809d06b1b_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6929,7 +6929,7 @@
 		"date": "1893-1909",
 		"year_acquired": "1984",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/378043_10f8169daa511322_b.jpg",
+		"image": "./imgs/378043_10f8169daa511322_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6946,7 +6946,7 @@
 		"date": "ca. 1899",
 		"year_acquired": "1979",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/139544_c47f24d71ddc6f51_x.jpg",
+		"image": "./imgs/139544_c47f24d71ddc6f51_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6963,7 +6963,7 @@
 		"date": "1904-09",
 		"year_acquired": "1983",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/181427_fe6e490b5d8a4ab8_x.jpg",
+		"image": "./imgs/181427_fe6e490b5d8a4ab8_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6980,7 +6980,7 @@
 		"date": "1909",
 		"year_acquired": "1984",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/372347_7581954e768c826c_b.jpg",
+		"image": "./imgs/372347_7581954e768c826c_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -6997,7 +6997,7 @@
 		"date": "1905-1909",
 		"year_acquired": "1983",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/100465_c48b99602f592051_x.jpg",
+		"image": "./imgs/100465_c48b99602f592051_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -7014,7 +7014,7 @@
 		"date": "1909",
 		"year_acquired": "2013",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/92506_ca932fe074e3625e_b.jpg",
+		"image": "./imgs/92506_ca932fe074e3625e_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -7031,7 +7031,7 @@
 		"date": "1902-09",
 		"year_acquired": "1983",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/101210_13107d7697adf58b_x.jpg",
+		"image": "./imgs/101210_13107d7697adf58b_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -7048,7 +7048,7 @@
 		"date": "1909",
 		"year_acquired": "1992",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/62899_00afd1fb181089e3_x.jpg",
+		"image": "./imgs/62899_00afd1fb181089e3_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -7065,7 +7065,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "2009",
 		"country": "Austria",
-		"image": "https://images.collection.cooperhewitt.org/120780_8f65e2289a5ce587_b.jpg",
+		"image": "./imgs/120780_8f65e2289a5ce587_b.jpg",
 		"lat": 47.3333,
 		"long": 13.3333
 	},
@@ -7082,7 +7082,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "2009",
 		"country": "Austria",
-		"image": "https://images.collection.cooperhewitt.org/120718_b6efa64d7ac98342_b.jpg",
+		"image": "./imgs/120718_b6efa64d7ac98342_b.jpg",
 		"lat": 47.3333,
 		"long": 13.3333
 	},
@@ -7099,7 +7099,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/131777_7016ca12727ddc6d_x.jpg",
+		"image": "./imgs/131777_7016ca12727ddc6d_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -7116,7 +7116,7 @@
 		"date": "1890-1910",
 		"year_acquired": "1973",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/64895_2c4b88a26fab6b0e_x.jpg",
+		"image": "./imgs/64895_2c4b88a26fab6b0e_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -7133,7 +7133,7 @@
 		"date": "1910",
 		"year_acquired": "1950",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/5216_fa5e0600f6c117ba_b.jpg",
+		"image": "./imgs/5216_fa5e0600f6c117ba_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -7150,7 +7150,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/131250_8dd58012f47fb602_x.jpg",
+		"image": "./imgs/131250_8dd58012f47fb602_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -7167,7 +7167,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1978",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/43649_453bd2724e0aec03_b.jpg",
+		"image": "./imgs/43649_453bd2724e0aec03_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -7184,7 +7184,7 @@
 		"date": "late 19th-early 20th century",
 		"year_acquired": "1910",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/105927_56b35a8fc446f5fa_x.jpg",
+		"image": "./imgs/105927_56b35a8fc446f5fa_x.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -7201,7 +7201,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/129219_ab775996b3a97b08_x.jpg",
+		"image": "./imgs/129219_ab775996b3a97b08_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -7218,7 +7218,7 @@
 		"date": "after 1873",
 		"year_acquired": "1937",
 		"country": "Italy",
-		"image": "https://images.collection.cooperhewitt.org/110839_f2d1b4a9b500eaa7_x.jpg",
+		"image": "./imgs/110839_f2d1b4a9b500eaa7_x.jpg",
 		"lat": 42.8333,
 		"long": 12.8333
 	},
@@ -7235,7 +7235,7 @@
 		"date": "1890-1910",
 		"year_acquired": "1925",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/100079_1e81cc1bc1a0b2a2_b.jpg",
+		"image": "./imgs/100079_1e81cc1bc1a0b2a2_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -7252,7 +7252,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/129062_d1a41b30299f0aec_x.jpg",
+		"image": "./imgs/129062_d1a41b30299f0aec_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -7269,7 +7269,7 @@
 		"date": "early 20th century",
 		"year_acquired": "1985",
 		"country": "Austria",
-		"image": "https://images.collection.cooperhewitt.org/39104_073acad2ec0c44ab_b.jpg",
+		"image": "./imgs/39104_073acad2ec0c44ab_b.jpg",
 		"lat": 47.3333,
 		"long": 13.3333
 	},
@@ -7286,7 +7286,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1948",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/46088_20c445d633e7c430_b.jpg",
+		"image": "./imgs/46088_20c445d633e7c430_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -7303,7 +7303,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/131320_9a30bb8ccdc7c99a_x.jpg",
+		"image": "./imgs/131320_9a30bb8ccdc7c99a_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -7320,7 +7320,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "2009",
 		"country": "Austria",
-		"image": "https://images.collection.cooperhewitt.org/122911_74bce41a2f1ab7a9_b.jpg",
+		"image": "./imgs/122911_74bce41a2f1ab7a9_b.jpg",
 		"lat": 47.3333,
 		"long": 13.3333
 	},
@@ -7337,7 +7337,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/131486_e17162bc37d850ac_x.jpg",
+		"image": "./imgs/131486_e17162bc37d850ac_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -7354,7 +7354,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "2009",
 		"country": "Austria",
-		"image": "https://images.collection.cooperhewitt.org/120779_0d238cea4149efc0_b.jpg",
+		"image": "./imgs/120779_0d238cea4149efc0_b.jpg",
 		"lat": 47.3333,
 		"long": 13.3333
 	},
@@ -7371,7 +7371,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "2009",
 		"country": "Austria",
-		"image": "https://images.collection.cooperhewitt.org/122886_d49435255d27dd93_b.jpg",
+		"image": "./imgs/122886_d49435255d27dd93_b.jpg",
 		"lat": 47.3333,
 		"long": 13.3333
 	},
@@ -7388,7 +7388,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "2009",
 		"country": "Austria",
-		"image": "https://images.collection.cooperhewitt.org/122908_8c09257a715276c0_b.jpg",
+		"image": "./imgs/122908_8c09257a715276c0_b.jpg",
 		"lat": 47.3333,
 		"long": 13.3333
 	},
@@ -7405,7 +7405,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/131292_3e23d27d519567e5_x.jpg",
+		"image": "./imgs/131292_3e23d27d519567e5_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -7422,7 +7422,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/128832_c7aba3f05a1a285b_x.jpg",
+		"image": "./imgs/128832_c7aba3f05a1a285b_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -7439,7 +7439,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/131393_40e1e3cf3f85d850_x.jpg",
+		"image": "./imgs/131393_40e1e3cf3f85d850_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -7456,7 +7456,7 @@
 		"date": "1900-1910",
 		"year_acquired": "2005",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/44729_b00cdef432294b5d_x.jpg",
+		"image": "./imgs/44729_b00cdef432294b5d_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -7473,7 +7473,7 @@
 		"date": "1900-10",
 		"year_acquired": "1978",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/95880_5d97d152a1900d98_x.jpg",
+		"image": "./imgs/95880_5d97d152a1900d98_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -7490,7 +7490,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1986",
 		"country": "Hungary",
-		"image": "https://images.collection.cooperhewitt.org/377759_72a8d490c86c8df8_b.jpg",
+		"image": "./imgs/377759_72a8d490c86c8df8_b.jpg",
 		"lat": 47,
 		"long": 20
 	},
@@ -7507,7 +7507,7 @@
 		"date": "1890-1910",
 		"year_acquired": "2009",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/116342_4c072807e450518d_b.jpg",
+		"image": "./imgs/116342_4c072807e450518d_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -7524,7 +7524,7 @@
 		"date": "1900-10",
 		"year_acquired": "1978",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/99028_e5d7907f7a7a5e53_x.jpg",
+		"image": "./imgs/99028_e5d7907f7a7a5e53_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -7541,7 +7541,7 @@
 		"date": "late 19th-early 20th century",
 		"year_acquired": "1910",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/108884_9f9ae4c01d9b9e00_x.jpg",
+		"image": "./imgs/108884_9f9ae4c01d9b9e00_x.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -7558,7 +7558,7 @@
 		"date": "1890-1910",
 		"year_acquired": "1952",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/110967_22fda1e7d4cd537a_b.jpg",
+		"image": "./imgs/110967_22fda1e7d4cd537a_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -7575,7 +7575,7 @@
 		"date": "late 19th or early 20th century",
 		"year_acquired": "2007",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/105622_6e8cf5fda47796b6_b.jpg",
+		"image": "./imgs/105622_6e8cf5fda47796b6_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -7592,7 +7592,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1910",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45975_620f974cd3a93435_x.jpg",
+		"image": "./imgs/45975_620f974cd3a93435_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -7609,7 +7609,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1979",
 		"country": "Germany",
-		"image": "https://images.collection.cooperhewitt.org/42890_cc249f13f592b64d_b.jpg",
+		"image": "./imgs/42890_cc249f13f592b64d_b.jpg",
 		"lat": 51,
 		"long": 9
 	},
@@ -7626,7 +7626,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/129006_73beae2f2d7e1123_x.jpg",
+		"image": "./imgs/129006_73beae2f2d7e1123_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -7643,7 +7643,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1979",
 		"country": "Germany",
-		"image": "https://images.collection.cooperhewitt.org/42892_752f6bdb339df3ad_b.jpg",
+		"image": "./imgs/42892_752f6bdb339df3ad_b.jpg",
 		"lat": 51,
 		"long": 9
 	},
@@ -7660,7 +7660,7 @@
 		"date": "1910",
 		"year_acquired": "1981",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/61326_0e072ecf9b89f1b6_b.jpg",
+		"image": "./imgs/61326_0e072ecf9b89f1b6_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -7677,7 +7677,7 @@
 		"date": "1900-1910",
 		"year_acquired": "1952",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/106235_36f8566f6ff8f132_b.jpg",
+		"image": "./imgs/106235_36f8566f6ff8f132_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -7694,7 +7694,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/129258_f83e45df0ce1d241_x.jpg",
+		"image": "./imgs/129258_f83e45df0ce1d241_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -7711,7 +7711,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1956",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/101214_7066ab0ce22dd684_x.jpg",
+		"image": "./imgs/101214_7066ab0ce22dd684_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -7728,7 +7728,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1967",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/46443_32ac3644ff3c1248_x.jpg",
+		"image": "./imgs/46443_32ac3644ff3c1248_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -7745,7 +7745,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1910",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45977_bf0e4de8d9f3572f_x.jpg",
+		"image": "./imgs/45977_bf0e4de8d9f3572f_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -7762,7 +7762,7 @@
 		"date": "ca. 1898-1900",
 		"year_acquired": "2004",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/358327_0d070bbc2129140b_b.jpg",
+		"image": "./imgs/358327_0d070bbc2129140b_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -7779,7 +7779,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/131595_072dec05be42ee40_x.jpg",
+		"image": "./imgs/131595_072dec05be42ee40_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -7796,7 +7796,7 @@
 		"date": "1900-10",
 		"year_acquired": "1940",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/144189_c037c1077753a3a0_x.jpg",
+		"image": "./imgs/144189_c037c1077753a3a0_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -7813,7 +7813,7 @@
 		"date": "ca. 1907-09",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/144819_293db749758e2ac8_x.jpg",
+		"image": "./imgs/144819_293db749758e2ac8_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -7830,7 +7830,7 @@
 		"date": "1900-10",
 		"year_acquired": "1980",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/9052_8f2676ba823d2470_o.jpg",
+		"image": "./imgs/9052_8f2676ba823d2470_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -7847,7 +7847,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1969",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/88319_c3d0e157fe07165c_x.jpg",
+		"image": "./imgs/88319_c3d0e157fe07165c_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -7864,7 +7864,7 @@
 		"date": "1910",
 		"year_acquired": "1932",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/112231_1abbb7bf6eb0ba07_b.jpg",
+		"image": "./imgs/112231_1abbb7bf6eb0ba07_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -7880,7 +7880,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1948",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/347860_2a21e6516c9f42a6_b.jpg",
+		"image": "./imgs/347860_2a21e6516c9f42a6_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -7897,7 +7897,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1994",
 		"country": "Germany",
-		"image": "https://images.collection.cooperhewitt.org/94817_0d5419c47d592bcd_b.jpg",
+		"image": "./imgs/94817_0d5419c47d592bcd_b.jpg",
 		"lat": 51,
 		"long": 9
 	},
@@ -7914,7 +7914,7 @@
 		"date": "1900-10",
 		"year_acquired": "1980",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/103861_9c86062ebf9adbff_x.jpg",
+		"image": "./imgs/103861_9c86062ebf9adbff_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -7931,7 +7931,7 @@
 		"date": "late 19th-early 20th century",
 		"year_acquired": "1946",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/55657_a911d92660fa6441_b.jpg",
+		"image": "./imgs/55657_a911d92660fa6441_b.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -7948,7 +7948,7 @@
 		"date": "1900-10",
 		"year_acquired": "1980",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/9476_d38c393c4979d7cc_o.jpg",
+		"image": "./imgs/9476_d38c393c4979d7cc_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -7965,7 +7965,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1981",
 		"country": "Morocco",
-		"image": "https://images.collection.cooperhewitt.org/88271_cdb49b51d24bc61c_b.jpg",
+		"image": "./imgs/88271_cdb49b51d24bc61c_b.jpg",
 		"lat": 32,
 		"long": -5
 	},
@@ -7982,7 +7982,7 @@
 		"date": "1890-1910",
 		"year_acquired": "1938",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/41039_b38e6ae3c310fac6_b.jpg",
+		"image": "./imgs/41039_b38e6ae3c310fac6_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -7999,7 +7999,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/131319_4f66fd89c76aa8d5_x.jpg",
+		"image": "./imgs/131319_4f66fd89c76aa8d5_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -8016,7 +8016,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/129019_5c4d1150f522e56f_x.jpg",
+		"image": "./imgs/129019_5c4d1150f522e56f_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -8033,7 +8033,7 @@
 		"date": "after 1873",
 		"year_acquired": "1937",
 		"country": "Italy",
-		"image": "https://images.collection.cooperhewitt.org/111044_e6ebdd66a5c98a1b_x.jpg",
+		"image": "./imgs/111044_e6ebdd66a5c98a1b_x.jpg",
 		"lat": 42.8333,
 		"long": 12.8333
 	},
@@ -8050,7 +8050,7 @@
 		"date": "1900-10",
 		"year_acquired": "1956",
 		"country": "Russia",
-		"image": "https://images.collection.cooperhewitt.org/110373_ac39f49eb5747b87_b.jpg",
+		"image": "./imgs/110373_ac39f49eb5747b87_b.jpg",
 		"lat": 60,
 		"long": 100
 	},
@@ -8067,7 +8067,7 @@
 		"date": "1890-1910",
 		"year_acquired": "2011",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/42953_b2f728ef7710366c_b.jpg",
+		"image": "./imgs/42953_b2f728ef7710366c_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -8084,7 +8084,7 @@
 		"date": "1890-1910",
 		"year_acquired": "1952",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/110695_dca93792a1d41835_b.jpg",
+		"image": "./imgs/110695_dca93792a1d41835_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -8101,7 +8101,7 @@
 		"date": "1900-10",
 		"year_acquired": "1977",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/91573_4c51827bd103ce53_o.jpg",
+		"image": "./imgs/91573_4c51827bd103ce53_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -8118,7 +8118,7 @@
 		"date": "late 19th-early 20th century",
 		"year_acquired": "1962",
 		"country": "Italy",
-		"image": "https://images.collection.cooperhewitt.org/157042_a59c6e1e7c244251_b.jpg",
+		"image": "./imgs/157042_a59c6e1e7c244251_b.jpg",
 		"lat": 42.8333,
 		"long": 12.8333
 	},
@@ -8135,7 +8135,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1980",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/101649_406c5f606493de4b_x.jpg",
+		"image": "./imgs/101649_406c5f606493de4b_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -8152,7 +8152,7 @@
 		"date": "1900-10",
 		"year_acquired": "1956",
 		"country": "Russia",
-		"image": "https://images.collection.cooperhewitt.org/110349_110fce6c431035d8_b.jpg",
+		"image": "./imgs/110349_110fce6c431035d8_b.jpg",
 		"lat": 60,
 		"long": 100
 	},
@@ -8169,7 +8169,7 @@
 		"date": "ca. 1910",
 		"year_acquired": "1956",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/118371_6424e528d2ee892f_b.jpg",
+		"image": "./imgs/118371_6424e528d2ee892f_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -8186,7 +8186,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/128857_915e5a2f5e153e3f_x.jpg",
+		"image": "./imgs/128857_915e5a2f5e153e3f_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -8203,7 +8203,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/128950_6dc705e222c3905b_x.jpg",
+		"image": "./imgs/128950_6dc705e222c3905b_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -8220,7 +8220,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1979",
 		"country": "Germany",
-		"image": "https://images.collection.cooperhewitt.org/89895_c55ac2b88c92a881_b.jpg",
+		"image": "./imgs/89895_c55ac2b88c92a881_b.jpg",
 		"lat": 51,
 		"long": 9
 	},
@@ -8237,7 +8237,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1979",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/362747_3ca45adf987f5398_b.jpg",
+		"image": "./imgs/362747_3ca45adf987f5398_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -8254,7 +8254,7 @@
 		"date": "1900-10",
 		"year_acquired": "1909",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/96983_d40596bda34aa942_b.jpg",
+		"image": "./imgs/96983_d40596bda34aa942_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -8271,7 +8271,7 @@
 		"date": "1900-1910",
 		"year_acquired": "1931",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48203_45bee92510c21110_x.jpg",
+		"image": "./imgs/48203_45bee92510c21110_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -8288,7 +8288,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1980",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/99216_b87757578af8c9c9_b.jpg",
+		"image": "./imgs/99216_b87757578af8c9c9_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -8305,7 +8305,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/131635_4eb94450d21985c8_x.jpg",
+		"image": "./imgs/131635_4eb94450d21985c8_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -8322,7 +8322,7 @@
 		"date": "ca. 1900-05",
 		"year_acquired": "1986",
 		"country": "Netherlands",
-		"image": "https://images.collection.cooperhewitt.org/105217_da00e896b2d68ecd_b.jpg",
+		"image": "./imgs/105217_da00e896b2d68ecd_b.jpg",
 		"lat": 52.5,
 		"long": 5.75
 	},
@@ -8339,7 +8339,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/129273_f226dd46a40801ce_x.jpg",
+		"image": "./imgs/129273_f226dd46a40801ce_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -8356,7 +8356,7 @@
 		"date": "1809-1910",
 		"year_acquired": "1901",
 		"country": "Italy",
-		"image": "https://images.collection.cooperhewitt.org/133735_2226299e56fc462c_x.jpg",
+		"image": "./imgs/133735_2226299e56fc462c_x.jpg",
 		"lat": 42.8333,
 		"long": 12.8333
 	},
@@ -8373,7 +8373,7 @@
 		"date": "ca. 1910",
 		"year_acquired": "1956",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/118703_bcd5667b0c3cd558_b.jpg",
+		"image": "./imgs/118703_bcd5667b0c3cd558_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -8390,7 +8390,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1993",
 		"country": "Germany",
-		"image": "https://images.collection.cooperhewitt.org/109145_be36f8154fae72de_b.jpg",
+		"image": "./imgs/109145_be36f8154fae72de_b.jpg",
 		"lat": 51,
 		"long": 9
 	},
@@ -8407,7 +8407,7 @@
 		"date": "1910",
 		"year_acquired": "1991",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/63866_f147c94a48de1a7b_x.jpg",
+		"image": "./imgs/63866_f147c94a48de1a7b_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -8424,7 +8424,7 @@
 		"date": "late 19th-early 20th century",
 		"year_acquired": "1914",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/284415_df3a66b1e61a1b6d_x.jpg",
+		"image": "./imgs/284415_df3a66b1e61a1b6d_x.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -8441,7 +8441,7 @@
 		"date": "1905-1910",
 		"year_acquired": "1979",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/109711_3425dca8795ff4c0_b.jpg",
+		"image": "./imgs/109711_3425dca8795ff4c0_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -8458,7 +8458,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1939",
 		"country": "China",
-		"image": "https://images.collection.cooperhewitt.org/43840_d022d65328aa76c4_b.jpg",
+		"image": "./imgs/43840_d022d65328aa76c4_b.jpg",
 		"lat": 35,
 		"long": 105
 	},
@@ -8475,7 +8475,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/131581_62fb90696986a2e8_x.jpg",
+		"image": "./imgs/131581_62fb90696986a2e8_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -8492,7 +8492,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/128853_9be9610d803048dd_x.jpg",
+		"image": "./imgs/128853_9be9610d803048dd_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -8509,7 +8509,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1979",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/105565_5db7a3f4887a0957_b.jpg",
+		"image": "./imgs/105565_5db7a3f4887a0957_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -8526,7 +8526,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/128893_318faf9920790dfd_x.jpg",
+		"image": "./imgs/128893_318faf9920790dfd_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -8543,7 +8543,7 @@
 		"date": "1900-1910",
 		"year_acquired": "2010",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/38818_a1d71d16bbe2fba3_o.jpg",
+		"image": "./imgs/38818_a1d71d16bbe2fba3_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -8560,7 +8560,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/129213_bce155ee2d49a4ad_x.jpg",
+		"image": "./imgs/129213_bce155ee2d49a4ad_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -8577,7 +8577,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/61635_60ef58b671078249_x.jpg",
+		"image": "./imgs/61635_60ef58b671078249_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -8594,7 +8594,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/128934_93fc0cd3d7e520b9_x.jpg",
+		"image": "./imgs/128934_93fc0cd3d7e520b9_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -8611,7 +8611,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1963",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/41414_6fe59dd305dbb875_b.jpg",
+		"image": "./imgs/41414_6fe59dd305dbb875_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -8628,7 +8628,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/131247_ee68e2436397263f_x.jpg",
+		"image": "./imgs/131247_ee68e2436397263f_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -8645,7 +8645,7 @@
 		"date": "1905-10",
 		"year_acquired": "1961",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/42471_1307644a0b2ea6a7_x.jpg",
+		"image": "./imgs/42471_1307644a0b2ea6a7_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -8662,7 +8662,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1931",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/111277_d0722f30380c51be_b.jpg",
+		"image": "./imgs/111277_d0722f30380c51be_b.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -8679,7 +8679,7 @@
 		"date": "1901-10",
 		"year_acquired": "1973",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/113323_84bbd9bd336d59e8_x.jpg",
+		"image": "./imgs/113323_84bbd9bd336d59e8_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -8696,7 +8696,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/131468_0365b5be5bc31c72_x.jpg",
+		"image": "./imgs/131468_0365b5be5bc31c72_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -8713,7 +8713,7 @@
 		"date": "late 19th-early 20th century",
 		"year_acquired": "1910",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/105787_0a7d9149c69963df_x.jpg",
+		"image": "./imgs/105787_0a7d9149c69963df_x.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -8730,7 +8730,7 @@
 		"date": "1900-10",
 		"year_acquired": "1973",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/92984_ecbb08824e338b4c_x.jpg",
+		"image": "./imgs/92984_ecbb08824e338b4c_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -8747,7 +8747,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1979",
 		"country": "Germany",
-		"image": "https://images.collection.cooperhewitt.org/89898_5f9f2fda8b9aa532_b.jpg",
+		"image": "./imgs/89898_5f9f2fda8b9aa532_b.jpg",
 		"lat": 51,
 		"long": 9
 	},
@@ -8764,7 +8764,7 @@
 		"date": "1890-1910",
 		"year_acquired": "2010",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/37506_53d37b1b50573638_b.jpg",
+		"image": "./imgs/37506_53d37b1b50573638_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -8781,7 +8781,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/131361_c13e49a5923bc310_x.jpg",
+		"image": "./imgs/131361_c13e49a5923bc310_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -8798,7 +8798,7 @@
 		"date": "March 1910",
 		"year_acquired": "1961",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/215472_3212a08c2b4e22e3_x.jpg",
+		"image": "./imgs/215472_3212a08c2b4e22e3_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -8815,7 +8815,7 @@
 		"date": "1910",
 		"year_acquired": "2009",
 		"country": "Austria",
-		"image": "https://images.collection.cooperhewitt.org/123013_fc42bb218a3c63ff_b.jpg",
+		"image": "./imgs/123013_fc42bb218a3c63ff_b.jpg",
 		"lat": 47.3333,
 		"long": 13.3333
 	},
@@ -8832,7 +8832,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1979",
 		"country": "Germany",
-		"image": "https://images.collection.cooperhewitt.org/96260_3d0e37cfbeb8ffc8_b.jpg",
+		"image": "./imgs/96260_3d0e37cfbeb8ffc8_b.jpg",
 		"lat": 51,
 		"long": 9
 	},
@@ -8849,7 +8849,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1910",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45974_ad83ae4cd97b25e0_x.jpg",
+		"image": "./imgs/45974_ad83ae4cd97b25e0_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -8866,7 +8866,7 @@
 		"date": "ca 1900",
 		"year_acquired": "1959",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/26079_b95f686f2a8f7396_b.jpg",
+		"image": "./imgs/26079_b95f686f2a8f7396_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -8883,7 +8883,7 @@
 		"date": "1875-1910",
 		"year_acquired": "1972",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/92318_546ac13d5fa7bfa9_x.jpg",
+		"image": "./imgs/92318_546ac13d5fa7bfa9_x.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -8900,7 +8900,7 @@
 		"date": "1900-10",
 		"year_acquired": "1980",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/93960_a6aad19a7d995ad5_x.jpg",
+		"image": "./imgs/93960_a6aad19a7d995ad5_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -8917,7 +8917,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1996",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/45725_97f3f7d54b4587ed_b.jpg",
+		"image": "./imgs/45725_97f3f7d54b4587ed_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -8934,7 +8934,7 @@
 		"date": "1890-1910",
 		"year_acquired": "1992",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/120804_61b3bb6e1e1d7690_x.jpg",
+		"image": "./imgs/120804_61b3bb6e1e1d7690_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -8951,7 +8951,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/128894_3766e8eeb9f62ebe_x.jpg",
+		"image": "./imgs/128894_3766e8eeb9f62ebe_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -8968,7 +8968,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1966",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/24733_ab1cc20c7bd4acac_o.jpg",
+		"image": "./imgs/24733_ab1cc20c7bd4acac_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -8985,7 +8985,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/131839_2c88a5349ce50791_x.jpg",
+		"image": "./imgs/131839_2c88a5349ce50791_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -9002,7 +9002,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1938",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/41910_feb70deffa132699_x.jpg",
+		"image": "./imgs/41910_feb70deffa132699_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -9019,7 +9019,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1996",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/44248_19364387656719a8_b.jpg",
+		"image": "./imgs/44248_19364387656719a8_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -9036,7 +9036,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/129238_aef79e314f7d6159_x.jpg",
+		"image": "./imgs/129238_aef79e314f7d6159_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -9053,7 +9053,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1967",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/115866_542eeb32d7cb75fb_x.jpg",
+		"image": "./imgs/115866_542eeb32d7cb75fb_x.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -9070,7 +9070,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1986",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/111809_541ed137ba4fbe00_x.jpg",
+		"image": "./imgs/111809_541ed137ba4fbe00_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -9087,7 +9087,7 @@
 		"date": "1900-10",
 		"year_acquired": "1968",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/44951_60e699fcf49b49d2_x.jpg",
+		"image": "./imgs/44951_60e699fcf49b49d2_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -9104,7 +9104,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1920",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/106610_9de1a5a02d382d9e_x.jpg",
+		"image": "./imgs/106610_9de1a5a02d382d9e_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -9121,7 +9121,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1978",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/83536_73df0776ce6b5c31_x.jpg",
+		"image": "./imgs/83536_73df0776ce6b5c31_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -9138,7 +9138,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/129077_c4ed11e504e7782f_x.jpg",
+		"image": "./imgs/129077_c4ed11e504e7782f_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -9155,7 +9155,7 @@
 		"date": "ca. 1907-1909",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/144040_4345f7edb1c93f35_x.jpg",
+		"image": "./imgs/144040_4345f7edb1c93f35_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -9172,7 +9172,7 @@
 		"date": "ca. 1910",
 		"year_acquired": "2006",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/125254_5a26d0fce612a883_x.jpg",
+		"image": "./imgs/125254_5a26d0fce612a883_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -9189,7 +9189,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/131671_a01106b9791a93be_x.jpg",
+		"image": "./imgs/131671_a01106b9791a93be_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -9206,7 +9206,7 @@
 		"date": "1890-1910",
 		"year_acquired": "1952",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/110939_81419b7269c9bcf3_b.jpg",
+		"image": "./imgs/110939_81419b7269c9bcf3_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -9223,7 +9223,7 @@
 		"date": "ca. 1909",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/144815_cb7e71de5ee2f80f_x.jpg",
+		"image": "./imgs/144815_cb7e71de5ee2f80f_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -9240,7 +9240,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1978",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/97499_45466123dd4565f5_x.jpg",
+		"image": "./imgs/97499_45466123dd4565f5_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -9257,7 +9257,7 @@
 		"date": "1875-1910",
 		"year_acquired": "1974",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/93072_edec25363ab97211_x.jpg",
+		"image": "./imgs/93072_edec25363ab97211_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -9274,7 +9274,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1979",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/102600_f8eb4395fd85608e_b.jpg",
+		"image": "./imgs/102600_f8eb4395fd85608e_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -9291,7 +9291,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1996",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/44245_5a173b6dde92ac95_b.jpg",
+		"image": "./imgs/44245_5a173b6dde92ac95_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -9307,7 +9307,7 @@
 		"date": "ca. 1890",
 		"year_acquired": "1985",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/350874_712f94ffb69a7dc5_b.jpg",
+		"image": "./imgs/350874_712f94ffb69a7dc5_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -9324,7 +9324,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1978",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/96360_efbdaa368eb74721_b.jpg",
+		"image": "./imgs/96360_efbdaa368eb74721_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -9341,7 +9341,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1981",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/180054_14c8e94456a8cca1_b.jpg",
+		"image": "./imgs/180054_14c8e94456a8cca1_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -9358,7 +9358,7 @@
 		"date": "1890-1910",
 		"year_acquired": "1992",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/120729_a0012c8914a04142_x.jpg",
+		"image": "./imgs/120729_a0012c8914a04142_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -9375,7 +9375,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1980",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/98187_2cb660702d0da167_x.jpg",
+		"image": "./imgs/98187_2cb660702d0da167_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -9392,7 +9392,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1980",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/97001_668049c37d10fe77_x.jpg",
+		"image": "./imgs/97001_668049c37d10fe77_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -9409,7 +9409,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/131600_70b3d4893b724020_x.jpg",
+		"image": "./imgs/131600_70b3d4893b724020_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -9426,7 +9426,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/131598_4547a6c33c3a3924_x.jpg",
+		"image": "./imgs/131598_4547a6c33c3a3924_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -9443,7 +9443,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/131512_2480e973ec4a62f0_x.jpg",
+		"image": "./imgs/131512_2480e973ec4a62f0_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -9460,7 +9460,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/129252_4494d920c47ba4a0_x.jpg",
+		"image": "./imgs/129252_4494d920c47ba4a0_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -9477,7 +9477,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "2013",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/80130_76bf5296ba70d3f6_b.jpg",
+		"image": "./imgs/80130_76bf5296ba70d3f6_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -9494,7 +9494,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1967",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/46445_9c0ea2c916de10ba_x.jpg",
+		"image": "./imgs/46445_9c0ea2c916de10ba_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -9511,7 +9511,7 @@
 		"date": "ca. 1909",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/144441_e52852802ed12b8e_x.jpg",
+		"image": "./imgs/144441_e52852802ed12b8e_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -9528,7 +9528,7 @@
 		"date": "1910",
 		"year_acquired": "1957",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/40707_a538deec66ac7c41_b.jpg",
+		"image": "./imgs/40707_a538deec66ac7c41_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -9545,7 +9545,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1978",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/101562_7f390e4281d957d5_x.jpg",
+		"image": "./imgs/101562_7f390e4281d957d5_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -9562,7 +9562,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1980",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/101868_a3142f3849805cd2_x.jpg",
+		"image": "./imgs/101868_a3142f3849805cd2_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -9579,7 +9579,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/129153_79ea49d7cfb1fd7d_x.jpg",
+		"image": "./imgs/129153_79ea49d7cfb1fd7d_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -9596,7 +9596,7 @@
 		"date": "1902-10",
 		"year_acquired": "1960",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/43425_8d7be9f8a76c259a_x.jpg",
+		"image": "./imgs/43425_8d7be9f8a76c259a_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -9613,7 +9613,7 @@
 		"date": "ca. 1910",
 		"year_acquired": "1956",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/41412_8da484778bb214ca_b.jpg",
+		"image": "./imgs/41412_8da484778bb214ca_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -9630,7 +9630,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1978",
 		"country": "Italy",
-		"image": "https://images.collection.cooperhewitt.org/98913_3a5c317ce92e0756_b.jpg",
+		"image": "./imgs/98913_3a5c317ce92e0756_b.jpg",
 		"lat": 42.8333,
 		"long": 12.8333
 	},
@@ -9647,7 +9647,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1942",
 		"country": "Belgium",
-		"image": "https://images.collection.cooperhewitt.org/112550_1dc313bcce6d4103_b.jpg",
+		"image": "./imgs/112550_1dc313bcce6d4103_b.jpg",
 		"lat": 50.8333,
 		"long": 4
 	},
@@ -9664,7 +9664,7 @@
 		"date": "1895-1910",
 		"year_acquired": "1967",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/161483_0638cd14f5ef3b1a_b.jpg",
+		"image": "./imgs/161483_0638cd14f5ef3b1a_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -9681,7 +9681,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1979",
 		"country": "Germany",
-		"image": "https://images.collection.cooperhewitt.org/96257_d63a528f5a4997c7_b.jpg",
+		"image": "./imgs/96257_d63a528f5a4997c7_b.jpg",
 		"lat": 51,
 		"long": 9
 	},
@@ -9698,7 +9698,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/129112_48051d59c29b1652_x.jpg",
+		"image": "./imgs/129112_48051d59c29b1652_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -9715,7 +9715,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1982",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/115859_18ed1dd0f7a00602_x.jpg",
+		"image": "./imgs/115859_18ed1dd0f7a00602_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -9732,7 +9732,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1910",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45976_d547aaccb2ffc5fd_x.jpg",
+		"image": "./imgs/45976_d547aaccb2ffc5fd_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -9749,7 +9749,7 @@
 		"date": "late 19th-early 20th century",
 		"year_acquired": "1952",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/48223_c28424c2fd8f078a_x.jpg",
+		"image": "./imgs/48223_c28424c2fd8f078a_x.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -9766,7 +9766,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1978",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/96854_15927ed2b3ccd73a_x.jpg",
+		"image": "./imgs/96854_15927ed2b3ccd73a_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -9783,7 +9783,7 @@
 		"date": "1900-10",
 		"year_acquired": "1982",
 		"country": "Italy",
-		"image": "https://images.collection.cooperhewitt.org/99595_e4bb57e2fc117ac4_b.jpg",
+		"image": "./imgs/99595_e4bb57e2fc117ac4_b.jpg",
 		"lat": 42.8333,
 		"long": 12.8333
 	},
@@ -9800,7 +9800,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/129126_aafbd9c5e4540c6d_x.jpg",
+		"image": "./imgs/129126_aafbd9c5e4540c6d_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -9817,7 +9817,7 @@
 		"date": "1905-1910",
 		"year_acquired": "1979",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/93796_c032fdfcec4f8e31_x.jpg",
+		"image": "./imgs/93796_c032fdfcec4f8e31_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -9834,7 +9834,7 @@
 		"date": "1900-10",
 		"year_acquired": "1980",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/104947_0af4024a4bcb6e0f_x.jpg",
+		"image": "./imgs/104947_0af4024a4bcb6e0f_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -9851,7 +9851,7 @@
 		"date": "1907-1910",
 		"year_acquired": "1993",
 		"country": "Netherlands",
-		"image": "https://images.collection.cooperhewitt.org/109108_6d942f898f373390_b.jpg",
+		"image": "./imgs/109108_6d942f898f373390_b.jpg",
 		"lat": 52.5,
 		"long": 5.75
 	},
@@ -9868,7 +9868,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1990",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/372220_917103bff864260d_b.jpg",
+		"image": "./imgs/372220_917103bff864260d_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -9885,7 +9885,7 @@
 		"date": "ca. 1900-05",
 		"year_acquired": "1986",
 		"country": "Netherlands",
-		"image": "https://images.collection.cooperhewitt.org/105028_22e51545e68d7132_b.jpg",
+		"image": "./imgs/105028_22e51545e68d7132_b.jpg",
 		"lat": 52.5,
 		"long": 5.75
 	},
@@ -9902,7 +9902,7 @@
 		"date": "1910",
 		"year_acquired": "1952",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/43499_416519ce23930e73_b.jpg",
+		"image": "./imgs/43499_416519ce23930e73_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -9919,7 +9919,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/61636_29d35da9e752fcf2_x.jpg",
+		"image": "./imgs/61636_29d35da9e752fcf2_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -9936,7 +9936,7 @@
 		"date": "1870-1910",
 		"year_acquired": "1952",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/110381_91ebbd13162e6066_x.jpg",
+		"image": "./imgs/110381_91ebbd13162e6066_x.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -9953,7 +9953,7 @@
 		"date": "1900-10",
 		"year_acquired": "1956",
 		"country": "Russia",
-		"image": "https://images.collection.cooperhewitt.org/111357_2d4ff511b1189147_x.jpg",
+		"image": "./imgs/111357_2d4ff511b1189147_x.jpg",
 		"lat": 60,
 		"long": 100
 	},
@@ -9970,7 +9970,7 @@
 		"date": "1900-1910",
 		"year_acquired": "1944",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/106081_6ac8c8be9f239665_b.jpg",
+		"image": "./imgs/106081_6ac8c8be9f239665_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -9987,7 +9987,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1978",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/98410_6700afad679b81b9_x.jpg",
+		"image": "./imgs/98410_6700afad679b81b9_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -10004,7 +10004,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1996",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/44249_6974336ea8c179ae_b.jpg",
+		"image": "./imgs/44249_6974336ea8c179ae_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -10021,7 +10021,7 @@
 		"date": "1900-10",
 		"year_acquired": "1999",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/111724_c8a31bf1440b63a2_x.jpg",
+		"image": "./imgs/111724_c8a31bf1440b63a2_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -10038,7 +10038,7 @@
 		"date": "1910",
 		"year_acquired": "1983",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/101344_b7728e8f0b460ee6_x.jpg",
+		"image": "./imgs/101344_b7728e8f0b460ee6_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -10055,7 +10055,7 @@
 		"date": "1900-10",
 		"year_acquired": "1980",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/9048_dbcf38f1a29a84fe_o.jpg",
+		"image": "./imgs/9048_dbcf38f1a29a84fe_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -10072,7 +10072,7 @@
 		"date": "1900-10",
 		"year_acquired": "1980",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/98042_80994a1509d7a964_b.jpg",
+		"image": "./imgs/98042_80994a1509d7a964_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -10089,7 +10089,7 @@
 		"date": "1901-10",
 		"year_acquired": "1973",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/112759_7ed2ff17b83c5554_b.jpg",
+		"image": "./imgs/112759_7ed2ff17b83c5554_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -10106,7 +10106,7 @@
 		"date": "1901-10",
 		"year_acquired": "1973",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/112992_578b605861ddff54_b.jpg",
+		"image": "./imgs/112992_578b605861ddff54_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -10123,7 +10123,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/131468_0365b5be5bc31c72_x.jpg",
+		"image": "./imgs/131468_0365b5be5bc31c72_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -10140,7 +10140,7 @@
 		"date": "late 19th-early 20th century",
 		"year_acquired": "1910",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/105787_0a7d9149c69963df_x.jpg",
+		"image": "./imgs/105787_0a7d9149c69963df_x.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -10157,7 +10157,7 @@
 		"date": "1900-10",
 		"year_acquired": "1973",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/92984_ecbb08824e338b4c_x.jpg",
+		"image": "./imgs/92984_ecbb08824e338b4c_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -10174,7 +10174,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1979",
 		"country": "Germany",
-		"image": "https://images.collection.cooperhewitt.org/89898_5f9f2fda8b9aa532_b.jpg",
+		"image": "./imgs/89898_5f9f2fda8b9aa532_b.jpg",
 		"lat": 51,
 		"long": 9
 	},
@@ -10191,7 +10191,7 @@
 		"date": "1890-1910",
 		"year_acquired": "2010",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/37506_53d37b1b50573638_b.jpg",
+		"image": "./imgs/37506_53d37b1b50573638_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -10208,7 +10208,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1980",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/98557_c2c1633d1427fdd7_x.jpg",
+		"image": "./imgs/98557_c2c1633d1427fdd7_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -10225,7 +10225,7 @@
 		"date": "1900-10",
 		"year_acquired": "1980",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/104163_87f31b571e28a1cd_x.jpg",
+		"image": "./imgs/104163_87f31b571e28a1cd_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -10242,7 +10242,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1966",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/114566_400154ca0425b9ec_x.jpg",
+		"image": "./imgs/114566_400154ca0425b9ec_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -10259,7 +10259,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1974",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/45715_6171a6282f431527_b.jpg",
+		"image": "./imgs/45715_6171a6282f431527_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -10276,7 +10276,7 @@
 		"date": "late 19th-early 20th century",
 		"year_acquired": "1901",
 		"country": "Italy",
-		"image": "https://images.collection.cooperhewitt.org/153565_f50c55e6a61206fb_b.jpg",
+		"image": "./imgs/153565_f50c55e6a61206fb_b.jpg",
 		"lat": 42.8333,
 		"long": 12.8333
 	},
@@ -10293,7 +10293,7 @@
 		"date": "1910",
 		"year_acquired": "1956",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/118036_f66919b68414ba01_b.jpg",
+		"image": "./imgs/118036_f66919b68414ba01_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -10310,7 +10310,7 @@
 		"date": "1908-10",
 		"year_acquired": "1951",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/106030_5a9ed1bedceccf72_x.jpg",
+		"image": "./imgs/106030_5a9ed1bedceccf72_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -10327,7 +10327,7 @@
 		"date": "ca. 1900",
 		"year_acquired": "1948",
 		"country": "Belgium",
-		"image": "https://images.collection.cooperhewitt.org/112620_105b69b360dd637f_b.jpg",
+		"image": "./imgs/112620_105b69b360dd637f_b.jpg",
 		"lat": 50.8333,
 		"long": 4
 	},
@@ -10344,7 +10344,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1996",
 		"country": "France",
-		"image": "https://images.collection.cooperhewitt.org/44246_a23c156e9c2bbfa8_b.jpg",
+		"image": "./imgs/44246_a23c156e9c2bbfa8_b.jpg",
 		"lat": 46,
 		"long": 2
 	},
@@ -10361,7 +10361,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/131739_62915965b6881b88_x.jpg",
+		"image": "./imgs/131739_62915965b6881b88_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -10378,7 +10378,7 @@
 		"date": "1900-10",
 		"year_acquired": "1980",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/9053_d22aadec7996815a_o.jpg",
+		"image": "./imgs/9053_d22aadec7996815a_o.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -10395,7 +10395,7 @@
 		"date": "1895-1910",
 		"year_acquired": "1950",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/25384_f71fc4100bbd86d8_b.jpg",
+		"image": "./imgs/25384_f71fc4100bbd86d8_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -10412,7 +10412,7 @@
 		"date": "1908-10",
 		"year_acquired": "1951",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/45231_382ffddf735d31d2_x.jpg",
+		"image": "./imgs/45231_382ffddf735d31d2_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -10429,7 +10429,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1956",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/48068_a02add55e2d0f2f1_b.jpg",
+		"image": "./imgs/48068_a02add55e2d0f2f1_b.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -10446,7 +10446,7 @@
 		"date": "1900-10",
 		"year_acquired": "1980",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/104180_2212dd03c09ae3d0_x.jpg",
+		"image": "./imgs/104180_2212dd03c09ae3d0_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -10463,7 +10463,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/131352_7b2e363193558900_x.jpg",
+		"image": "./imgs/131352_7b2e363193558900_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -10480,7 +10480,7 @@
 		"date": "1890-1910",
 		"year_acquired": "1952",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/111107_71977404e86c8317_b.jpg",
+		"image": "./imgs/111107_71977404e86c8317_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -10497,7 +10497,7 @@
 		"date": "ca. 1909",
 		"year_acquired": "1953",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/144742_0e75f6b073f039a5_x.jpg",
+		"image": "./imgs/144742_0e75f6b073f039a5_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -10514,7 +10514,7 @@
 		"date": "1880-1910",
 		"year_acquired": "1985",
 		"country": "Japan",
-		"image": "https://images.collection.cooperhewitt.org/131360_4fd0f4760d6e1c27_x.jpg",
+		"image": "./imgs/131360_4fd0f4760d6e1c27_x.jpg",
 		"lat": 36,
 		"long": 138
 	},
@@ -10531,7 +10531,7 @@
 		"date": "1900-10",
 		"year_acquired": "1952",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/90836_a02370d0cf31730d_x.jpg",
+		"image": "./imgs/90836_a02370d0cf31730d_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -10548,7 +10548,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "1967",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/46444_c898ff05cdbe570b_x.jpg",
+		"image": "./imgs/46444_c898ff05cdbe570b_x.jpg",
 		"lat": 38,
 		"long": -97
 	},
@@ -10565,7 +10565,7 @@
 		"date": "1900-10",
 		"year_acquired": "1968",
 		"country": "United Kingdom",
-		"image": "https://images.collection.cooperhewitt.org/26934_ec91e462a4c12668_b.jpg",
+		"image": "./imgs/26934_ec91e462a4c12668_b.jpg",
 		"lat": 54,
 		"long": -2
 	},
@@ -10582,7 +10582,7 @@
 		"date": "ca. 1905",
 		"year_acquired": "2013",
 		"country": "United States",
-		"image": "https://images.collection.cooperhewitt.org/83667_930cd19c12bfbd6c_x.jpg",
+		"image": "./imgs/83667_930cd19c12bfbd6c_x.jpg",
 		"lat": 38,
 		"long": -97
 	}
