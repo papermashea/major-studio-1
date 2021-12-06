@@ -12,7 +12,8 @@
 //     });
 // });
 
-d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/local/cooper_data/data/allObjectsCountries.json")
+// d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/local/cooper_data/data/allObjectsCountries.json")
+d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/cooper_data/data/sorted/1900-1904.json")
   .then( json => {
       // execute our 
       // display images function
