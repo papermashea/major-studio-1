@@ -22,7 +22,7 @@ function loadImage(imgSrc) {
       // console.log(objHex)
 
       var imgClr = {
-          local: imgSrc,
+          image: imgSrc.replace('./imgs/','https://images.collection.cooperhewitt.org/'),
           hex: objHex,
           hue: objHsl[0],
         }// new obj

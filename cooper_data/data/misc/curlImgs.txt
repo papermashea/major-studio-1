@@ -6,3 +6,9 @@ xargs -n 1 curl -O < 00.missing2.txt
 xargs -n 1 curl -O < 00.missing3.txt
 xargs -n 1 curl -O < 00.missing4.txt
 xargs -n 1 curl -O < get1.txt
+xargs -n 1 curl -O < get2.txt
+xargs -n 1 curl -O < get3.txt
+xargs -n 1 curl -O < get4.txt
+xargs -n 1 curl -O < get5.txt
+xargs -n 1 curl -O < get6.txt
+xargs -n 1 curl -O < get7.txt

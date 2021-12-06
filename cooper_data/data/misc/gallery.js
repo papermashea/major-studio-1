@@ -2,7 +2,15 @@
 // d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/local/cooper_data/data/allObjectsCountries.json")
 // d3.json("allObjects_1821_localImgs.json")
 // d3.json("1901-1909_lcl.json")
-d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/cooper_data/data/sorted/1900-1904.json")
+// d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/cooper_data/data/sorted/1900-1904.json")
+// d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/cooper_data/data/sorted/1900-1904.json")
+// d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/cooper_data/data/sorted/1905-1910.json")
+// d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/cooper_data/data/sorted/1911-1914.json")
+// d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/cooper_data/data/sorted/1915-1917.json")
+// d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/cooper_data/data/sorted/1918-1921.json")
+// d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/cooper_data/data/sorted/1921-1929.json")
+// d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/cooper_data/data/sorted/1930-1949.json")
+d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/cooper_data/data/sorted/1950-2000.json")
   .then( json => {
       // execute our 
       // display images function
