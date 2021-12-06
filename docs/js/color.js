@@ -1,35 +1,3 @@
-// import d3 from 'd3';
-// import * as d3 from './../node_modules/d3/dist/d3.js';
-// import * as d3 from '../node_modules/d3/dist/d3.js';
-// import d3 from '/node_modules/d3';
-// import d3 from './node_modules/d3';
-// import d3 from '../node_modules/d3';
-
-// import d3 from '/node_modules/d3/src/index.js';
-// import * as d3 from '/node_modules/d3/src/index.js';
-
-// import d3 from './node_modules/d3/src/index.js';
-// import * as d3 from './node_modules/d3/src/index.js';
-
-// import d3 from '../node_modules/d3/src/index.js';
-// import * as d3 from './../node_modules/d3/src/index.js';
-
-// import d3 from '../../node_modules/d3/src/index.js';
-// import * as d3 from '../../node_modules/d3/src/index.js';
-
-// import d3 from '/node_modules/d3/dist/d3.js';
-// import * as d3 from '/node_modules/d3/dist/d3.js';
-
-// import d3 from './node_modules/d3/dist/d3.js';
-// import * as d3 from './node_modules/d3/dist/d3.js';
-
-// import d3 from '../node_modules/d3/dist/d3.js';
-// import * as d3 from '../node_modules/d3/dist/d3.js';
-
-// import { d3 } from '../node_modules/d3/dist/d3.js';
-
-
-
 //// chart
     var margin = {top: 20, right: 20, bottom: 30, left: 60},
       width = 1200 - margin.left - margin.right,
@@ -55,15 +23,15 @@
 
 
 
-d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/local/3.Interactive/public/data/colorDataY.json").then(function (data) { 
+d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/docs/data/allObjects_1921.json").then(function (data) { 
 // d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/local/cooper_data/data/allObjectsCountries.json").then(function (data) { 
   // let d = data;
 
     // var yearRange = d3.extent(data, d => d.objectID);
-    // var minYear = d3.min(data, d => d.year); 
-    var minYear = 1821; 
-    // var maxYear = d3.max(data, d => d.year); 
-    var maxYear = 2021; 
+    var minYear = d3.min(data, d => d.year); 
+    // var minYear = 1921; 
+    var maxYear = d3.max(data, d => d.year); 
+    // var maxYear = 2021; 
     // console.log(minYear,maxYear)
 
     var xScale = d3.scaleTime()
@@ -140,7 +108,7 @@ d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/local/3.In
     var mousemove = function(event, d) {
       Tooltip
         .html("<strong>" + d.title + "</strong> | <i>" + d.year + "</i><p>Type: " + d.type + "<br> Medium: " + d.media + "</p>")
-        .style("background-color", d.color)
+        .style("background-color", d.hex)
         .style("left", (d3.select(this).attr("cx") + 'px'))
         .style("top", (d3.select(this).attr("cy") + 'px'))
     }
@@ -168,12 +136,12 @@ d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/local/3.In
 
     //// dots
         let dots = svg.selectAll(".dots")
-            .data(data, function(d) { return d.color })
+            .data(data, function(d) { return d.hex })
             .enter()
             .append("circle")
               .attr("class", "dots")
               .attr("r", radius)
-              .attr("fill", function(d){ return d.color})
+              .attr("fill", function(d){ return d.hex})
               .attr("cx", function(d){return xScale(d.year)}) 
               .attr("cy", function(d, i) { return height - Y[i] - margin.top - radius - padding })
             .on("mouseover", mouseover)
