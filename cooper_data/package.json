@@ -16,6 +16,7 @@
     "fast-average-color-node": "^2.1.0",
     "fs": "^0.0.1-security",
     "http-server": "^14.0.0",
+    "json-concat": "^0.0.1",
     "local-web-server": "^5.1.1",
     "node-cooperhewitt": "^0.0.2",
     "node-fetch": "^3.1.0",

@@ -1,7 +1,7 @@
 // d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/aws/cooper_test/allObjectsCountries_1821_localImg.json")
 // d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/local/cooper_data/data/allObjectsCountries.json")
 // d3.json("allObjects_1821_localImgs.json")
-d3.json("allObjects_1921_localImgs.json")
+d3.json("1901-1909_lcl.json")
   .then( json => {
       // execute our 
       // display images function

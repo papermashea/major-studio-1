@@ -1,0 +1,19 @@
+curl -X GET 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&has_images=1&has_no_known_copyright=1&year_start=1821-2021&per_page=500&page=1' -o 1900_1.json
+
+curl -X GET 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&has_images=1&has_no_known_copyright=1&year_start=1900-2021&per_page=500&page=9' -o 1900_9.json
+
+curl -X GET 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&has_images=1&has_no_known_copyright=1&date=1921-2021&date=year_acquired=gte1921&color=red,orange,yellow,green,blue,purple,pink,brown,black,white&per_page=500&page=1' -o 1921_colors.json
+
+curl -X GET 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&has_images=1&has_no_known_copyright=1&date=1921-2021&color=red,orange,yellow,green,blue,purple,pink,brown,black,white&per_page=500&page=[1-41]' >> 1921_colors.json 
+
+curl -X GET 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&has_images=1&has_no_known_copyright=1&date=1921-2021&color=red,orange,yellow,green,blue,purple,pink,brown,black,white&per_page=500&page=[7-14]' >> 1921_colors.json
+
+curl -X GET 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&has_images=1&has_no_known_copyright=1&date=1921-2021&color=red,orange,yellow,green,blue,purple,pink,brown,black,white&per_page=500&page=[15-21]' >> 1921_colors.json
+
+curl -X GET 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&has_images=1&has_no_known_copyright=1&date=1921-2021&color=red,orange,yellow,green,blue,purple,pink,brown,black,white&per_page=500&page=16' >> 1921_colors.json
+
+curl -X GET 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&has_images=1&has_no_known_copyright=1&date=1921-2021&color=red,orange,yellow,green,blue,purple,pink,brown,black,white&per_page=500&page=[26-28]' >> 1921_colors.json
+
+curl -X GET 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&has_images=1&has_no_known_copyright=1&date=1921-2021&color=red,orange,yellow,green,blue,purple,pink,brown,black,white&per_page=500&page=[31-32]' >> 1921_colors.json
+
+curl -X GET 'https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&access_token=ba00fde38c1a8098aa1d684f0a387e31&has_images=1&has_no_known_copyright=1&date=1921-2021&color=red,orange,yellow,green,blue,purple,pink,brown,black,white&per_page=500&page=40' >> 1921_colors.json
