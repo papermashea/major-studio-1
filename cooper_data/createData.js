@@ -80,6 +80,7 @@ function fetchSearchData(url) {
             type: data.type,
             type_id: data.type_id,
             media: data.medium,
+            period: data.period_id,
             media_id: data.media_id,
             year: data.year_start,
             year: data.year_end,

@@ -1,131 +1,89 @@
 //// chart
-    var margin = {top: 20, right: 20, bottom: 30, left: 60},
+    var margin = {top: 20, right: 10, bottom: 30, left: 60},
       width = 1200 - margin.left - margin.right,
-      height = 900 - margin.top - margin.bottom;
+      height = 800 - margin.top - margin.bottom;
       // height = d3.max(Y) + (radius + padding) * 2 - margin.top - margin.bottom;
 
     var svg = d3.select("#chart")
     .append("svg")
       .attr("width", width)
       .attr("height", height + margin.top + margin.bottom)
-    .append("g")
-      .attr("transform",
-            "translate(" + margin.left + "," + margin.top + ")");
 
-  //// tooltip
-    // let tooltip = d3.select("#chart").append("div")
-    //     .attr("class", "tooltip")
-    //     .style("opacity", 0);
+d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/docs/data/1900_2000.json")
+.then(function (data) { 
+// console.log(data.length)
 
-    // let xLine = svg.append("line")
-    //     .attr("stroke", "rgb(96,125,139)")
-    //     .attr("stroke-dasharray", "1,2");
+const countryGroup = new Set(data.map(d => d.country))
+// console.log(countryGroup)
 
+//// dropdown
+  d3.select("#selectCountry")
+    .selectAll('myOptions')
+      .data(countryGroup)
+    .enter()
+      .append('option')
+    .text(function (d) { return d; }) // text showed in the menu
+    .attr("value", function (d) { return d; }) // corresponding value returned by the button
 
-
-d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/docs/data/allObjects_1921.json").then(function (data) { 
-// d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/local/cooper_data/data/allObjectsCountries.json").then(function (data) { 
-  // let d = data;
-
-    // var yearRange = d3.extent(data, d => d.objectID);
-    var minYear = d3.min(data, d => d.year); 
-    // var minYear = 1921; 
-    var maxYear = d3.max(data, d => d.year); 
-    // var maxYear = 2021; 
-    // console.log(minYear,maxYear)
+//// scales
+    var minYear = d3.min(data, d => d.year_end); 
+    var maxYear = d3.max(data, d => d.year_end); 
+    var timeline = d3.extent(data, d => d.year_end);
+    var sort = d3.extent(data, d => d.hue);
+    // console.log(sort)
 
     var xScale = d3.scaleTime()
-      .domain([minYear, maxYear])
+      .domain(timeline)
       .range([margin.left, width - margin.right]);
-
-    // Compute which data points are considered defined.
-    var radius = 3;
-    var padding = .5;
-    // var limit = height - margin.bottom - radius - padding;
-    // console.log(limit)
-
-    const X = d3.map(data, d => d.year);  
-    const I = d3.range(X.length).filter(data => !isNaN(X[data]));
-    const Y = dodge(I.map(data => xScale(X[data])), radius * 2 + padding);
-    // console.log(Y)
-    console.log(height - d3.min(Y) - margin.bottom - radius - padding)
-    // console.log(d3.max(Y))
-    console.log(d3.min(Y),d3.max(Y))
-
-    // Compute the default height;
-    // var height = d3.max(Y) + (radius + padding) * 2 - margin.top - margin.bottom;
-
-    function dodge(X, radius) {
-      const Y = new Float64Array(X.length);
-      const radius2 = radius ** 1; //**2
-      const epsilon = 1e-3;
-      let head = null, tail = null;
-
-      // Returns true if circle ⟨x,y⟩ intersects with any circle in the queue.
-      function intersects(x, y) {
-        let a = head;
-        while (a) {
-          const ai = a.index;
-          if (radius2 - epsilon > (X[ai] - x) ** 2 + (Y[ai] - y) ** 2) return true;
-          a = a.next;
-        }
-        return false;
-      }
     
-      // Place each circle sequentially.
-      for (const bi of d3.range(X.length).sort((i, j) => X[i] - X[j])) {
+    var yScale = d3.scaleLinear()
+      .domain(sort).nice()
+      .rangeRound([margin.top, height - margin.bottom]);
 
-        // Remove circles from the queue that can’t intersect the new circle b.
-        while (head && X[head.index] < X[bi] - radius2) head = head.next;
-    
-        // Choose the minimum non-intersecting tangent.
-        if (intersects(X[bi], Y[bi] = 0)) {
-          let a = head;
-          Y[bi] = Infinity;
-          do {
-            const ai = a.index;
-            let y = Y[ai] + Math.sqrt(radius2 - (X[ai] - X[bi]) ** 2);
-            if (y < Y[bi] && !intersects(X[bi], y)) Y[bi] = y;
-            a = a.next;
-          } while (a);
-        }
-    
-        // Add b to the queue.
-        const b = {index: bi, next: null};
-        if (head === null) head = tail = b;
-        else tail = tail.next = b;
-      }
-    
-      return Y;
-    }
+    var radius = 5;
+    var padding = 2;
 
 
-// Three function that change the tooltip when user hover / move / leave a cell
+//// filters
+    // let color = d3.scaleBand()
+// const country ="country";
 
+//     let state = {
+//       data: [],
+//       filters: {
+//         menu: [],
+//         checked: [],
+//       },
+
+//// tooltip functions
     var mouseover = function(event, d) {
       Tooltip.style("opacity", 1)
     }
     var mousemove = function(event, d) {
       Tooltip
-        .html("<strong>" + d.title + "</strong> | <i>" + d.year + "</i><p>Type: " + d.type + "<br> Medium: " + d.media + "</p>")
+        .html("<img src='" + d.image + "'>"+
+          "<div id='header'" +
+          "<div id='title'>" + d.title + " | <span id='year'>" + d.year_end + 
+          "</span></div></div>" +
+          "<p id='details'>Type: " + d.type + "</p>" +
+          "<p id='details'>Medium: " + d.media + "</p>" +
+          "<p id='more'>Click for more information about object " + d.objectID + "</p>")
         .style("background-color", d.hex)
         .style("left", (d3.select(this).attr("cx") + 'px'))
-        .style("top", (d3.select(this).attr("cy") + 'px'))
+        .style("top", (d3.select(this).attr("cy") + 'px'));
     }
+
     var mouseleave = function(event, d) {
-      Tooltip.style("opacity", 0)
+      Tooltip.style("opacity", 0);
     }
 
     var Tooltip = d3.select("#chart")
       .append("div")
       .attr("class", "tooltip")
-      .style("padding", "8px")
       .style("opacity", .4)
       .style("color", "white");
 
-  svg.append("g")
-
-
+  //// axis
   svg.append("g")
       .attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(xScale)
@@ -134,47 +92,69 @@ d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/docs/
         .tickSizeOuter(0));
 
 
-    //// dots
+  //// dots
         let dots = svg.selectAll(".dots")
-            .data(data, function(d) { return d.hex })
             .enter()
+            .data(countryGroup)
+            .append("svg:a")
+              .attr("xlink:href", function(d){return d.url;})
+              .attr("target", "_blank")
             .append("circle")
               .attr("class", "dots")
               .attr("r", radius)
-              .attr("fill", function(d){ return d.hex})
-              .attr("cx", function(d){return xScale(d.year)}) 
-              .attr("cy", function(d, i) { return height - Y[i] - margin.top - radius - padding })
+              .style("fill", function(d){ return d.hex})
+              .attr("cx", function(d){return xScale(d.year_end)}) 
+              .attr("cy", function(d, i) { return yScale(d.hue)})
             .on("mouseover", mouseover)
             .on("mousemove", mousemove)
-            .on("mouseleave", mouseleave);
+            .on("mouseleave", mouseleave)
 
-            // console.log(data)
+//// filter
+     function update(selectedGroup) {
 
-        //// tool tip on hover
-        // d3.selectAll(".dots").on("mousemove", function(d, i) {
-        //     tooltip
-        //     // .data(data, function(d, i) { return d.title })
-        //     // .html("<strong>" + ${d.title} + "</strong>")
-        //     // .html(`<strong>Drawing, Designs for Souvenir Fans</strong><br><br>
-        //     //                 Medium: transparent watercolor, white gouache<br>
-        //     //                 Type: Drawing<br>`)
-        //       .html(d.title)
-        //       .style("background-color", "black")
-        //       .style("color", "white")
-        //       .style('top', d3.select(this).attr("cx") + 'px')
-        //       .style('left', d3.select(this).attr("cy") + 'px')
-        //       .style("opacity", 0.9);
+        // Create new data with the selection?
+        const dataFilter = data.filter(function(d){return d.country==selectedGroup})
 
-        //     xLine.attr("x1", d3.select(this).attr("cx"))
-        //         .attr("y1", d3.select(this).attr("cy"))
-        //         .attr("y2", (height - margin.bottom))
-        //         .attr("x2",  d3.select(this).attr("cx"))
-        //         .attr("opacity", 1);
+        // Give these new data to update line
+        dots
+          .data(dataFilter)
+            .transition()
+            .duration(1000)
+            .append("svg:a")
+              .attr("xlink:href", function(d){return d.url;})
+              .attr("target", "_blank")
+          .append("circle")
+            .attr("class", "dots")
+            .attr("r", radius)
+            .style("fill", function(d){ return d.hex})
+            .attr("cx", function(d){return xScale(d.year_end)}) 
+            .attr("cy", function(d, i) { return yScale(d.hue)});
 
-        // }).on("mouseout", function(_) {
-        //     tooltip.style("opacity", 0);
-        //     xLine.attr("opacity", 0);
-        // });
+        // When the button is changed, run the updateChart function
+        d3.select("#selectCountry").on("change", function(event,d) {
+            // recover the option that has been chosen
+            const selectedOption = d3.select(this).property("value")
+            // run the updateChart function with this selected option
+            update(selectedOption)
+        })
+      }
 
-    });
+//// force
+   const dataFixed = data.map(d => ({px:d.year_end, py:d.hue}));    
+    // console.log("before", dataFixed[0]);
+    
+    const simulation = d3.forceSimulation(dataFixed)
+      .force("x", d3.forceX(d=> xScale(d.px)))
+      .force("y", d3.forceY(d=> yScale(d.py)))
+      .force("collide", d3.forceCollide(radius).strength([]).iterations(1))
+      // .force("collide", d3.forceCollide().radius(5).iterations(10))
+    
+    //// running for all data
+    // for(let i=0; i< data.length; i++)
+    for(let i=0; i<1000; i++)
+      simulation.tick();  
+    simulation.stop();
+      
+    // console.log(dataFixed);
 
+    }); // close d3 

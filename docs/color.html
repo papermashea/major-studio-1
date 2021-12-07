@@ -6,15 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- external scripts-->
-
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-force/0.0.1/d3-force.min.js"></script>
+    
     <!-- library scripts -->
-    <script src="./libraries/d3/dist/d3.js" type="text/javascript" charset="utf-8"></script>
+    <!-- <script src="./libraries/d3/dist/d3.js" type="text/javascript" charset="utf-8"></script> -->
     <!-- <script src="./libraries/d3-cloud/build/d3.layout.cloud.js"  type="text/javascript" charset="utf-8"></script> -->
     <!-- <script src="./libraries/d3-array/dist/d3-array.js"  type="text/javascript" charset="utf-8"></script> -->
     <!-- <script src="./libraries/d3-collection/build/d3-collection.js" type="text/javascript" charset="utf-8"></script> -->
 
     <!-- stylesheets -->
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/interactive.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>Design Movements</title>
@@ -41,8 +45,8 @@
 <!--subnav-->
 <div class="row row-cols-8 sub-nav">
   <div class="col col-8"></div>
-  <div class="col col-2"><button id="vertical">Explore by origin</button></div>
-  <div class="col col-2"><button id="vertical">Explore by query</button></div>
+  <div class="col col-2"><select id="selectCountry"></select></div>
+  <div class="col col-2"><button id="allCountries">All countries</button></div>
 </div>
 <!--end subnav-->
 <body>
@@ -73,6 +77,6 @@
 
 <!--personal scripts-->
   <script src="./js/color.js"></script>
-  <script src="./js/gallery.js"></script>
+  <!-- <script src="./js/gallery.js"></script> -->
 </body>
 </html>

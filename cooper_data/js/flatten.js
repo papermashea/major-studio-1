@@ -30,6 +30,7 @@ function colorObj(){
             type_id: data.type_id,
             media: data.medium,
             media_id: data.media_id,
+            period: data.period_id,
             year_start: data.year_start,
             year_end: data.year_end,
             date: data.date,
@@ -53,5 +54,5 @@ colorObj();
 
 // new json file
 setTimeout(() => {
-    fs.writeFileSync('../data/allObjects/allObjects_flat2.json', JSON.stringify(objectArray), 'utf8')
+    fs.writeFileSync('../data/allObjects/allObjects_periods.json', JSON.stringify(objectArray), 'utf8')
 }, 5000)

@@ -1,0 +1,19 @@
+/* tooltips */
+/* chart tooltip*/
+.tooltip {
+	width: auto;
+	height: 12em;
+	padding: 1em;
+}
+
+.tooltip img {
+	width: auto;
+	height: 100%;
+	float: left;
+	margin: .5em 1em;
+}
+
+.tooltip #header,
+.tooltip #details, {
+	margin:  0 .25em;
+}
