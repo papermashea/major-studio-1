@@ -11,7 +11,7 @@
 
 d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/docs/data/1900_2000.json")
 .then(function (data) { 
-// console.log(data)
+// console.log(data.length)
 
 // const countryGroup = new Set(data.map(d => d.country))
 // console.log(countryGroup)
@@ -67,10 +67,10 @@ d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/docs/
      //  }
 
 //// force datafix
-   // var hsl = d3.hsl((data.hex))
-   // console.log(hsl)
-
    const dataFixed = data.map(d => ({px:d.year_end, py:d.hue, hex: d.hex, hue:d.hue, url:d.url, image: d.image, title: d.title, description: d.description, type: d.type, media: d.media, id: d.objectID}));    
+
+
+
   //// scales
       // var minYear = d3.min(dataFixed, d => d.year_end); 
       // var maxYear = d3.max(dataFixed, d => d.year_end); 
@@ -175,7 +175,7 @@ d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/docs/
               // .attr("cx", function(d){return xScale(d.x)}) 
               // .attr("cy", function(d, i) { return yScale(d.y)})
               .attr("r", radius)
-              .style("fill", function(d){ return d3.hsl(d.hex)})
+              .style("fill", function(d){ return d.hex})
             .on("mouseover", mouseover)
             .on("mousemove", mousemove)
             .on("mouseleave", mouseleave);
