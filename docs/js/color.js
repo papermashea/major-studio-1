@@ -67,8 +67,8 @@ d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/docs/
      //  }
 
 //// force datafix
-   var hsl = d3.hsl(JSON.parse(data.hex))
-   console.log(hsl)
+   // var hsl = d3.hsl((data.hex))
+   // console.log(hsl)
 
    const dataFixed = data.map(d => ({px:d.year_end, py:d.hue, hex: d.hex, hue:d.hue, url:d.url, image: d.image, title: d.title, description: d.description, type: d.type, media: d.media, id: d.objectID}));    
   //// scales
