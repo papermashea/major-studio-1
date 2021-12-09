@@ -3,6 +3,7 @@ html, body{
     width: 100%;
     padding: 0px;
     margin: 0px;
+	  font-family: "CooperHewitt";    
 }
 
 /* fonts */
@@ -52,6 +53,11 @@ html, body{
 /* navbar */
 .navbar {
 	background-color: black;
+}
+
+.main {
+	  font-family: "CooperHewitt";
+	  font-weight: 500;
 }
 
 .navbar-brand, 
@@ -108,6 +114,8 @@ footer a {
 	color: white;
 	padding: 1em;
 	margin: 1em 5em;
+	font-family: 'CooperHewitt', sans-serif;
+	font-weight: 300;
 }
 
 /* typography */

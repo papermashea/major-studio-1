@@ -2,7 +2,7 @@ var margin = {top: 100, right: 200, bottom: 30, left: 0},
     width = 1100 - margin.left - margin.right,
     height = 1400 - margin.top - margin.bottom;
 
-const fontFamily = "Verdana, Arial, Helvetica, sans-serif";
+const fontFamily = "CooperHewitt, Verdana, Arial, Helvetica, sans-serif";
 
 const svg = d3.select("#cloud")
   .append("svg")

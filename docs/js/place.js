@@ -1,5 +1,5 @@
 //// chart
-var margin = {top: 20, right: 20, bottom: 30, left: 60},
+var margin = {top: 20, right: 60, bottom: 30, left: 60},
   width = 1200 - margin.left - margin.right,
   height = 850 - margin.top - margin.bottom;
 
@@ -92,6 +92,7 @@ console.log(cData)
           "</div><div id='count'>" + d.count + " total assets" + 
           "</div><div id='count'>" + d3.format(".0%")(d.count/sum) + " of the collection" +
           "</div></div>")
+        .style("font-family", "CooperHewitt")
         .style("background-color", "black")
         .style("left", (d3.select(this).attr("cx") + 'px'))
         .style("top", (d3.select(this).attr("cy") + 'px'));
