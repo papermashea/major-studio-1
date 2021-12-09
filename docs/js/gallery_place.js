@@ -15,7 +15,7 @@ function displayImages(json){
     let app = d3.select('#gallery');
 
     // let data = dataFixed.sort( (a,b) => (b.year > a.year) ? 1 : -1 );
-    let data = dataFixed.sort( (a,b) => (b.country > a.country) ? 1 : -1 );
+    let data = dataFixed.sort( (b,a) => (b.type > a.type) ? 1 : -1 );
     console.log(data)
 
     // // date ascending
@@ -48,54 +48,6 @@ function displayImages(json){
                       return d.country;
                   })
 
-
-    // card.append('div')
-    //     .data(data, d => d.image)
-    //     .attr('class', 'image-container')
-    //       .html("<img src='" + d.image + "'>")
-    //     .on('click', clicked)
-
-    // var clicked = function(event, d) {
-    //   // console.log(click)  
-    //   card
-    //       nodeEnter.append("svg:image")
-    //       .attr('x', -9)
-    //       .attr('y', -12)
-    //       .attr('width', 20)
-    //       .attr('height', 24)
-    //       .attr("xlink:href", d.url)
-    // }
-
-    // var imgDetails = card.append("div")
-    //   .attr("class", "details")
-    //   .style("padding", "8px")
-    //   .style("opacity", .4)
-    //   .style("color", "white")
-
-    // function update(){
-    //   //// checkboxes
-    //   d3.selectAll(".btn-check").each(function(d){
-    //     cb = d3.select(this);
-    //     clr = cb.property("value")
-
-    //     //// selected
-    //     if(cb.property("checked")){
-    //       svg.selectAll("."+clr).transition().duration(100)
-    //       .style("opacity", 1).attr("r", radius)
-
-    //     //// hidden
-    //     }else{
-
-    //     d3.forceSimulation(dataFixed)
-    //       .force("collide", d3.forceCollide(radius+2).iterations(10))
-    //       .force("center")
-
-    //     svg.selectAll("."+clr).transition().duration(100)
-    //       .style("opacity", 0).attr("r", 0)
-
-
-    //     }
-    //   })
-    // }
+console.log(json)
 
 } // close function

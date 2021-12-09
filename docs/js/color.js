@@ -112,7 +112,7 @@ console.log(colorGroups)
 
     function update(){
       //// checkboxes
-      d3.selectAll(".btn-check").each(function(d){
+      d3.selectAll(".form-control").each(function(d){
         cb = d3.select(this);
         clr = cb.property("value")
 
@@ -137,7 +137,7 @@ console.log(colorGroups)
     }
 
     //// on change
-    d3.selectAll(".btn-check").on("change",update);
+    d3.selectAll(".form-control").on("change",update);
 
     //// intialize
       update();

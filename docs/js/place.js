@@ -1,7 +1,7 @@
 //// chart
 var margin = {top: 20, right: 20, bottom: 30, left: 60},
-  width = 1200
-  height = 600 
+  width = 1200 - margin.left - margin.right,
+  height = 850 - margin.top - margin.bottom;
 
 var svg = d3.select("#map")
     .append("svg")
@@ -77,7 +77,7 @@ console.log(cData)
      .domain(d3.extent(cData.map(function (obj) {
           return (obj.count);
      })))
-     .range([20, 100]);
+     .range([10, 80]);
 
 //// tooltip functions
     var mouseover = function(event, d) {
@@ -86,6 +86,7 @@ console.log(cData)
 
     var mousemove = function(event, d) {            
       Tooltip
+        .join()
         .html(
           "<div class='note'><div id='header'>" + d.country +
           "</div><div id='count'>" + d.count + " total assets" + 
@@ -108,8 +109,8 @@ console.log(cData)
 
   //// add circles:
   jitter= () => Math.random()*20
-  svg
-    .selectAll("circles")
+  
+let nodes = svg.selectAll("circles")
     .data(cData)
     .join("circle")
       .attr("cx", function(d){ return projection([d.long, d.lat])[0]})
@@ -120,6 +121,7 @@ console.log(cData)
       .on("mouseover", mouseover)
       .on("mousemove", mousemove)
       .on("mouseleave", mouseleave);
+
 })
 
 

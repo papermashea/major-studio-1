@@ -11,38 +11,13 @@
     <script src="./libraries/d3-cloud/build/d3.layout.cloud.js"  type="text/javascript" charset="utf-8"></script>
     <script src="./libraries/d3-array/dist/d3-array.js"  type="text/javascript" charset="utf-8"></script>
     <script src="./libraries/d3-collection/build/d3-collection.js" type="text/javascript" charset="utf-8"></script>
-    <script src="./libraries/rita/dist/rita.js" type="text/javascript"></script>
+    <script src="./libraries/ntc.js" type="text/javascript"></script>
 
     <!-- stylesheets -->
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/layout.css">
     <link rel="stylesheet" type="text/css" href="css/interactive.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <style type="text/css">
-      .click-only-text {
-          cursor: pointer;
-          -webkit-user-select: none;
-          -moz-user-select: none;
-          -ms-user-select: none;
-          user-select: none;
-        }
-      .click-only-text::selection {
-          background: none;
-        }
-
-      .word-default {
-          fill: cadetblue;
-          font-weight: normal;
-        }
-      .word-hovered {
-          fill: teal;
-          font-weight: bold;
-        }
-      .word-selected {
-          fill: darkslategrey;
-          font-weight: bold;
-        }
-</style>
     </style>
 
     <title>Design Movements</title>
@@ -55,7 +30,7 @@
         <a class="nav-link" href="color.html">In Color</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="form.html">In Form</a>
+        <a class="nav-link" href="form.html" active>In Form</a>
       </li>
       <li class="nav-item disabled">
         <a class="nav-link" href="place.html">In Place</a>
@@ -79,7 +54,7 @@
     </div>
 <!--end toggle-->
 <!--chart-->
-    <div class="col-sm-10">
+    <div class="col-sm-10" id="sidebar">
       <div id="cloud"></div>
     </div>
   </div>
@@ -87,7 +62,7 @@
 <!--end chart-->
 <!--gallery-->
 <div class="row row-cols-2 gallery-section">
-    <h4 class="query-header">[All] Designs from 1821-1921</h4>
+    <h4 class="query-header">Design by color</h4>
 </div>
 <div class="row row-cols-4 gallery-area">
     <div class ="row row-cols-4" id="gallery"></div>
@@ -95,6 +70,6 @@
 <!--end gallery-->
 <!--personal scripts-->
   <script src="./js/form.js"></script>
-  <!-- <script src="./js/gallery.js"></script> -->
+  <script src="./js/gallery_form.js"></script>
 </body>
 </html>

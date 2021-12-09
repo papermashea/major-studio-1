@@ -1,14 +1,14 @@
-var margin = {top: 20, right: 200, bottom: 30, left: 0},
-  width = 1200 - margin.left - margin.right,
-  height = 850 - margin.top - margin.bottom;
+var margin = {top: 100, right: 200, bottom: 30, left: 0},
+    width = 1100 - margin.left - margin.right,
+    height = 1400 - margin.top - margin.bottom;
 
 const fontFamily = "Verdana, Arial, Helvetica, sans-serif";
 
 const svg = d3.select("#cloud")
   .append("svg")
     .attr("width", width)
-    .attr("height", height + margin.top + margin.bottom)
-    .attr("viewBox", [0, 0, width, height])
+    .attr("height", height - margin.top + margin.bottom)
+    .attr("viewBox", [60, -60, width, height])
     .attr("font-family", fontFamily)
     .attr("text-anchor", "middle");
 
@@ -84,21 +84,26 @@ console.log(wData)
     .range([14, 54]);
 
   const displaySelection = svg.append("text")
-    .attr("class", "selected")
+    .attr("class", "objSelected")
     .attr("font-family", "Lucida Console, Courier, monospace")
     .attr("text-anchor", "start")
     .attr("alignment-baseline", "hanging")
-    .attr("x", margin.left/2)
-    .attr("y", height - margin.bottom);
+    .attr("font-size", 32)
+    .attr("color", "#FF5700")
+    .attr("x", 500)
+    .attr("y", -30);
     
   var cloud = d3.layout.cloud()
     .words(wData.map(d => Object.create(d)))
-    .size([width, height])
-    .padding(3)
+    // .size([width, height])
+    .size([1000,1500])
+    .rotate(function(d) { return 0; })
+    .padding(5)
     .font(fontFamily)
     .fontSize(d => s(d.value))
     .on("word", ({size, x, y, words, value}) => {
       svg.append("text")
+        .sort( (a,b) => (b.size > a.size) ? 1 : -1 )
         .attr("font-size", size)
         .attr("transform", `translate(${x},${y})`)
         .text(words)
@@ -140,6 +145,8 @@ console.log(wData)
 
 d3.selectAll(".form-check-input")
 .on("change", update);
+
+update();
 
 
 // update();
