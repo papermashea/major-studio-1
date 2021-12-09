@@ -61,13 +61,13 @@ console.log(colorGroups)
 
     var mousemove = function(event, d) {            
       Tooltip
-        .html("<div class='note'><img src='" + d.image + "'>"+
+        .html("<div class='tip'><img src='" + d.image + "'>"+
           "<div id='header'" +
           "<div id='title'>" + d.title + " | <span id='year'>" + d.px + 
           "</span></div></div>" +
-          "<p id='details'>Type: " + d.type + "</p>" +
-          "<p id='details'>Medium: " + d.media + "</p>" +
-          "<p id='more'>Click for more information about object " + d.objectID + "</p>")
+          "<p id='details'>Type: " + d.type +
+          "Medium: " + d.media + "</p>" +
+          "<p id='more'>Click for more information</p>")
         .style("background-color", d.hex)
         .style("left", (d3.select(this).attr("cx") + 'px'))
         .style("top", (d3.select(this).attr("cy") + 'px'));

@@ -252,7 +252,10 @@ margin:  .5em;
 .objSelected {
 
 }
-
+.tip {
+	height: 80px;
+	width: 300px;
+}
 .note {
 	height: 30px;
 	width: 140px;
