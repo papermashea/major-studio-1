@@ -19,11 +19,13 @@ const projection = d3.geoMercator()
 
 Promise.all([
 d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"),
-d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/local/cooper_data/data/allObjectsCountries.json")
+d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/docs/data/1900_2000.json")
 ]).then(function (initialize) {
 
     let dataGeo = initialize[0]
     let data = initialize[1]
+    // console.log(data.length)
+    var sum = data.length
 
     //// return lat long as numbers
     // data.forEach(function(d){
@@ -62,23 +64,50 @@ d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/local/coop
 
       var flat = {
         country: cnt.key,
-        lat: JSON.parse(cnt.values[0].key),
-        long: JSON.parse(cnt.values[0].values[0].key),
+        lat: cnt.values[0].key,
+        long: cnt.values[0].values[0].key,
         count: cnt.values[0].values[0].value
       }
           return flat
   }); //cdata
-
+console.log(cData)
 
 //// scale country counts
   var Cscale = d3.scaleLinear()
      .domain(d3.extent(cData.map(function (obj) {
           return (obj.count);
      })))
-     .range([2, 100]);
+     .range([20, 100]);
 
+//// tooltip functions
+    var mouseover = function(event, d) {
+      Tooltip.style("opacity", 1)
+    }
+
+    var mousemove = function(event, d) {            
+      Tooltip
+        .html(
+          "<div class='note'><div id='header'>" + d.country +
+          "</div><div id='count'>" + d.count + " total assets" + 
+          "</div><div id='count'>" + d3.format(".0%")(d.count/sum) + " of the collection" +
+          "</div></div>")
+        .style("background-color", "black")
+        .style("left", (d3.select(this).attr("cx") + 'px'))
+        .style("top", (d3.select(this).attr("cy") + 'px'));
+    }
+
+    var mouseleave = function(event, d) {
+      Tooltip.style("opacity", 0);
+    }
+
+    var Tooltip = d3.select("#map")
+      .append("div")
+      .attr("class", "tooltip")
+      .style("opacity", .4)
+      .style("color", "white");
 
   //// add circles:
+  jitter= () => Math.random()*20
   svg
     .selectAll("circles")
     .data(cData)
@@ -88,6 +117,9 @@ d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/local/coop
       .attr("r", function(d) { return Cscale(d.count)})  
         .style("fill", "black")
         .attr("fill-opacity", .2)
-      .append("text").text(function(d) { return d.country;})
-            .style("fill", "black")
+      .on("mouseover", mouseover)
+      .on("mousemove", mousemove)
+      .on("mouseleave", mouseleave);
 })
+
+

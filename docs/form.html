@@ -4,29 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- external scripts-->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
     <!-- library scripts -->
-    <script src="./libraries/d3/dist/d3.js" type="text/javascript" charset="utf-8"></script>
     <script src="./libraries/d3-cloud/build/d3.layout.cloud.js"  type="text/javascript" charset="utf-8"></script>
     <script src="./libraries/d3-array/dist/d3-array.js"  type="text/javascript" charset="utf-8"></script>
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
-
-    <script type="text/javascript" src="hide.js"></script>
-
-      <script>
-        $(".check_class").click(function() {
-          $(".check_class").attr("checked", false); //uncheck all checkboxes
-          $(this).attr("checked", true);  //check the clicked one
-        });
-      </script>
+    <script src="./libraries/d3-collection/build/d3-collection.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./libraries/rita/dist/rita.js" type="text/javascript"></script>
 
     <!-- stylesheets -->
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/interactive.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style type="text/css">
+      .click-only-text {
+          cursor: pointer;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+        }
+      .click-only-text::selection {
+          background: none;
+        }
+
+      .word-default {
+          fill: cadetblue;
+          font-weight: normal;
+        }
+      .word-hovered {
+          fill: teal;
+          font-weight: bold;
+        }
+      .word-selected {
+          fill: darkslategrey;
+          font-weight: bold;
+        }
+</style>
+    </style>
+
     <title>Design Movements</title>
 </head>
-
 <!--navbar-->
 <nav class="navbar navbar-expand-lg">
   <div class="navbar-brand"><a class="main" href="index.html">Design Movements</a></div>
@@ -44,40 +64,27 @@
     </ul>
 </nav>
 <!--end navbar-->
-
 <body>
-
-<!--subnav-->
-<div class="row row-cols-8 sub-nav">
-  <div class="col col-8"></div>
-  <div class="col col-2"><button id="vertical">Explore by origin</button></div>
-  <div class="col col-2"><button id="vertical">Explore by query</button></div>
-</div>
-<!--end subnav-->
-
-
 <!--toggle-->
-<div class="container">
-  <div class="row">
+<div class="row chart-area">
     <div class="col-sm-2">
-      <div class="switch-field">
-        <input type="radio" id="type" name="rad" value="1" checked/>
-        <label for="type">TYPE</label>
-        <input type="radio" id="media" name="rad" value="0" />
-        <label for="media">MEDIA</label>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="radio" name="exampleRadios" value="type" id="toggle" checked>
+          <label class="form-check-label" for="flexSwitchCheckDefault">Type</label>
       </div>
-<!--end toggle-->
-
-<!--chart-->
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="radio" name="exampleRadios"  value="medium" id="toggle">
+          <label class="form-check-label" for="flexSwitchCheckDefault">Medium</label>
+      </div>    
     </div>
+<!--end toggle-->
+<!--chart-->
     <div class="col-sm-10">
       <div id="cloud"></div>
-      <div id="cloud2"></div>
     </div>
   </div>
 </div>
 <!--end chart-->
-
 <!--gallery-->
 <div class="row row-cols-2 gallery-section">
     <h4 class="query-header">[All] Designs from 1821-1921</h4>
@@ -86,10 +93,8 @@
     <div class ="row row-cols-4" id="gallery"></div>
 </div>
 <!--end gallery-->
-
-  <script src="libraries/rita.js" type="text/javascript"></script>
-  <script src="gallery.js"></script>
-  <script src="form.js"></script>
-  <script src="form2.js"></script>
+<!--personal scripts-->
+  <script src="./js/form.js"></script>
+  <!-- <script src="./js/gallery.js"></script> -->
 </body>
 </html>

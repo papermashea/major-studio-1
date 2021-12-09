@@ -68,7 +68,7 @@ function update(){
         let mediums = mData[i].words
         words.push(mediums)
       }
-      } else {
+      } else if (val == "type"){
         var wData = tData;
       for (var i = 0; i < tData.length; i++) {        
         let types = tData[i].words
@@ -84,7 +84,6 @@ console.log(wData)
     .range([14, 54]);
 
   const displaySelection = svg.append("text")
-    .attr("class", "selected")
     .attr("font-family", "Lucida Console, Courier, monospace")
     .attr("text-anchor", "start")
     .attr("alignment-baseline", "hanging")
@@ -137,6 +136,10 @@ console.log(wData)
   return svg.node();
 
 }
+
+// function clear(){
+//   d3.selectAll("svg > *").remove();
+// }
 
 d3.selectAll(".form-check-input")
 .on("change", update);

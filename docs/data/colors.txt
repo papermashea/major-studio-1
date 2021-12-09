@@ -1,0 +1,10 @@
+PaleVioletRed
+Crimson
+DarkOrange
+Goldenrod
+DarkOliveGreen
+DarkSlateBlue
+RoyalBlue
+Wheat
+DarkKhaki
+Sienna

@@ -1,16 +1,8 @@
-var margin = {top: 20, right: 200, bottom: 30, left: 0},
+var margin = {top: 20, right: 20, bottom: 30, left: 20},
   width = 1200 - margin.left - margin.right,
   height = 850 - margin.top - margin.bottom;
 
 const fontFamily = "Verdana, Arial, Helvetica, sans-serif";
-
-const svg = d3.select("#cloud")
-  .append("svg")
-    .attr("width", width)
-    .attr("height", height + margin.top + margin.bottom)
-    .attr("viewBox", [0, 0, width, height])
-    .attr("font-family", fontFamily)
-    .attr("text-anchor", "middle");
 
 
 d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/docs/data/1900_2000.json")
@@ -18,40 +10,40 @@ d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/docs/
   // console.log(data)
   // console.log(data.length)
 
-  var typeNest = d3.nest()
-    .key(function(d) { return d.type; })
-    // .key(function(d) { return d.country})
-    .rollup(function(v) { return v.length; })  
-    .entries(data);
-    // console.log(typeNest)
+var typeNest = d3.nest()
+  .key(function(d) { return d.type; })
+  // .key(function(d) { return d.country})
+  .rollup(function(v) { return v.length; })  
+  .entries(data);
+  // console.log(typeNest)
 
-    var tData = typeNest.map( function(f) {
-        var country = f.values
-        var types = {
-          words: (f.key).replace(' and ', '').replace(' - ', ''),
-          value: f.value
-          // countries: f.values.length 
-        }
-        return types
-      }); //data
-  // console.log(tData)
+  var tData = typeNest.map( function(f) {
+      var country = f.values
+      var types = {
+        words: (f.key).replace(' and ', '').replace(' - ', ''),
+        value: f.value
+        // countries: f.values.length 
+      }
+      return types
+    }); //data
+// console.log(tData)
 
-  var medNest = d3.nest()
-    .key(function(d) { return (d.media).replace(' on ', " ").replace(' or ', " ").replace(' and ', " ").replace(' with ', " ").replace(' in ', " ").replace(/[!\.:,;\?]/g, ""); })
-    .rollup(function(v) { return v.length; })
-    // .key(function(d) { return d.country; })
-    .entries(data);
-    // console.log(medNest)
+var medNest = d3.nest()
+  .key(function(d) { return (d.media).replace(' on ', " ").replace(' or ', " ").replace(' and ', " ").replace(' with ', " ").replace(' in ', " ").replace(/[!\.:,;\?]/g, ""); })
+  .rollup(function(v) { return v.length; })
+  // .key(function(d) { return d.country; })
+  .entries(data);
+  // console.log(medNest)
 
-    var mData = medNest.map( function(f) {
-        var mediums = {
-          words: f.key,
-          value: f.value,      
-          // countries: (f.values).join(),
-        }
-        return mediums
-    }); //mdata
-  // console.log(mData)
+  var mData = medNest.map( function(f) {
+      var mediums = {
+        words: f.key,
+        value: f.value,      
+        // countries: (f.values).join(),
+      }
+      return mediums
+  }); //mdata
+// console.log(mData)
 
 var words = [];
 var wData;
@@ -61,14 +53,13 @@ function update(){
     while (words.length > 0) {
         words.pop();
     }
-    d3.selectAll("svg > *").remove();
     if(val == "medium"){
       var wData = mData;
       for (var i = 0; i < mData.length; i++) {        
         let mediums = mData[i].words
         words.push(mediums)
       }
-      } else {
+      } if(val == "type"){
         var wData = tData;
       for (var i = 0; i < tData.length; i++) {        
         let types = tData[i].words
@@ -81,26 +72,34 @@ console.log(wData)
 
  var s = d3.scaleSqrt()
     .domain([1, d3.max(wData.map(d => d.value))])
-    .range([14, 54]);
+    .range([6, 48]);
+  
+  const svg = d3.select("#cloud")
+  .append("svg")
+    .attr("width", width)
+    .attr("height", height + margin.top + margin.bottom)
+    .attr("viewBox", [0, 0, width, height])
+    .attr("font-family", fontFamily)
+    .attr("text-anchor", "middle");
 
   const displaySelection = svg.append("text")
-    .attr("class", "selected")
     .attr("font-family", "Lucida Console, Courier, monospace")
     .attr("text-anchor", "start")
     .attr("alignment-baseline", "hanging")
-    .attr("x", margin.left/2)
-    .attr("y", height - margin.bottom);
+    .attr("x", 10)
+    .attr("y", 10);
     
-  var cloud = d3.layout.cloud()
-    .words(wData.map(d => Object.create(d)))
+  const cloud = d3.layout.cloud()
     .size([width, height])
-    .padding(3)
+    .words(wData.map(d => Object.create(d)))
+    .padding(1)
+    .rotate(() => 0)
     .font(fontFamily)
     .fontSize(d => s(d.value))
-    .on("word", ({size, x, y, words, value}) => {
+    .on("word", ({size, x, y, rotate, words, value}) => {
       svg.append("text")
         .attr("font-size", size)
-        .attr("transform", `translate(${x},${y})`)
+        .attr("transform", `translate(${x},${y}) rotate(${rotate})`)
         .text(words)
         .classed("click-only-text", true)
         .classed("word-default", true)
@@ -138,11 +137,9 @@ console.log(wData)
 
 }
 
-d3.selectAll(".form-check-input")
-.on("change", update);
+d3.selectAll(".form-check-input").on("change", update);
 
-
-// update();
+update();
 }) //  data close
 
 
