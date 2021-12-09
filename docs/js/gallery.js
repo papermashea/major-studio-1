@@ -6,6 +6,8 @@ d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/docs/
       displayImages(json);
   }); 
 
+const fontFamily = "CooperHewitt, Verdana, Arial, Helvetica, sans-serif";
+
 // this function creates all
 // of our DOM elements
 function displayImages(json){
@@ -41,13 +43,14 @@ function displayImages(json){
        .text(function(d){
                       return d.type;
                   })
+       .attr("font-family", fontFamily)
 
      card.append("text")
       .attr('class', 'countryText')
        .text(function(d){
                       return d.country;
                   })
-
+       .attr("font-family", fontFamily)
 
     // card.append('div')
     //     .data(data, d => d.image)

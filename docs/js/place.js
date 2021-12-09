@@ -3,10 +3,13 @@ var margin = {top: 20, right: 60, bottom: 30, left: 60},
   width = 1200 - margin.left - margin.right,
   height = 850 - margin.top - margin.bottom;
 
+const fontFamily = "CooperHewitt, Verdana, Arial, Helvetica, sans-serif";
+
 var svg = d3.select("#map")
     .append("svg")
       .attr("width", width)
       .attr("height", height + margin.top + margin.bottom)
+    .attr("font-family", fontFamily)
     .append("g")
       .attr("transform",
             "translate(" + margin.left + "," + margin.top + ")");
@@ -88,11 +91,11 @@ console.log(cData)
       Tooltip
         .join()
         .html(
-          "<div class='note'><div id='header'>" + d.country +
-          "</div><div id='count'>" + d.count + " total assets" + 
+          "<div class='note'><div id='header' style='font-size=16'><strong>" + d.country +
+          "</div></strong><div id='count'>" + d.count + " total assets" + 
           "</div><div id='count'>" + d3.format(".0%")(d.count/sum) + " of the collection" +
           "</div></div>")
-        .style("font-family", "CooperHewitt")
+        .attr("font-family", "CooperHewitt")
         .style("background-color", "black")
         .style("left", (d3.select(this).attr("cx") + 'px'))
         .style("top", (d3.select(this).attr("cy") + 'px'));

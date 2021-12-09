@@ -108,6 +108,8 @@ footer {
 	height: 4em;
 	background-color: black;
 	color: white;
+	text-align: vertical;
+	padding-top: 10px;
 }
 
 footer a {
@@ -135,6 +137,8 @@ a.nav-link,
 	text-transform: uppercase;
 	color: white;
 	line-height: 2;
+	font-family: 'CooperHewitt', sans-serif;
+	font-weight: 700;
 }
 
 .nav-item {
@@ -154,11 +158,15 @@ a.nav-link:hover {
 	color: #FF5700;
 	text-decoration: none;
 	text-decoration-thickness: 0.2em;
+	font-family: 'CooperHewitt', sans-serif;
+	font-weight: 700;
 }
 
 a.nav-link:active {
 	color: #FF5700;
 	text-decoration-thickness: 0.2em;
+	font-family: 'CooperHewitt', sans-serif;
+	font-weight: 700;
 }
 
 .fa-1x {
@@ -174,7 +182,16 @@ text:hover {
 }
 
 .query-header {
-	padding: .5rem 1rem;
+	padding: 10px 20px;
+	font-family: 'CooperHewitt', sans-serif;
+	font-weight: 500;
+	font-style: italic;
+}
+
+h4 {
+	font-family: 'CooperHewitt', sans-serif;
+	font-weight: 500;
+	font-style: italic;
 }
 
 /* slider */
@@ -395,6 +412,10 @@ label#DarkKhaki {
 img {
   padding: 5px;
 } */
+
+/*.header {
+	font-size: 16em;
+}*/
 
 #app {
   /*https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#lengths*/
