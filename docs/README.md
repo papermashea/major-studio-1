@@ -16,6 +16,12 @@
 ### Pantone movements in color
 This initial phase of the project helped me to assess the data structure and rethink my inial UI. I experimented with Tableau to more easily represent the data with the given data structure, and learned a lot about the Cooper's API specificities, limits, and methods. 
 
+**Deliverables**
+* [Sketches](https://github.com/papermashea/major-studio-1/tree/main/brainstorming/sketches/project1)
+* [Design](https://xd.adobe.com/view/d299399c-8486-45f2-b753-02d7de67df73-87ca/)
+* [Code](https://github.com/papermashea/major-studio-1/tree/main/1.Quantitative)
+* [Overview](https://docs.google.com/presentation/d/1QzGkGTPvUFs3Aj1rZ4C12igurs2dNlk_P6w-ofXsZ5E/edit?usp=sharing)
+
 <table>
   <tr>
     <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/sketches/project1/AmericanArt.jpg" width ="300px" height ="auto" ></td>
@@ -30,15 +36,15 @@ This initial phase of the project helped me to assess the data structure and ret
 </table>
 
 
-**Deliverables**
-* [Sketches](https://github.com/papermashea/major-studio-1/tree/main/brainstorming/sketches/project1)
-* [Design](https://xd.adobe.com/view/d299399c-8486-45f2-b753-02d7de67df73-87ca/)
-* [Code](https://github.com/papermashea/major-studio-1/tree/main/1.Quantitative)
-* [Overview](https://docs.google.com/presentation/d/1QzGkGTPvUFs3Aj1rZ4C12igurs2dNlk_P6w-ofXsZ5E/edit?usp=sharing)
-
 ## Project 2: Quantitative
 ### Movements [in color, in form]: adding text data
 In this phase of the project, I was able to explore how the data objects function in different representations, and evaluate the feasibiity of subsets like "period", "media" and "year". I was able to explore beeswarm, wordcloud, and event handling in D3 and consider working with other data sets, which I decided against in the end.
+
+**Deliverables**
+* [Sketches](https://github.com/papermashea/major-studio-1/tree/main/brainstorming/sketches/project2)
+* [Design](https://xd.adobe.com/view/ebab6dc1-27ef-4874-90b8-311b8129d59a-bef8/)
+* [Code](https://github.com/papermashea/major-studio-1/tree/main/2.Quantitative/public)
+* [Overview](https://drive.google.com/file/d/1549nzDabWF18OyRG7zLyLsEzvfFT4y4Y/view?usp=sharing)
 
 <table>
   <tr>
@@ -55,15 +61,17 @@ In this phase of the project, I was able to explore how the data objects functio
    </tr> 
 </table>
 
-**Deliverables**
-* [Sketches](https://github.com/papermashea/major-studio-1/tree/main/brainstorming/sketches/project2)
-* [Design](https://xd.adobe.com/view/ebab6dc1-27ef-4874-90b8-311b8129d59a-bef8/)
-* [Code](https://github.com/papermashea/major-studio-1/tree/main/2.Quantitative/public)
-* [Overview](https://drive.google.com/file/d/1549nzDabWF18OyRG7zLyLsEzvfFT4y4Y/view?usp=sharing)
 
 ## Project 3: Interactive
 ### Design Movements: Filters, interactivity, ui
 In the interactive form of the project, I worked a gallery view, an origin visuaization, and the filters that would be able to be built given the final generated, flattened, and processed non-null data. Working with the finalized data gave me insight into which filters would be better handled by D3, and which views had gaps in the pattern assessment. I ended up reworking my gallery a few times in order to generate the filters cleanly using D3.
+
+**Deliverables**
+* [Sketches](https://github.com/papermashea/major-studio-1/tree/main/brainstorming/sketches/project3)
+* [Design](https://xd.adobe.com/view/e3851996-fd01-4302-9f48-a1c638a5aae3-b6d6/)
+* [Prototype](https://github.com/papermashea/major-studio-1/tree/main/3.Interactive/public)
+* [Code](https://github.com/papermashea/major-studio-1/tree/main/cooper_data)
+* [Overview](https://docs.google.com/presentation/d/1gGld_FpAXmp3FU0zIYHTgfgfVmvVDLzoqfV3A_VWNE0/edit?usp=sharing)
 
 <table>
   <tr>
@@ -75,14 +83,6 @@ In the interactive form of the project, I worked a gallery view, an origin visua
     <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/mockups/project3/exports/InPlace_Home.png" width ="300px" height ="auto" ></td>
    </tr> 
 </table>
-
-**Deliverables**
-* [Sketches](https://github.com/papermashea/major-studio-1/tree/main/brainstorming/sketches/project3)
-* [Design](https://xd.adobe.com/view/e3851996-fd01-4302-9f48-a1c638a5aae3-b6d6/)
-* [Prototype](https://github.com/papermashea/major-studio-1/tree/main/3.Interactive/public)
-* [Code](https://github.com/papermashea/major-studio-1/tree/main/cooper_data)
-* [Overview](https://docs.google.com/presentation/d/1gGld_FpAXmp3FU0zIYHTgfgfVmvVDLzoqfV3A_VWNE0/edit?usp=sharing)
-
 
 ## Final Prototype 
 The final prototype is looking a lot more like what I had originally envisioned, but with a cleaner comparison on each page. I ended up paring down the cross-filter interactivity in the finalized prototype and moving forward with 3 distinctly different visualizations for color, form, and origin data. Some functions of note that helped parse the data in a largely consistent way include: d3.nest, d3.rollup, d3.filter, d3.selectAll and d3.select, d3 on(change) and general update patterns.
