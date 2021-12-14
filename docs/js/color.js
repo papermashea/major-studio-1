@@ -63,13 +63,12 @@ d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/docs/
 
     var mousemove = function(event, d) {            
       Tooltip
-        .html("<div class='tip'><img src='" + d.image + "'>"+
-          "<div id='header'" +
-          "<div id='title'>" + d.title + " | <span id='year'>" + d.px + 
-          "</span></div></div>" +
+        .html("<img src='" + d.image + "'>"+
+          "<div id='header'>" + d.title + 
+          "</div><div id='sub''>" + d.px + 
+          "</div>" +
           "<p id='details'>Type: " + d.type +
-          "</br>Medium: " + d.media + "</p>" +
-          "<p id='more'></p>")
+          "</p><p id='details'>Medium: " + d.media + "</p>")
         .attr("id", "colorTooltip")
         .style("background-color", d.hex)
         .style("left", (d3.select(this).attr("cx") + 'px'))
