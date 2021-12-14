@@ -25,7 +25,13 @@ This initial phase of the project helped me to assess the data structure and ret
     <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/sketches/project1/AmericanHistory.jpg" width ="300px" height ="auto" ></td>
     <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/sketches/project1/CooperHewitt.jpg" width ="300px" height ="auto" ></td>    
    </tr> 
+  <tr>
+    <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/mockups/project1/project1_v2/05.search_color.png" width ="300px" height ="auto" ></td>
+    <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/mockups/project1/project1_v2/03.home_asset-selected.png" width ="300px" height ="auto" ></td>
+    <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/mockups/project1/project1_v2/06.search_form-dropdown.png" width ="300px" height ="auto" ></td>    
+   </tr> 
 </table>
+
 
 **Deliverables**
 * [Sketches](https://github.com/papermashea/major-studio-1/tree/main/brainstorming/sketches/project1)
@@ -44,6 +50,12 @@ In this phase of the project, I was able to explore how the data objects functio
     <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/sketches/project2/nhm.jpg" width ="300px" height ="auto" ></td>    
 	<td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/sketches/project2/nmah.jpg" width ="300px" height ="auto" ></td>
    </tr> 
+  <tr>
+    <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/mockups/project2/form.png" width ="300px" height ="auto" ></td>
+    <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/mockups/project2/form_period.png" width ="300px" height ="auto" ></td>
+    <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/mockups/project2/form_query.png" width ="300px" height ="auto" ></td>    
+    <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/mockups/project2/form-selection.png" width ="300px" height ="auto" ></td>
+   </tr> 
 </table>
 
 **Deliverables**
@@ -61,6 +73,10 @@ In the interactive form of the project, I worked a gallery view, an origin visua
     <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/sketches/project3/UI.jpg" width ="300px" height ="auto" ></td>    
 	<td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/sketches/project3/place.jpg" width ="300px" height ="auto" ></td>
    </tr> 
+  <tr>
+    <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/mockups/project3/newGallery.png" width ="300px" height ="auto" ></td>
+    <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/mockups/project3/exports/InPlace_Home.png" width ="300px" height ="auto" ></td>
+   </tr> 
 </table>
 
 **Deliverables**
@@ -76,10 +92,10 @@ The final prototype is looking a lot more like what I had originally envisioned,
 
 **Deliverables**
 * [Design](https://xd.adobe.com/view/e3851996-fd01-4302-9f48-a1c638a5aae3-b6d6/)
-* [Prototype](https://github.com/papermashea/major-studio-1/tree/main/1.Quantitative)
+* [Prototype](https://papermashea.github.io/major-studio-1/)
 * [Code](https://github.com/papermashea/major-studio-1/tree/main/1.Quantitative)
 * [Overview](https://docs.google.com/presentation/d/1rfRLomEcmW1GT4V1BoBvC7_sq2WUYBbn2AKdiq6AwEE/edit?usp=sharing)
 
-**Final thoughts**
+***Final thoughts***
 ***Given specific direction I took with the designs for this data, I had to rework or write a lot of functionality from scratch in a way I haven't had to in past projects. I feel proud of level of understanding I was able to develop along the way and feel confident that I could continue building this project out in more efficent ways.***
 
