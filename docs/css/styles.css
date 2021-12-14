@@ -193,20 +193,6 @@ h4 {
 }
 
 
-.tip {
-	height: 80px;
-	width: 300px;
-}
-.note {
-	height: 30px;
-	width: 140px;
-}
-
-.details {
-	width: 100%;
-	float: left;
-}
-
 .btn-group-vertical {
 	border-radius: 0;
 	margin-left: 1em;
@@ -288,7 +274,7 @@ div.card {
 
 /* about */
 #aboutRow {
-	margin: 5% 0% 8% 0%;
+	margin: 4% 0% 4% 0%;
 	height: 100%;
 }
 
