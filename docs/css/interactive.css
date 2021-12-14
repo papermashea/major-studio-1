@@ -1,8 +1,8 @@
 /* COLOR */
 /* tooltips */
-.tooltip {
+#colorTooltip {
 	width: auto;
-	height: 12em;
+	height: 14em;
 	padding: 1em;
 }
 
@@ -22,10 +22,10 @@
 	height: 80px;
 	width: 300px;
 }
-.note {
+/*.note {
 	height: 30px;
 	width: 140px;
-}
+}*/
 
 .details {
 	width: 100%;
@@ -223,6 +223,14 @@ input[class=filter]:focus {
 .form-check-label {
 	padding: 0px 30px 0px 0px;
 }
+
+#placeTooltip {
+	width: auto;
+	height: 8em;
+	padding: 1em;
+}
+
+/* footer */
 
 footer a:hover {
 	color: #FF5700;

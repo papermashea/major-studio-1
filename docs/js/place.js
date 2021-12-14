@@ -38,6 +38,7 @@ d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/docs/
     var mousemove = function(event, d) {            
       Tooltip
         .join()
+        .attr("id", "placeTooltip")
         .html(
           "<div class='note'><div id='header' style='font-size=16'><strong>" + d.country +
           "</div></strong><div id='count'>" + d.count + " total assets" + 

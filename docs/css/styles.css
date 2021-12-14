@@ -274,13 +274,18 @@ div.card {
 
 /* about */
 #aboutRow {
-	margin: 4% 0% 4% 0%;
+	margin: 2% 0% 2% 0%;
 	height: 100%;
 }
 
 h2 {
 	font-family: 'CooperHewitt', sans-serif;
   font-weight: 500;
+}
+
+h3 {
+	font-family: 'CooperHewitt', sans-serif;
+  font-weight: 300;
 }
 
 h4 {

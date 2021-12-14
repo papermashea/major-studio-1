@@ -70,6 +70,7 @@ d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/docs/
           "<p id='details'>Type: " + d.type +
           "</br>Medium: " + d.media + "</p>" +
           "<p id='more'></p>")
+        .attr("id", "colorTooltip")
         .style("background-color", d.hex)
         .style("left", (d3.select(this).attr("cx") + 'px'))
         .style("top", (d3.select(this).attr("cy") + 'px'));
