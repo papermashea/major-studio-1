@@ -1,5 +1,5 @@
+/* COLOR */
 /* tooltips */
-/* chart tooltip*/
 .tooltip {
 	width: auto;
 	height: 12em;
@@ -16,4 +16,158 @@
 .tooltip #header,
 .tooltip #details, {
 	margin:  0 .25em;
+}
+
+
+/* inputs */
+input[type=checkbox] {
+    box-sizing: border-box;
+    z-index: -1;
+    vertical-align: middle;
+}
+
+label.btn-outline-primary {
+	/*border: 1px solid black;*/
+	color:  #fff;
+	background-color: black;
+}
+
+label#Sienna:hover {
+	color:  #fff;
+	background-color: #A0522D;
+}
+label#PaleVioletRed:hover {
+	color:  #fff;
+	background-color: #DB7093;
+}
+label#Crimson:hover {
+	color:  #fff;
+	background-color: #DC143C;
+}
+label#DarkOrange:hover {
+	color:  #fff;
+	background-color: #FF8C00;
+}
+label#DarkOliveGreen:hover {
+	color:  #fff;
+	background-color: #556B2F;
+}
+label#Goldenrod:hover {
+	color:  #fff;
+	background-color: #DAA520;
+}
+label#DarkSlateBlue:hover {
+	color:  #fff;
+	background-color: #483D8B;
+}
+label#RoyalBlue:hover {
+	color:  #fff;
+	background-color: #4169E1;
+}
+label#Wheat:hover {
+	color:  #fff;
+	background-color: #F5DEB3;
+}
+label#DarkKhaki:hover {
+	color:  #fff;
+	background-color: #BDB76B;
+}
+
+label#Sienna {
+	background-color: #fff;
+	color:  #A0522D;
+	border: 1px solid #A0522D;
+}
+label#PaleVioletRed {
+	background-color: #fff;
+	color:  #DB7093;
+	border: 1px solid #DB7093;
+}
+label#Crimson {
+	background-color: #fff;
+	color:  #DC143C;
+	border: 1px solid #DC143C;
+}
+label#DarkOrange {
+	background-color: #fff;
+	color:  #FF8C00;
+	border: 1px solid #FF8C00;
+}
+label#DarkOliveGreen {
+	background-color: #fff;
+	color:  #556B2F;
+	border: 1px solid #556B2F;
+}
+label#Goldenrod {
+	background-color: #fff;
+	color:  #DAA520;
+	border: 1px solid #DAA520;
+}
+label#DarkSlateBlue {
+	background-color: #fff;
+	color:  #483D8B;
+	border: 1px solid #483D8B;
+}
+label#RoyalBlue {
+	background-color: #fff;
+	color:  #4169E1;
+	border: 1px solid #4169E1;
+}
+label#Wheat {
+	background-color: #fff;
+	color:  #F5DEB3;
+	border: 1px solid #F5DEB3;
+}
+label#DarkKhaki {
+	background-color: #fff;
+	color:  #BDB76B;
+	border: 1px solid #BDB76B;
+}
+
+/* FORM */
+/* inputs */
+.switch-field {
+	display: flex;
+	margin-bottom: 36px;
+	overflow: hidden;
+}
+
+.form-switch{
+	margin:  2em .5em 1em 2em;
+}
+
+.objSelected {
+	color: #FF5700;
+
+}
+
+/* PLACE */
+/* inputs */
+
+input[class=filter]:focus {
+	background-color: #fff;
+	color:  #000;
+	border: 1px solid #000;	
+	padding: 5px;
+	margin: .5em;
+}
+
+.filter:hover,
+.filter:focus {
+	background-color: #FF5700;
+	color:  #fff;
+	border: 1px solid #000;	
+}
+/*
+.vizCol {
+	width: 90%;
+}*/
+
+.chart-area {
+	background-color: #FFF;
+	height: 60%;
+}
+
+.form-check-label {
+	padding: 0px 30px 0px 0px;
 }

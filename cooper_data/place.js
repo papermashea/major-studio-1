@@ -68,6 +68,7 @@ d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/local/coop
       }
           return flat
   }); //cdata
+  console.log(cData)
 
 
 //// scale country counts
@@ -90,4 +91,43 @@ d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/local/coop
         .attr("fill-opacity", .2)
       .append("text").text(function(d) { return d.country;})
             .style("fill", "black")
-})
+
+
+  d3.select("#filterCol")
+        .append("div")
+        .attr("class","countryFilters")
+        .each(function(d) {
+
+          for (var i = 1; i < cData.length; i++) {
+              d3.select(".countryFilters")
+                .append("button")
+                .attr("type","button")
+                .attr("class","btn-btn")
+                .attr("id",function(d) { return 'button '+i;})
+                .append("div")
+                .attr("class","label")
+                .text(function(d) { return 'button '+i;})
+
+
+// function filter(){
+//     d3.selectAll(".card").remove();
+
+//     var choices = [];
+//     d3.selectAll('input[name="filters"]:checked').each(function(d){
+//       cb = d3.select(this);
+//       if(cb.property("checked")){
+//         choices.push(cb.property("value"));
+//       }
+//     });
+  
+//     if(choices.length > 0){
+//       inputData = cData.filter(function(d,i){return choices.includes(d.color);}).sort( (a,b) => (b.country > a.country) ? 1 : -1 );
+//     } else {
+//       inputData = dataFixed.sort( (a,b) => (b.country > a.country) ? 1 : -1 );     
+//     } 
+// console.log(choices)
+// console.log(inputData)
+// gallery(inputData);
+
+}) // close function    
+

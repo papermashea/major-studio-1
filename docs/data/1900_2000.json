@@ -36596,6 +36596,8 @@
     "year_acquired": "1990",
     "country": "Democratic Republic of Congo",
     "image": "https://images.collection.cooperhewitt.org/44687_15fe31eadb4dc71b_b.jpg",
+    "lat": -4.322447,
+    "long": 21.7587,
     "hex": "#af7053",
     "hue": 0.05253623188405796
   },
@@ -40280,6 +40282,8 @@
     "year_acquired": "1957",
     "country": "Democratic Republic of Congo",
     "image": "https://images.collection.cooperhewitt.org/44217_a0198ddbec1a8cda_b.jpg",
+    "lat": -4.322447,
+    "long": 21.7587,
     "hex": "#ba844a",
     "hue": 0.08630952380952384
   },
@@ -44021,6 +44025,8 @@
     "year_acquired": "1961",
     "country": "Democratic Republic of Congo",
     "image": "https://images.collection.cooperhewitt.org/50702_d28814ae2aa04b47_b.jpg",
+    "lat": -4.322447,
+    "long": 21.7587,
     "hex": "#ae8248",
     "hue": 0.09477124183006534
   },

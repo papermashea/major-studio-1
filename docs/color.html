@@ -8,6 +8,7 @@
     <!-- external scripts-->
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-force/0.0.1/d3-force.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-selection/0.4.10/selection.js"></script>
 
     <!-- library scripts -->
     <script src="./libraries/ntc.js" type="text/javascript"></script>
@@ -45,37 +46,16 @@
   <div class="col-sm-2">
   <!-- <div class="col col-2"> -->
     <div class="btn-group-vertical">
-    <!-- <div class="btn-group" role="group"> -->
-
-      
-      <label class="btn btn-outline-primary" id="Sienna">Sienna<input type="checkbox" class="form-control" id="color" value="Sienna" autocomplete="off" checked></label>
-
-      
-      <label class="btn btn-outline-primary" id="DarkOrange">Dark Orange<input type="checkbox" class="form-control" id="color" value="DarkOrange" autocomplete="off" checked></label>
-
-      
-      <label class="btn btn-outline-primary" id="Goldenrod">Golden rod<input type="checkbox" class="form-control" id="color" value="Goldenrod" autocomplete="off" checked></label>
-
-      
-      <label class="btn btn-outline-primary" id="DarkKhaki">Dark Khaki<input type="checkbox" class="form-control" id="color" value="DarkKhaki" autocomplete="off" checked></label>
-
-      
-      <label class="btn btn-outline-primary" id="Wheat">Wheat<input type="checkbox" class="form-control" id="color" value="Wheat" autocomplete="off" checked></label>
-
-      
-      <label class="btn btn-outline-primary" id="DarkOliveGreen">Dark Olive Green<input type="checkbox" class="form-control" id="color" value="DarkOliveGreen" autocomplete="off" checked></label>
-
-      
-      <label class="btn btn-outline-primary" id="DarkSlateBlue">Dark Slate Blue<input type="checkbox" class="form-control" id="color" value="DarkSlateBlue" autocomplete="off" checked></label>
-
-      
-      <label class="btn btn-outline-primary" id="RoyalBlue">Royal Blue<input type="checkbox" class="form-control" id="color" value="RoyalBlue" autocomplete="off" checked></label>      
-
-      
-      <label class="btn btn-outline-primary" id="Crimson">Crimson<input type="checkbox" class="form-control" id="color" value="Crimson" autocomplete="off" checked></label>
-
-      
-      <label class="btn btn-outline-primary" id="PaleVioletRed">Pale Violet Red<input type="checkbox" class="form-control" id="color" value="PaleVioletRed" autocomplete="off" checked></label>
+      <label class="btn btn-outline-primary" id="Wheat">Creams<input type="checkbox" class="form-control" id="color" name="filters" value="Wheat" autocomplete="off" checked></label>      
+      <label class="btn btn-outline-primary" id="Sienna">Browns<input type="checkbox" class="form-control" id="color" name="filters" value="Sienna" autocomplete="off" checked></label>
+      <label class="btn btn-outline-primary" id="DarkOrange">Oranges<input type="checkbox" class="form-control" id="color" name="filters" value="DarkOrange" autocomplete="off" checked></label>
+      <label class="btn btn-outline-primary" id="Goldenrod">Yellows<input type="checkbox" class="form-control" id="color" name="filters" value="Goldenrod" autocomplete="off" checked></label>
+      <label class="btn btn-outline-primary" id="DarkKhaki">Tans<input type="checkbox" class="form-control" id="color" name="filters" value="DarkKhaki" autocomplete="off" checked></label>      
+      <label class="btn btn-outline-primary" id="DarkOliveGreen">Greens<input type="checkbox" class="form-control" id="color" name="filters" value="DarkOliveGreen" autocomplete="off" checked></label>
+      <label class="btn btn-outline-primary" id="RoyalBlue">Blues<input type="checkbox" class="form-control" id="color" name="filters" value="RoyalBlue" autocomplete="off" checked></label>      
+      <label class="btn btn-outline-primary" id="DarkSlateBlue">Purples<input type="checkbox" class="form-control" id="color" name="filters" value="DarkSlateBlue" autocomplete="off" checked></label>
+      <label class="btn btn-outline-primary" id="Crimson">Reds<input type="checkbox" class="form-control" id="color" name="filters" value="Crimson" autocomplete="off" checked></label>
+      <label class="btn btn-outline-primary" id="PaleVioletRed">Pinks<input type="checkbox" class="form-control" id="color" name="filters" value="PaleVioletRed" autocomplete="off" checked></label>
     </div>
   </div>
 <!--end filter-->
@@ -86,12 +66,9 @@
 </div>
 <!--end chart-->
 <!--gallery-->
-<div class="row row-cols-2 gallery-section">
-    <h4 class="query-header">Design by country</h4>
-</div>
-<div class="row row-cols-4 gallery-area">
-    <div class ="row row-cols-4" id="gallery"></div>
-</div>
+  <!-- <div class="row row-cols-4 gallery-area">
+      <div class ="row row-cols-4" id="gallery"></div>
+  </div> -->
 <!--end gallery-->
 <!--footer-->
 <footer>
@@ -99,7 +76,8 @@
 </footer>
 <!--end footer-->
 <!--personal scripts-->
-  <script src="./js/color.js"></script>
-  <script src="./js/gallery.js"></script>
+  <script src="./js/color.js"></script>  
+  <!-- <script src="./js/gallery_color.js"></script> -->
+ 
 </body>
 </html>

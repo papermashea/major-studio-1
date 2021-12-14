@@ -17,7 +17,7 @@ var svg = d3.select("#map")
 // Map and projection
 const projection = d3.geoMercator()
     .center([0,20])                // GPS of location to zoom on
-    .scale(200)                       // This is like the zoom
+    .scale(150)                       // This is like the zoom
     .translate([ width/2, height/2 ])
 
 Promise.all([
@@ -30,12 +30,34 @@ d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/docs/
     // console.log(data.length)
     var sum = data.length
 
-    //// return lat long as numbers
-    // data.forEach(function(d){
-    //   d.lat = +d.lat;
-    //   d.long = +d.long;
-    // });// close for Each
-    // // console.log(data)
+//// tooltip functions
+    var mouseover = function(event, d) {
+      Tooltip.style("opacity", 1)
+    }
+
+    var mousemove = function(event, d) {            
+      Tooltip
+        .join()
+        .html(
+          "<div class='note'><div id='header' style='font-size=16'><strong>" + d.country +
+          "</div></strong><div id='count'>" + d.count + " total assets" + 
+          "</div><div id='count'>" + d3.format(".0%")(d.count/sum) + " of the collection" +
+          "</div></div>")
+        .attr("font-family", "CooperHewitt")
+        .style("background-color", "black")
+        .style("left", (d3.select(this).attr("cx") + 'px'))
+        .style("top", (d3.select(this).attr("cy") + 'px'));
+    }
+
+    var mouseleave = function(event, d) {
+      Tooltip.style("opacity", 0);
+    }
+
+    var Tooltip = d3.select("#map")
+      .append("div")
+      .attr("class", "tooltip")
+      .style("opacity", .4)
+      .style("color", "white");
 
   //// color scale
   const color = d3.scaleOrdinal()
@@ -73,7 +95,7 @@ d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/docs/
       }
           return flat
   }); //cdata
-console.log(cData)
+// console.log(cData)
 
 //// scale country counts
   var Cscale = d3.scaleLinear()
@@ -81,35 +103,6 @@ console.log(cData)
           return (obj.count);
      })))
      .range([10, 80]);
-
-//// tooltip functions
-    var mouseover = function(event, d) {
-      Tooltip.style("opacity", 1)
-    }
-
-    var mousemove = function(event, d) {            
-      Tooltip
-        .join()
-        .html(
-          "<div class='note'><div id='header' style='font-size=16'><strong>" + d.country +
-          "</div></strong><div id='count'>" + d.count + " total assets" + 
-          "</div><div id='count'>" + d3.format(".0%")(d.count/sum) + " of the collection" +
-          "</div></div>")
-        .attr("font-family", "CooperHewitt")
-        .style("background-color", "black")
-        .style("left", (d3.select(this).attr("cx") + 'px'))
-        .style("top", (d3.select(this).attr("cy") + 'px'));
-    }
-
-    var mouseleave = function(event, d) {
-      Tooltip.style("opacity", 0);
-    }
-
-    var Tooltip = d3.select("#map")
-      .append("div")
-      .attr("class", "tooltip")
-      .style("opacity", .4)
-      .style("color", "white");
 
   //// add circles:
   jitter= () => Math.random()*20
@@ -125,6 +118,49 @@ let nodes = svg.selectAll("circles")
       .on("mouseover", mouseover)
       .on("mousemove", mousemove)
       .on("mouseleave", mouseleave);
+
+  // d3.select("#filterCol")
+  //       .append("btn-group-vertical")
+  //       .attr("class","countryFilters")
+  //       .each(function(d) {
+
+  //         for (var i = 0; i < cData.length; i++) {
+  //             d3.select(".countryFilters")
+  //               .data(cData)
+  //               .append("button")
+  //               .attr("type","button")
+  //               .attr("class","btn-btn")
+  //               .attr("id",function(d) { return 'button '+i;})
+  //               .append("div")
+  //               .attr("class","label")
+  //               .text(function(d) { return d.country;})
+  //           }
+  //       })
+
+
+//// dropdowns
+  var dropdown = d3.select("#filterCol")
+    .attr("class", "btn-group-vertical")
+    .attr("id", "countries");
+  
+  var options = dropdown.selectAll("option")
+    .data(cData.sort( (b,a) => (b.country > a.country) ? 1 : -1 ))
+
+    
+    options.enter()
+      .filter(function(d) { return d.count > 5 })
+      .append("label")
+      .attr("class", "filter")
+      .text(function(d){return d.country})
+      .append("input")
+      .attr("class", ".form-control")
+      .attr("type","checkbox")
+      .attr("id", "countriesBox")
+      .attr("name", "gt5")
+      .attr("value", function(d){return d.country})
+
+
+
 
 })
 

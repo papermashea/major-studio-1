@@ -34,8 +34,8 @@ d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/docs/
       var radius = 5;
 
 //// groups
-var colorGroups = d3.group(dataFixed, d => d.color)
-console.log(colorGroups)
+// var colorGroups = d3.group(dataFixed, d => d.color)
+// console.log(colorGroups)
 
 //// force simulation  
     const simulation = d3.forceSimulation(dataFixed)
@@ -66,8 +66,8 @@ console.log(colorGroups)
           "<div id='title'>" + d.title + " | <span id='year'>" + d.px + 
           "</span></div></div>" +
           "<p id='details'>Type: " + d.type +
-          "Medium: " + d.media + "</p>" +
-          "<p id='more'>Click for more information</p>")
+          "</br>Medium: " + d.media + "</p>" +
+          "<p id='more'></p>")
         .style("background-color", d.hex)
         .style("left", (d3.select(this).attr("cx") + 'px'))
         .style("top", (d3.select(this).attr("cy") + 'px'));
@@ -91,9 +91,6 @@ console.log(colorGroups)
         .tickFormat(d3.format("d"))
         .tickSizeOuter(2));
 
-  //// filter
-  // dataFixed.features = dataFixed.features.filter( d => d.properties.name=="France")
-
   //// nodes
         let node = svg.selectAll()
             .data(dataFixed)
@@ -108,11 +105,12 @@ console.log(colorGroups)
             .on("mouseover", mouseover)
             .on("mousemove", mousemove)
             .on("mouseleave", mouseleave);
-        // return svg.node();
+        // return svg.node(); 
+
 
     function update(){
       //// checkboxes
-      d3.selectAll(".form-control").each(function(d){
+      d3.selectAll("#color").each(function(d){
         cb = d3.select(this);
         clr = cb.property("value")
 

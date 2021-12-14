@@ -1,6 +1,6 @@
-var margin = {top: 100, right: 200, bottom: 30, left: 0},
+var margin = {top: 80, right: 200, bottom: 30, left: 0},
     width = 1100 - margin.left - margin.right,
-    height = 1400 - margin.top - margin.bottom;
+    height = 2000 - margin.top - margin.bottom;
 
 const fontFamily = "CooperHewitt, Verdana, Arial, Helvetica, sans-serif";
 
@@ -20,13 +20,12 @@ d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/docs/
 
   var typeNest = d3.nest()
     .key(function(d) { return d.type; })
-    // .key(function(d) { return d.country})
     .rollup(function(v) { return v.length; })  
+    // .key(function(d) { return d.country})
     .entries(data);
     // console.log(typeNest)
 
     var tData = typeNest.map( function(f) {
-        var country = f.values
         var types = {
           words: (f.key).replace(' and ', '').replace(' - ', ''),
           value: f.value
@@ -34,7 +33,7 @@ d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/docs/
         }
         return types
       }); //data
-  // console.log(tData)
+  console.log(tData)
 
   var medNest = d3.nest()
     .key(function(d) { return (d.media).replace(' on ', " ").replace(' or ', " ").replace(' and ', " ").replace(' with ', " ").replace(' in ', " ").replace(/[!\.:,;\?]/g, ""); })
@@ -57,7 +56,7 @@ var words = [];
 var wData;
 function update(){
     let val = d3.select('input[name="exampleRadios"]:checked').property("value");
-    console.log(val)
+    // console.log(val)
     while (words.length > 0) {
         words.pop();
     }
@@ -76,8 +75,8 @@ function update(){
       }
     }
 // wordCloud();
-console.log(words)
-console.log(wData)
+// console.log(words)
+// console.log(wData)
 
  var s = d3.scaleSqrt()
     .domain([1, d3.max(wData.map(d => d.value))])
@@ -86,19 +85,19 @@ console.log(wData)
   const displaySelection = svg.append("text")
     .attr("class", "objSelected")
     .attr("font-family", "Lucida Console, Courier, monospace")
+        .attr("color", "#FF5700")
     .attr("text-anchor", "start")
     .attr("alignment-baseline", "hanging")
     .attr("font-size", 32)
-    .attr("color", "#FF5700")
-    .attr("x", 500)
+    .attr("x", width/4)
     .attr("y", -30);
     
   var cloud = d3.layout.cloud()
     .words(wData.map(d => Object.create(d)))
-    // .size([width, height])
-    .size([1000,1500])
+    .size([width, height])
+    // .size([1000,1500])
     .rotate(function(d) { return 0; })
-    .padding(5)
+    .padding(8)
     .font(fontFamily)
     .fontSize(d => s(d.value))
     .on("word", ({size, x, y, words, value}) => {
