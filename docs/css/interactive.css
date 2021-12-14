@@ -228,6 +228,7 @@ input[class=filter]:focus {
 	width: auto;
 	height: 8em;
 	padding: 1em;
+	pointer-events: none !important;
 }
 
 /* footer */
