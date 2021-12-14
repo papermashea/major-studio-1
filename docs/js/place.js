@@ -59,6 +59,7 @@ d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/docs/
       .style("opacity", .4)
       .style("color", "white");
 
+
   //// color scale
   const color = d3.scaleOrdinal()
     .domain(data.map(d => d.country))
@@ -119,24 +120,6 @@ let nodes = svg.selectAll("circles")
       .on("mousemove", mousemove)
       .on("mouseleave", mouseleave);
 
-  // d3.select("#filterCol")
-  //       .append("btn-group-vertical")
-  //       .attr("class","countryFilters")
-  //       .each(function(d) {
-
-  //         for (var i = 0; i < cData.length; i++) {
-  //             d3.select(".countryFilters")
-  //               .data(cData)
-  //               .append("button")
-  //               .attr("type","button")
-  //               .attr("class","btn-btn")
-  //               .attr("id",function(d) { return 'button '+i;})
-  //               .append("div")
-  //               .attr("class","label")
-  //               .text(function(d) { return d.country;})
-  //           }
-  //       })
-
 
 //// dropdowns
   var dropdown = d3.select("#filterCol")
@@ -158,8 +141,6 @@ let nodes = svg.selectAll("circles")
       .attr("id", "countriesBox")
       .attr("name", "gt5")
       .attr("value", function(d){return d.country})
-
-
 
 
 })

@@ -67,36 +67,33 @@ function draw(data){
 
      card
      .append("text")
-      .attr('class', 'text')
+      .attr('class', 'headerText')
       .text(function(d){
                       return d.country;
                   })
        .attr("font-family", fontFamily)
 
-
       card
         .append("text")
-        .attr('class', 'text')
+        .attr('class', 'subText')
         .text(function(d){
                   return d.year;
               })
        .attr("font-family", fontFamily)
 
-
       card
         .append("text")
         .attr('class', 'text')
         .text(function(d){
-                  return d.type;
+                  return "Type: " + d.type;
               })
        .attr("font-family", fontFamily)
 
-
       card
         .append("text")
         .attr('class', 'text')
         .text(function(d){
-                  return d.media;
+                  return "Medium: " + d.media;
               })
        .attr("font-family", fontFamily)
         

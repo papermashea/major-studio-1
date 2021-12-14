@@ -1,4 +1,4 @@
-var margin = {top: 80, right: 200, bottom: 30, left: 0},
+ var margin = {top: 80, right: 200, bottom: 30, left: 0},
     width = 1100 - margin.left - margin.right,
     height = 2000 - margin.top - margin.bottom;
 
@@ -94,8 +94,8 @@ function update(){
     
   var cloud = d3.layout.cloud()
     .words(wData.map(d => Object.create(d)))
-    .size([width, height])
-    // .size([1000,1500])
+    // .size([width, height])
+    .size([1000,1500])
     .rotate(function(d) { return 0; })
     .padding(8)
     .font(fontFamily)
@@ -142,7 +142,7 @@ function update(){
 
 }
 
-d3.selectAll(".form-check-input")
+d3.selectAll(".radio-input")
 .on("change", update);
 
 update();

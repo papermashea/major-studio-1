@@ -8,6 +8,8 @@ var svg = d3.select("#chart")
   .attr("width", width)
   .attr("height", height + margin.top + margin.bottom)
 
+const fontFamily = "CooperHewitt, Verdana, Arial, Helvetica, sans-serif";
+
 d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/docs/data/1900_2000.json")
 .then(function (data) { 
 
@@ -89,7 +91,9 @@ d3.json("https://raw.githubusercontent.com/papermashea/major-studio-1/main/docs/
       .call(d3.axisBottom(xScale)
         .ticks(11)
         .tickFormat(d3.format("d"))
-        .tickSizeOuter(2));
+        .tickSizeOuter(2))
+      .attr("font-family", fontFamily);
+
 
   //// nodes
         let node = svg.selectAll()
