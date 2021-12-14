@@ -1,25 +1,9 @@
 /* general */
-/*html, body{
+html, body{
     width: 100%;
     padding: 0px;
     margin: 0px;
 	  font-family: "CooperHewitt";    
-	  min-height: 100%;
-}*/
-
-html {
-  height: 100%;
-}
-
-body {
-  /*min-height: 100%;*/
-  display: grid;
-  grid-template-rows: 1fr auto;
-}
-
-.footer {
-  grid-row-start: 3;
-  grid-row-end: 4;
 }
 
 /* fonts */
@@ -66,24 +50,13 @@ body {
 }
 
 
-/* about */
-p.home {
-	  font-family: "CooperHewitt", sans-serif;;
-	  font-weight: 500;
-}
-
-img#home {
-	max-width: 95%;
-	height: auto;
-}
-
 /* navbar */
 .navbar {
 	background-color: black;
 }
 
 .main {
-	  font-family: "CooperHewitt", sans-serif;;
+	  font-family: "CooperHewitt";
 	  font-weight: 500;
 }
 
@@ -127,6 +100,22 @@ img#home {
 
 .container {
 	margin-top: 20px;
+}
+
+/* footer */
+footer {
+	width: 100%;
+	height: 5em;
+	background-color: black;
+	color: #fff;
+	text-align: vertical;
+	padding: 1em 2em 0em 1em;
+	font-family: 'CooperHewitt', sans-serif;
+	font-weight: 500;
+}
+
+footer a {
+	color: #fff;
 }
 
 /* typography */
@@ -303,24 +292,13 @@ div.card {
 	padding:  0px 4px;
 }
 
+
+img#home {
+	max-width: 95%;
+	height: auto;
+}
+
 .cardImg {
 	height: 50%;
 	width: auto;
-}
-
-
-/* footer */
-footer {
-	width: 100%;
-	height: 5em;
-	background-color: black;
-	color: #fff;
-	text-align: vertical;
-	padding: 1em 2em 0em 3em;
-	font-family: 'CooperHewitt', sans-serif;
-	font-weight: 500;
-}
-
-footer a {
-	color: #fff;
 }
