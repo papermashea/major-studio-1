@@ -1,5 +1,4 @@
-# Design Movements Documentation 
-### Shea Molloy | MS1 Fall 2021
+# Shea Molloy MS1 Fall 2021 | Design Movements Documentation 
 
 ## Project 1: Quantitative
 ### Pantone movements in color
@@ -80,19 +79,8 @@ Given specific direction I took with the designs for this data, I had to rework 
 - node app.js
 - http-server -c-1 -a localhost -p 8000
 
-**Modules**
-npm i express --save
-npm i d3 --save
-npm i fs -- save
-npm i request --save
-npm i dotenv --save
-npm i rita --save
-npm i bootstrap --save
-npm i d3-cloud --save
-npm i d3-array --save
-npm i d3-collection --save
 
-**Data Notes**
+**Notes**
 - Data work => [cooper_data](https://github.com/papermashea/major-studio-1/tree/main/cooper_data)
 - Node work => [00.cooper](https://github.com/papermashea/major-studio-1/tree/main/00.cooper)
 - CH = Cooper Hewitt
