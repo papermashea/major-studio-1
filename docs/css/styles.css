@@ -83,12 +83,6 @@ html, body{
 	position: relative;
 }
 
-/*button {
-	background-color: #fff;
-	border: none;
-	padding: 1% 12%;
-}*/
-
 #vertical {
 	text-transform: uppercase;
   margin: 0;
@@ -292,6 +286,32 @@ div.card {
 	padding:  0px 4px;
 }
 
+/* about */
+#aboutRow {
+	margin: 1em 0 0 0;
+}
+
+h2 {
+	font-family: 'CooperHewitt', sans-serif;
+  font-weight: 500;
+}
+
+h4 {
+	font-family: 'CooperHewitt', sans-serif;
+  font-weight: 300;
+}
+
+/*.home {
+  font-family: "CooperHewitt";
+  font-weight: 300;
+}*/
+
+a#sources {
+  text-decoration: none;
+	font-family: 'CooperHewitt', sans-serif;
+  font-weight: 300;	
+	color: #FF5700;
+}
 
 img#home {
 	max-width: 95%;
