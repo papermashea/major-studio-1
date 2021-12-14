@@ -1,5 +1,20 @@
 # Shea Molloy MS1 Fall 2021 | Design Movements Documentation 
 
+#### Class work
+* [Fall 2021 Class notes](https://docs.google.com/document/d/1JcsOy3ciMAGG6kFX-lYU0Dhz5JIF7P1kYWoRhnFgUl4/edit?usp=sharing)
+* [Fall 2021 Reading notes](https://docs.google.com/document/d/1lUSaqDBBx78vwWTyciHy_UwXrvqom9D_CIHpw5ABkBY/edit?usp=sharing)
+* [Data work](https://github.com/papermashea/major-studio-1/tree/main/cooper_data)
+
+#### Branches 
+* aws: cloud 9 work, live lab work
+* local: editing done locally using node in terminal and code editors
+* main: merging of all code updates from class repo and progress in aws/local
+
+#### Workflow
+* origin: https://github.com/visualizedata/major-studio-1
+* upstream: https://github.com/papermashea/major-studio-1
+* local dev: http-server -c-1 -a localhost -p 8000
+
 ## Project 1: Quantitative
 ### Pantone movements in color
 This initial phase of the project helped me to assess the data structure and rethink my inial UI. I experimented with Tableau to more easily represent the data with the given data structure, and learned a lot about the Cooper's API specificities, limits, and methods. 
@@ -57,12 +72,7 @@ In the interactive form of the project, I worked a gallery view, an origin visua
 
 
 ## Final Prototype 
-The final prototype is looking a lot more like what I had originally envisioned, but with a cleaner comparison on each page. I ended up paring down the cross-filter interactivity in the finalized prototype and moving forward with 3 distinctly different visualizations for color, form, and origin data. Some functions of note that helped parse the data in a largely consistent way include:
-- d3.nest
-- d3.rollup
-- d3.filter
-- d3.selectAll and d3.select
-- d3 on(change) and general update patterns 
+The final prototype is looking a lot more like what I had originally envisioned, but with a cleaner comparison on each page. I ended up paring down the cross-filter interactivity in the finalized prototype and moving forward with 3 distinctly different visualizations for color, form, and origin data. Some functions of note that helped parse the data in a largely consistent way include: d3.nest, d3.rollup, d3.filter, d3.selectAll and d3.select, d3 on(change) and general update patterns.
 
 **Deliverables**
 * [Design](https://xd.adobe.com/view/e3851996-fd01-4302-9f48-a1c638a5aae3-b6d6/)
@@ -70,18 +80,6 @@ The final prototype is looking a lot more like what I had originally envisioned,
 * [Code](https://github.com/papermashea/major-studio-1/tree/main/1.Quantitative)
 * [Overview](https://docs.google.com/presentation/d/1rfRLomEcmW1GT4V1BoBvC7_sq2WUYBbn2AKdiq6AwEE/edit?usp=sharing)
 
-### Final thoughts
-Given specific direction I took with the designs for this data, I had to rework or write a lot of functionality from scratch in a way I haven't had to in past projects. I feel proud of level of understanding I was able to develop along the way and feel confident that I could continue building this project out in more efficent ways.
+**Final thoughts**
+***Given specific direction I took with the designs for this data, I had to rework or write a lot of functionality from scratch in a way I haven't had to in past projects. I feel proud of level of understanding I was able to develop along the way and feel confident that I could continue building this project out in more efficent ways.***
 
-
-### Workflow
-**Local**
-- node app.js
-- http-server -c-1 -a localhost -p 8000
-
-
-**Notes**
-- Data work => [cooper_data](https://github.com/papermashea/major-studio-1/tree/main/cooper_data)
-- Node work => [00.cooper](https://github.com/papermashea/major-studio-1/tree/main/00.cooper)
-- CH = Cooper Hewitt
-- SI = Smithsonian Institute
