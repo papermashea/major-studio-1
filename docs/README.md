@@ -1,9 +1,7 @@
 # Shea Molloy MS1 Fall 2021 | Design Movements Documentation 
 
-#### Class work
-* [Fall 2021 Class notes](https://docs.google.com/document/d/1JcsOy3ciMAGG6kFX-lYU0Dhz5JIF7P1kYWoRhnFgUl4/edit?usp=sharing)
-* [Fall 2021 Reading notes](https://docs.google.com/document/d/1lUSaqDBBx78vwWTyciHy_UwXrvqom9D_CIHpw5ABkBY/edit?usp=sharing)
-* [Data work](https://github.com/papermashea/major-studio-1/tree/main/cooper_data)
+#### Class work: 
+[Fall 2021 Class notes](https://docs.google.com/document/d/1JcsOy3ciMAGG6kFX-lYU0Dhz5JIF7P1kYWoRhnFgUl4/edit?usp=sharing),[Fall 2021 Reading notes](https://docs.google.com/document/d/1lUSaqDBBx78vwWTyciHy_UwXrvqom9D_CIHpw5ABkBY/edit?usp=sharing), [Data work](https://github.com/papermashea/major-studio-1/tree/main/cooper_data)
 
 #### Branches 
 * aws: cloud 9 work, live lab work
