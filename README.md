@@ -100,5 +100,5 @@ Design Movements is an interactive visualization of the digitized design objects
 * [Overview](https://docs.google.com/presentation/d/1rfRLomEcmW1GT4V1BoBvC7_sq2WUYBbn2AKdiq6AwEE/edit?usp=sharing)
 
 ### Final thoughts
-Given specific direction I took with the designs for this data, I had to rework or write a lot of functionality from scratch in a way I haven't had to in past projects. I feel proud of level of understanding I was able to develop along the way and feel confident that I could continue building this project out in more efficent ways.*
+*Given specific direction I took with the designs for this data, I had to rework or write a lot of functionality from scratch in a way I haven't had to in past projects. I feel proud of level of understanding I was able to develop along the way and feel confident that I could continue building this project out in more efficent ways.*
 
