@@ -96,7 +96,7 @@ Design Movements is an interactive visualization of the digitized design objects
 * [Design](https://xd.adobe.com/view/e3851996-fd01-4302-9f48-a1c638a5aae3-b6d6/)
 * [Prototype](https://papermashea.github.io/major-studio-1/)
 * [Demo Video](https://drive.google.com/drive/u/1/folders/1-VueitiMNlIYAuE6E-wRrRiTyCAPeijk)
-* [Code](https://github.com/papermashea/major-studio-1/tree/main/1.Quantitative)
+* [Code](https://github.com/papermashea/major-studio-1/tree/main/docs)
 * [Overview](https://docs.google.com/presentation/d/1rfRLomEcmW1GT4V1BoBvC7_sq2WUYBbn2AKdiq6AwEE/edit?usp=sharing)
 
 ### Final thoughts
