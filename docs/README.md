@@ -84,8 +84,8 @@ In the interactive form of the project, I worked a gallery view, an origin visua
    </tr> 
 </table>
 
-## Final Prototype 
-### Design Movements
+## Final Prototype: Design Movements 
+### New perspectives for the Cooper Hewitt collection of design objects
 The final prototype is looking a lot more like what I had originally envisioned, but with a cleaner comparison on each page. I ended up paring down the cross-filter interactivity in the finalized prototype and moving forward with 3 distinctly different visualizations for color, form, and origin data. Some functions of note that helped parse the data in a largely consistent way include: d3.nest, d3.rollup, d3.filter, d3.selectAll and d3.select, d3 on(change) and general update patterns.<br>
 
 <table>
