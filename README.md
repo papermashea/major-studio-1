@@ -51,7 +51,7 @@ In this phase of the project, I was able to explore how the data objects functio
     <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/sketches/project2/ch1.jpg" width ="300px" height ="auto" ></td>
     <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/sketches/project2/ch.jpg" width ="300px" height ="auto" ></td>
     <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/sketches/project2/nhm.jpg" width ="300px" height ="auto" ></td>    
-	<td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/sketches/project2/nmah.jpg" width ="300px" height ="auto" ></td>
+  <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/sketches/project2/nmah.jpg" width ="300px" height ="auto" ></td>
    </tr> 
   <tr>
     <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/mockups/project2/form.png" width ="300px" height ="auto" ></td>
@@ -76,7 +76,7 @@ In the interactive form of the project, I worked a gallery view, an origin visua
 <table>
   <tr>
     <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/sketches/project3/UI.jpg" width ="300px" height ="auto" ></td>    
-	<td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/sketches/project3/place.jpg" width ="300px" height ="auto" ></td>
+  <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/sketches/project3/place.jpg" width ="300px" height ="auto" ></td>
    </tr> 
   <tr>
     <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/mockups/project3/newGallery.png" width ="300px" height ="auto" ></td>
