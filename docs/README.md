@@ -88,6 +88,20 @@ In the interactive form of the project, I worked a gallery view, an origin visua
 ### Design Movements
 The final prototype is looking a lot more like what I had originally envisioned, but with a cleaner comparison on each page. I ended up paring down the cross-filter interactivity in the finalized prototype and moving forward with 3 distinctly different visualizations for color, form, and origin data. Some functions of note that helped parse the data in a largely consistent way include: d3.nest, d3.rollup, d3.filter, d3.selectAll and d3.select, d3 on(change) and general update patterns.<br>
 
+<table>
+  <tr>
+    <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/prototype/Home.png" width ="300px" height ="auto" ></td>
+    <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/prototype/Color1.png" width ="300px" height ="auto" ></td>
+    <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/prototype/Color2.png" width ="300px" height ="auto" ></td>    
+   </tr> 
+  <tr>
+    <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/prototype/Form1.png" width ="300px" height ="auto" ></td>
+    <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/prototype/Form2.png" width ="300px" height ="auto" ></td>
+    <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/prototype/Place1.png" width ="300px" height ="auto" ></td>    
+    <td> <img src="https://github.com/papermashea/major-studio-1/blob/main/brainstorming/prototype/Place2.png" width ="300px" height ="auto" ></td>    
+   </tr> 
+</table>
+
 **Abstract**<br>
 Design Movements - New perspectives for the Cooper Hewitt collection of design objects<br>
 Design Movements is an interactive visualization of the digitized design objects in the Cooper Hewitt collection. It reinterprets different perspectives of the collection as a whole to provide "bird's-eye" views of color, form, and place. In looking at color over time, form by frequency, and object origins spatially, users can explore the collection from a new view and draw their own conclusions about what design means to them, and where it may go in the future. <br>
@@ -100,5 +114,4 @@ Design Movements is an interactive visualization of the digitized design objects
 * [Overview](https://docs.google.com/presentation/d/1rfRLomEcmW1GT4V1BoBvC7_sq2WUYBbn2AKdiq6AwEE/edit?usp=sharing)
 
 ### Final thoughts
-*Given specific direction I took with the designs for this data, I had to rework or write a lot of functionality from scratch in a way I haven't had to in past projects. I feel proud of level of understanding I was able to develop along the way and feel confident that I could continue building this project out in more efficent ways.*
-
+Given specific direction I took with the designs for this data, I had to rework or write a lot of functionality from scratch in a way I haven't had to in past projects. I feel proud of level of understanding I was able to develop along the way and feel confident that I could continue building this project out in more efficent ways.
