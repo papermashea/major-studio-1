@@ -88,9 +88,13 @@ In the interactive form of the project, I worked a gallery view, an origin visua
 ### Design Movements
 The final prototype is looking a lot more like what I had originally envisioned, but with a cleaner comparison on each page. I ended up paring down the cross-filter interactivity in the finalized prototype and moving forward with 3 distinctly different visualizations for color, form, and origin data. Some functions of note that helped parse the data in a largely consistent way include: d3.nest, d3.rollup, d3.filter, d3.selectAll and d3.select, d3 on(change) and general update patterns.
 
+**Abstract**
+Design Movements is an interactive visualization of the digitized design objects in the Cooper Hewitt collection. It reinterprets different perspectives of the collection as a whole to provide "bird's-eye" views of color, form, and place. In looking at color over time, form by frequency, and object origins spatially, users can explore the collection from a new view and draw their own conclusions about what design means to them, and where it may go in the future. 
+
 **Deliverables**
 * [Design](https://xd.adobe.com/view/e3851996-fd01-4302-9f48-a1c638a5aae3-b6d6/)
 * [Prototype](https://papermashea.github.io/major-studio-1/)
+* [Demo Video](https://drive.google.com/drive/u/1/folders/1-VueitiMNlIYAuE6E-wRrRiTyCAPeijk)
 * [Code](https://github.com/papermashea/major-studio-1/tree/main/1.Quantitative)
 * [Overview](https://docs.google.com/presentation/d/1rfRLomEcmW1GT4V1BoBvC7_sq2WUYBbn2AKdiq6AwEE/edit?usp=sharing)
 
